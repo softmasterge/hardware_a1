@@ -1,0 +1,430 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2575 1175 2950 1175
+Text Label 2675 1175 0    50   ~ 0
+PWR
+Text Label 2800 2150 0    50   ~ 0
+RELAY_5
+Text Label 2800 1950 0    50   ~ 0
+RELAY_3
+Text Label 2800 1750 0    50   ~ 0
+RELAY_1
+Text Label 2800 2350 0    50   ~ 0
+RELAY_7
+Text Label 2800 2250 0    50   ~ 0
+RELAY_6
+Text Label 2800 2050 0    50   ~ 0
+RELAY_4
+Text Label 2800 1850 0    50   ~ 0
+RELAY_2
+Wire Wire Line
+	2575 1175 2575 1550
+$Comp
+L Transistor_Array:ULN2003A U?
+U 1 1 6580B759
+P 2175 1950
+AR Path="/6580B759" Ref="U?"  Part="1" 
+AR Path="/657E4F8F/6580B759" Ref="U18"  Part="1" 
+F 0 "U18" H 2175 2617 50  0000 C CNN
+F 1 "ULN2003A" H 2175 2526 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 2225 1400 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 2275 1750 50  0001 C CNN
+F 4 "ULN2003ADR" H 2175 1950 50  0001 C CNN "Mpn"
+F 5 "0.1676" H 2175 1950 50  0001 C CNN "Price"
+F 6 "mouser" H 2175 1950 50  0001 C CNN "Website"
+F 7 "C7512" H 2175 1950 50  0001 C CNN "LCSC"
+	1    2175 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0167
+U 1 1 6580B75F
+P 2175 2550
+F 0 "#PWR0167" H 2175 2300 50  0001 C CNN
+F 1 "GNDD" H 2179 2395 50  0000 C CNN
+F 2 "" H 2175 2550 50  0001 C CNN
+F 3 "" H 2175 2550 50  0001 C CNN
+	1    2175 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2575 1750 3225 1750
+Wire Wire Line
+	2575 1850 3225 1850
+Wire Wire Line
+	2575 1950 3225 1950
+Wire Wire Line
+	2575 2050 3225 2050
+Wire Wire Line
+	2575 2150 3225 2150
+Wire Wire Line
+	2575 2250 3225 2250
+Wire Wire Line
+	2575 2350 3225 2350
+Text Label 1300 2350 0    50   ~ 0
+OUT_7
+Text Label 1300 2250 0    50   ~ 0
+OUT_6
+Text Label 1300 2150 0    50   ~ 0
+OUT_5
+Text Label 1300 2050 0    50   ~ 0
+OUT_4
+Text Label 1300 1950 0    50   ~ 0
+OUT_3
+Text Label 1300 1850 0    50   ~ 0
+OUT_2
+Text Label 1300 1750 0    50   ~ 0
+OUT_1
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 6580B77A
+P 2950 1175
+F 0 "#FLG02" H 2950 1250 50  0001 C CNN
+F 1 "PWR_FLAG" H 2950 1348 50  0000 C CNN
+F 2 "" H 2950 1175 50  0001 C CNN
+F 3 "~" H 2950 1175 50  0001 C CNN
+	1    2950 1175
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 1750 0    50   Input ~ 0
+OUT_1
+Wire Wire Line
+	1775 2350 1300 2350
+Wire Wire Line
+	1775 2250 1300 2250
+Wire Wire Line
+	1775 2150 1300 2150
+Wire Wire Line
+	1775 2050 1300 2050
+Wire Wire Line
+	1775 1950 1300 1950
+Wire Wire Line
+	1775 1850 1300 1850
+Wire Wire Line
+	1775 1750 1300 1750
+Text GLabel 1300 1850 0    50   Input ~ 0
+OUT_2
+Text GLabel 1300 1950 0    50   Input ~ 0
+OUT_2
+Text GLabel 1300 2050 0    50   Input ~ 0
+OUT_3
+Text GLabel 1300 2150 0    50   Input ~ 0
+OUT_4
+Text GLabel 1300 2250 0    50   Input ~ 0
+OUT_5
+Text GLabel 1300 2350 0    50   Input ~ 0
+OUT_6
+Text GLabel 3225 1750 2    50   Input ~ 0
+RELAY_1
+Text GLabel 3225 1850 2    50   Input ~ 0
+RELAY_2
+Text GLabel 3225 1950 2    50   Input ~ 0
+RELAY_3
+Text GLabel 3225 2050 2    50   Input ~ 0
+RELAY_4
+Text GLabel 3225 2150 2    50   Input ~ 0
+RELAY_5
+Text GLabel 3225 2250 2    50   Input ~ 0
+RELAY_6
+Text GLabel 3225 2350 2    50   Input ~ 0
+RELAY_7
+$Comp
+L Relay:DIPxx-1Axx-11x K1
+U 1 1 6580F3CB
+P 5900 1875
+F 0 "K1" H 6230 1921 50  0000 L CNN
+F 1 "DIPxx-1Axx-11x" H 6230 1830 50  0000 L CNN
+F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 6250 1825 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 5900 1875 50  0001 C CNN
+	1    5900 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q1
+U 1 1 658120C3
+P 5600 2575
+F 0 "Q1" H 5806 2621 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5806 2530 50  0000 L CNN
+F 2 "" H 5800 2675 50  0001 C CNN
+F 3 "~" H 5600 2575 50  0001 C CNN
+	1    5600 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0168
+U 1 1 658175E5
+P 5700 2950
+F 0 "#PWR0168" H 5700 2750 50  0001 C CNN
+F 1 "GNDPWR" H 5704 2796 50  0000 C CNN
+F 2 "" H 5700 2900 50  0001 C CNN
+F 3 "" H 5700 2900 50  0001 C CNN
+	1    5700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2775 5700 2925
+Wire Wire Line
+	5700 2175 5700 2275
+Wire Wire Line
+	5700 1425 5700 1500
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 65818B03
+P 5700 1425
+F 0 "#FLG03" H 5700 1500 50  0001 C CNN
+F 1 "PWR_FLAG" H 5700 1598 50  0000 C CNN
+F 2 "" H 5700 1425 50  0001 C CNN
+F 3 "~" H 5700 1425 50  0001 C CNN
+	1    5700 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R52
+U 1 1 6581A4EE
+P 5075 2575
+F 0 "R52" V 4868 2575 50  0000 C CNN
+F 1 "1k" V 4959 2575 50  0000 C CNN
+F 2 "" V 5005 2575 50  0001 C CNN
+F 3 "~" H 5075 2575 50  0001 C CNN
+	1    5075 2575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R53
+U 1 1 6581AE2B
+P 5300 2725
+F 0 "R53" H 5370 2771 50  0000 L CNN
+F 1 "100k" H 5370 2680 50  0000 L CNN
+F 2 "" V 5230 2725 50  0001 C CNN
+F 3 "~" H 5300 2725 50  0001 C CNN
+	1    5300 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5725 2925 5700 2925
+Connection ~ 5700 2925
+Wire Wire Line
+	5700 2925 5700 2950
+Wire Wire Line
+	5700 2925 5300 2925
+Wire Wire Line
+	5300 2925 5300 2875
+Wire Wire Line
+	5400 2575 5300 2575
+Connection ~ 5300 2575
+Wire Wire Line
+	5300 2575 5225 2575
+Wire Wire Line
+	4925 2575 4600 2575
+Text GLabel 4600 2575 1    50   Input ~ 0
+RELAY_OUT_0
+Wire Wire Line
+	6100 1575 6100 1350
+Wire Wire Line
+	6100 1350 7075 1350
+Wire Wire Line
+	6100 2175 6100 2275
+Wire Wire Line
+	6100 2275 7075 2275
+Text Label 6550 1350 0    50   ~ 0
+RELAY_OUT_1_1
+Text Label 6550 2275 0    50   ~ 0
+RELAY_OUT_1_2
+$Comp
+L Simulation_SPICE:DIODE D47
+U 1 1 65828457
+P 5125 1900
+F 0 "D47" V 5171 1820 50  0000 R CNN
+F 1 "DIODE" V 5080 1820 50  0000 R CNN
+F 2 "" H 5125 1900 50  0001 C CNN
+F 3 "~" H 5125 1900 50  0001 C CNN
+F 4 "Y" H 5125 1900 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 5125 1900 50  0001 L CNN "Spice_Primitive"
+	1    5125 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5125 1500 5125 1750
+Wire Wire Line
+	5125 1500 5700 1500
+Connection ~ 5700 1500
+Wire Wire Line
+	5700 1500 5700 1575
+Wire Wire Line
+	5125 2050 5125 2275
+Wire Wire Line
+	5125 2275 5700 2275
+Connection ~ 5700 2275
+Wire Wire Line
+	5700 2275 5700 2375
+$Comp
+L Relay:DIPxx-1Axx-11x K2
+U 1 1 65835129
+P 9175 1850
+F 0 "K2" H 9505 1896 50  0000 L CNN
+F 1 "DIPxx-1Axx-11x" H 9505 1805 50  0000 L CNN
+F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 9525 1800 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 9175 1850 50  0001 C CNN
+	1    9175 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q2
+U 1 1 6583512F
+P 8875 2550
+F 0 "Q2" H 9081 2596 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 9081 2505 50  0000 L CNN
+F 2 "" H 9075 2650 50  0001 C CNN
+F 3 "~" H 8875 2550 50  0001 C CNN
+	1    8875 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0169
+U 1 1 65835135
+P 8975 2925
+F 0 "#PWR0169" H 8975 2725 50  0001 C CNN
+F 1 "GNDPWR" H 8979 2771 50  0000 C CNN
+F 2 "" H 8975 2875 50  0001 C CNN
+F 3 "" H 8975 2875 50  0001 C CNN
+	1    8975 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8975 2750 8975 2900
+Wire Wire Line
+	8975 2150 8975 2250
+Wire Wire Line
+	8975 1400 8975 1475
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 6583513E
+P 8975 1400
+F 0 "#FLG04" H 8975 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H 8975 1573 50  0000 C CNN
+F 2 "" H 8975 1400 50  0001 C CNN
+F 3 "~" H 8975 1400 50  0001 C CNN
+	1    8975 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R54
+U 1 1 65835144
+P 8350 2550
+F 0 "R54" V 8143 2550 50  0000 C CNN
+F 1 "1k" V 8234 2550 50  0000 C CNN
+F 2 "" V 8280 2550 50  0001 C CNN
+F 3 "~" H 8350 2550 50  0001 C CNN
+	1    8350 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R55
+U 1 1 6583514A
+P 8575 2700
+F 0 "R55" H 8645 2746 50  0000 L CNN
+F 1 "100k" H 8645 2655 50  0000 L CNN
+F 2 "" V 8505 2700 50  0001 C CNN
+F 3 "~" H 8575 2700 50  0001 C CNN
+	1    8575 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2900 8975 2900
+Connection ~ 8975 2900
+Wire Wire Line
+	8975 2900 8975 2925
+Wire Wire Line
+	8975 2900 8575 2900
+Wire Wire Line
+	8575 2900 8575 2850
+Wire Wire Line
+	8675 2550 8575 2550
+Connection ~ 8575 2550
+Wire Wire Line
+	8575 2550 8500 2550
+Wire Wire Line
+	8200 2550 7875 2550
+Text GLabel 7875 2550 1    50   Input ~ 0
+RELAY_OUT_1
+Wire Wire Line
+	9375 1550 9375 1325
+Wire Wire Line
+	9375 1325 10350 1325
+Wire Wire Line
+	9375 2150 9375 2250
+Wire Wire Line
+	9375 2250 10350 2250
+Text Label 9825 1325 0    50   ~ 0
+RELAY_OUT_2_1
+Text Label 9825 2250 0    50   ~ 0
+RELAY_OUT_2_2
+$Comp
+L Simulation_SPICE:DIODE D48
+U 1 1 65835162
+P 8400 1875
+F 0 "D48" V 8446 1795 50  0000 R CNN
+F 1 "DIODE" V 8355 1795 50  0000 R CNN
+F 2 "" H 8400 1875 50  0001 C CNN
+F 3 "~" H 8400 1875 50  0001 C CNN
+F 4 "Y" H 8400 1875 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8400 1875 50  0001 L CNN "Spice_Primitive"
+	1    8400 1875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 1475 8400 1725
+Wire Wire Line
+	8400 1475 8975 1475
+Connection ~ 8975 1475
+Wire Wire Line
+	8975 1475 8975 1550
+Wire Wire Line
+	8400 2025 8400 2250
+Wire Wire Line
+	8400 2250 8975 2250
+Connection ~ 8975 2250
+Wire Wire Line
+	8975 2250 8975 2350
+$Comp
+L Connector:Screw_Terminal_01x04 J5
+U 1 1 602B394C
+P 10200 3975
+F 0 "J5" H 10280 3967 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 10280 3876 50  0000 L CNN
+F 2 "" H 10200 3975 50  0001 C CNN
+F 3 "~" H 10200 3975 50  0001 C CNN
+	1    10200 3975
+	1    0    0    -1  
+$EndComp
+Text Label 9400 3875 0    50   ~ 0
+RELAY_OUT_1_1
+Wire Wire Line
+	9400 3875 10000 3875
+Wire Wire Line
+	9400 3975 10000 3975
+Wire Wire Line
+	9400 4075 10000 4075
+Wire Wire Line
+	9400 4175 10000 4175
+Text Label 9400 3975 0    50   ~ 0
+RELAY_OUT_1_2
+Text Label 9400 4075 0    50   ~ 0
+RELAY_OUT_2_1
+Text Label 9400 4175 0    50   ~ 0
+RELAY_OUT_2_2
+$EndSCHEMATC

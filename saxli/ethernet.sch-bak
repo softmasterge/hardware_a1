@@ -1,0 +1,571 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 60781945
+P 2450 1975
+AR Path="/60781945" Ref="R?"  Part="1" 
+AR Path="/60757620/60781945" Ref="R?"  Part="1" 
+F 0 "R?" H 2520 2021 50  0000 L CNN
+F 1 "10k" H 2520 1930 50  0000 L CNN
+F 2 "" V 2380 1975 50  0001 C CNN
+F 3 "~" H 2450 1975 50  0001 C CNN
+	1    2450 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2200 2450 2200
+Wire Wire Line
+	2450 2200 2450 2125
+Wire Wire Line
+	2450 1825 2450 1600
+$Comp
+L power:VDD #PWR?
+U 1 1 6078194E
+P 2450 1600
+AR Path="/6078194E" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/6078194E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2450 1450 50  0001 C CNN
+F 1 "VDD" H 2465 1773 50  0000 C CNN
+F 2 "" H 2450 1600 50  0001 C CNN
+F 3 "" H 2450 1600 50  0001 C CNN
+	1    2450 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2450 2200 0    50   Input ~ 0
+ENC_RST
+$Comp
+L Device:R R?
+U 1 1 60781955
+P 1625 2475
+AR Path="/60781955" Ref="R?"  Part="1" 
+AR Path="/60757620/60781955" Ref="R?"  Part="1" 
+F 0 "R?" H 1695 2521 50  0000 L CNN
+F 1 "10k" H 1695 2430 50  0000 L CNN
+F 2 "" V 1555 2475 50  0001 C CNN
+F 3 "~" H 1625 2475 50  0001 C CNN
+	1    1625 2475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 2700 1625 2625
+Wire Wire Line
+	1625 2325 1625 2100
+$Comp
+L power:VDD #PWR?
+U 1 1 6078195D
+P 1625 2100
+AR Path="/6078195D" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/6078195D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1625 1950 50  0001 C CNN
+F 1 "VDD" H 1640 2273 50  0000 C CNN
+F 2 "" H 1625 2100 50  0001 C CNN
+F 3 "" H 1625 2100 50  0001 C CNN
+	1    1625 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1625 2700 0    50   Input ~ 0
+ENC_CS
+Wire Wire Line
+	1625 2700 2650 2700
+Text GLabel 2650 2900 0    50   Input ~ 0
+ENC_INT
+Text GLabel 2650 3000 0    50   Input ~ 0
+ENC_WOL
+$Comp
+L power:GNDD #PWR?
+U 1 1 60781967
+P 2800 1275
+AR Path="/60781967" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/60781967" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 1025 50  0001 C CNN
+F 1 "GNDD" H 2804 1120 50  0000 C CNN
+F 2 "" H 2800 1275 50  0001 C CNN
+F 3 "" H 2800 1275 50  0001 C CNN
+	1    2800 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 700  2800 850 
+$Comp
+L power:VDD #PWR?
+U 1 1 6078196E
+P 2800 700
+AR Path="/6078196E" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/6078196E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 550 50  0001 C CNN
+F 1 "VDD" H 2817 873 50  0000 C CNN
+F 2 "" H 2800 700 50  0001 C CNN
+F 3 "" H 2800 700 50  0001 C CNN
+	1    2800 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1275 2800 1150
+$Comp
+L Device:C C?
+U 1 1 60781978
+P 2800 1000
+AR Path="/60781978" Ref="C?"  Part="1" 
+AR Path="/60757620/60781978" Ref="C?"  Part="1" 
+F 0 "C?" H 2915 1046 50  0000 L CNN
+F 1 "0.1u" H 2915 955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2838 850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 2800 1000 50  0001 C CNN
+F 4 "885012207098" H 2800 1000 50  0001 C CNN "Mpn"
+F 5 "0,019 €" H 2800 1000 50  0001 C CNN "Price"
+F 6 "Mouser" H 2800 1000 50  0001 C CNN "Website"
+	1    2800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 6078197E
+P 3175 1275
+AR Path="/6078197E" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/6078197E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3175 1025 50  0001 C CNN
+F 1 "GNDD" H 3175 1125 50  0000 C CNN
+F 2 "" H 3175 1275 50  0001 C CNN
+F 3 "" H 3175 1275 50  0001 C CNN
+	1    3175 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 700  3175 850 
+$Comp
+L power:VDD #PWR?
+U 1 1 60781985
+P 3175 700
+AR Path="/60781985" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/60781985" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3175 550 50  0001 C CNN
+F 1 "VDD" H 3192 873 50  0000 C CNN
+F 2 "" H 3175 700 50  0001 C CNN
+F 3 "" H 3175 700 50  0001 C CNN
+	1    3175 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 1275 3175 1150
+$Comp
+L Device:C C?
+U 1 1 6078198F
+P 3175 1000
+AR Path="/6078198F" Ref="C?"  Part="1" 
+AR Path="/60757620/6078198F" Ref="C?"  Part="1" 
+F 0 "C?" H 3290 1046 50  0000 L CNN
+F 1 "0.1u" H 3290 955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3213 850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 3175 1000 50  0001 C CNN
+F 4 "885012207098" H 3175 1000 50  0001 C CNN "Mpn"
+F 5 "0,019 €" H 3175 1000 50  0001 C CNN "Price"
+F 6 "Mouser" H 3175 1000 50  0001 C CNN "Website"
+	1    3175 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 60781995
+P 3550 1275
+AR Path="/60781995" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/60781995" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 1025 50  0001 C CNN
+F 1 "GNDD" H 3554 1120 50  0000 C CNN
+F 2 "" H 3550 1275 50  0001 C CNN
+F 3 "" H 3550 1275 50  0001 C CNN
+	1    3550 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 700  3550 850 
+$Comp
+L power:VDD #PWR?
+U 1 1 6078199C
+P 3550 700
+AR Path="/6078199C" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/6078199C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3550 550 50  0001 C CNN
+F 1 "VDD" H 3567 873 50  0000 C CNN
+F 2 "" H 3550 700 50  0001 C CNN
+F 3 "" H 3550 700 50  0001 C CNN
+	1    3550 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1275 3550 1150
+$Comp
+L Device:C C?
+U 1 1 607819A6
+P 3550 1000
+AR Path="/607819A6" Ref="C?"  Part="1" 
+AR Path="/60757620/607819A6" Ref="C?"  Part="1" 
+F 0 "C?" H 3665 1046 50  0000 L CNN
+F 1 "0.1u" H 3665 955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3588 850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 3550 1000 50  0001 C CNN
+F 4 "885012207098" H 3550 1000 50  0001 C CNN "Mpn"
+F 5 "0,019 €" H 3550 1000 50  0001 C CNN "Price"
+F 6 "Mouser" H 3550 1000 50  0001 C CNN "Website"
+	1    3550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 607819AC
+P 3925 1275
+AR Path="/607819AC" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819AC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3925 1025 50  0001 C CNN
+F 1 "GNDD" H 3929 1120 50  0000 C CNN
+F 2 "" H 3925 1275 50  0001 C CNN
+F 3 "" H 3925 1275 50  0001 C CNN
+	1    3925 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 700  3925 850 
+$Comp
+L power:VDD #PWR?
+U 1 1 607819B3
+P 3925 700
+AR Path="/607819B3" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819B3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3925 550 50  0001 C CNN
+F 1 "VDD" H 3942 873 50  0000 C CNN
+F 2 "" H 3925 700 50  0001 C CNN
+F 3 "" H 3925 700 50  0001 C CNN
+	1    3925 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3925 1275 3925 1150
+$Comp
+L Device:C C?
+U 1 1 607819BD
+P 3925 1000
+AR Path="/607819BD" Ref="C?"  Part="1" 
+AR Path="/60757620/607819BD" Ref="C?"  Part="1" 
+F 0 "C?" H 4040 1046 50  0000 L CNN
+F 1 "0.1u" H 4040 955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3963 850 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 3925 1000 50  0001 C CNN
+F 4 "885012207098" H 3925 1000 50  0001 C CNN "Mpn"
+F 5 "0,019 €" H 3925 1000 50  0001 C CNN "Price"
+F 6 "Mouser" H 3925 1000 50  0001 C CNN "Website"
+	1    3925 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 607819C3
+P 4050 2500
+AR Path="/607819C3" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819C3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 2350 50  0001 C CNN
+F 1 "VDD" H 4067 2673 50  0000 C CNN
+F 2 "" H 4050 2500 50  0001 C CNN
+F 3 "" H 4050 2500 50  0001 C CNN
+	1    4050 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 607819C9
+P 4050 3000
+AR Path="/607819C9" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819C9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 2850 50  0001 C CNN
+F 1 "VDD" H 4067 3173 50  0000 C CNN
+F 2 "" H 4050 3000 50  0001 C CNN
+F 3 "" H 4050 3000 50  0001 C CNN
+	1    4050 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 607819CF
+P 2650 3200
+AR Path="/607819CF" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2650 3050 50  0001 C CNN
+F 1 "VDD" H 2667 3373 50  0000 C CNN
+F 2 "" H 2650 3200 50  0001 C CNN
+F 3 "" H 2650 3200 50  0001 C CNN
+	1    2650 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 607819D5
+P 3450 2000
+AR Path="/607819D5" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819D5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3450 1850 50  0001 C CNN
+F 1 "VDD" H 3467 2173 50  0000 C CNN
+F 2 "" H 3450 2000 50  0001 C CNN
+F 3 "" H 3450 2000 50  0001 C CNN
+	1    3450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 607819DB
+P 3250 2000
+AR Path="/607819DB" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819DB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3250 1850 50  0001 C CNN
+F 1 "VDD" H 3267 2173 50  0000 C CNN
+F 2 "" H 3250 2000 50  0001 C CNN
+F 3 "" H 3250 2000 50  0001 C CNN
+	1    3250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 607819E1
+P 2650 3600
+AR Path="/607819E1" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819E1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2650 3350 50  0001 C CNN
+F 1 "GNDD" H 2475 3550 50  0000 C CNN
+F 2 "" H 2650 3600 50  0001 C CNN
+F 3 "" H 2650 3600 50  0001 C CNN
+	1    2650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 607819E7
+P 4050 3300
+AR Path="/607819E7" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819E7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 3050 50  0001 C CNN
+F 1 "GNDD" H 4054 3145 50  0000 C CNN
+F 2 "" H 4050 3300 50  0001 C CNN
+F 3 "" H 4050 3300 50  0001 C CNN
+	1    4050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Ethernet:ENC28J60x-SS U?
+U 1 1 607819EE
+P 3350 3000
+AR Path="/607819EE" Ref="U?"  Part="1" 
+AR Path="/60757620/607819EE" Ref="U?"  Part="1" 
+F 0 "U?" H 3350 3000 50  0000 C CNN
+F 1 "ENC28J60x-SS" H 3325 3200 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 4500 2050 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf" H 3350 3000 50  0001 C CNN
+F 4 " C47351" H 3350 3000 50  0001 C CNN "LCSC"
+	1    3350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 607819F4
+P 4050 2800
+AR Path="/607819F4" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/607819F4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 2550 50  0001 C CNN
+F 1 "GNDD" H 4250 2750 50  0000 C CNN
+F 2 "" H 4050 2800 50  0001 C CNN
+F 3 "" H 4050 2800 50  0001 C CNN
+	1    4050 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 3800 0    50   Input ~ 0
+ENC_CLKOUT
+$Comp
+L Device:R R?
+U 1 1 607819FB
+P 4500 3600
+AR Path="/607819FB" Ref="R?"  Part="1" 
+AR Path="/60757620/607819FB" Ref="R?"  Part="1" 
+F 0 "R?" V 4293 3600 50  0000 C CNN
+F 1 "2k 1%" V 4384 3600 50  0000 C CNN
+F 2 "" V 4430 3600 50  0001 C CNN
+F 3 "~" H 4500 3600 50  0001 C CNN
+	1    4500 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 3600 4350 3600
+Wire Wire Line
+	4800 3600 4800 3700
+$Comp
+L power:GNDD #PWR?
+U 1 1 60781A03
+P 4800 3700
+AR Path="/60781A03" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/60781A03" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 3450 50  0001 C CNN
+F 1 "GNDD" H 4804 3545 50  0000 C CNN
+F 2 "" H 4800 3700 50  0001 C CNN
+F 3 "" H 4800 3700 50  0001 C CNN
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3600 4800 3600
+$Comp
+L Device:C C?
+U 1 1 60781A0A
+P 4250 3950
+AR Path="/60781A0A" Ref="C?"  Part="1" 
+AR Path="/60757620/60781A0A" Ref="C?"  Part="1" 
+F 0 "C?" H 4365 3996 50  0000 L CNN
+F 1 "10u tant" H 4365 3905 50  0000 L CNN
+F 2 "" H 4288 3800 50  0001 C CNN
+F 3 "~" H 4250 3950 50  0001 C CNN
+	1    4250 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3800 4250 3800
+$Comp
+L power:GNDD #PWR?
+U 1 1 60781A11
+P 4250 4100
+AR Path="/60781A11" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/60781A11" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4250 3850 50  0001 C CNN
+F 1 "GNDD" H 4254 3945 50  0000 C CNN
+F 2 "" H 4250 4100 50  0001 C CNN
+F 3 "" H 4250 4100 50  0001 C CNN
+	1    4250 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 2600 0    50   Input ~ 0
+SCK1
+Text GLabel 2650 2500 0    50   Input ~ 0
+SDI1
+Text GLabel 2650 2400 0    50   Input ~ 0
+SDO1
+$Comp
+L Device:Crystal Y?
+U 1 1 60781A1A
+P 1850 3425
+AR Path="/60781A1A" Ref="Y?"  Part="1" 
+AR Path="/60757620/60781A1A" Ref="Y?"  Part="1" 
+F 0 "Y?" V 1804 3556 50  0000 L CNN
+F 1 "Crystal" V 1895 3556 50  0000 L CNN
+F 2 "" H 1850 3425 50  0001 C CNN
+F 3 "~" H 1850 3425 50  0001 C CNN
+	1    1850 3425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 3300 1975 3300
+Wire Wire Line
+	1975 3300 1975 3275
+Wire Wire Line
+	1975 3275 1850 3275
+Wire Wire Line
+	2650 3500 1975 3500
+Wire Wire Line
+	1975 3500 1975 3575
+Wire Wire Line
+	1975 3575 1850 3575
+$Comp
+L Device:C C?
+U 1 1 60781A26
+P 1850 3125
+AR Path="/60781A26" Ref="C?"  Part="1" 
+AR Path="/60757620/60781A26" Ref="C?"  Part="1" 
+F 0 "C?" H 1965 3171 50  0000 L CNN
+F 1 "C" H 1965 3080 50  0000 L CNN
+F 2 "" H 1888 2975 50  0001 C CNN
+F 3 "~" H 1850 3125 50  0001 C CNN
+	1    1850 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60781A2C
+P 1850 3725
+AR Path="/60781A2C" Ref="C?"  Part="1" 
+AR Path="/60757620/60781A2C" Ref="C?"  Part="1" 
+F 0 "C?" H 1965 3771 50  0000 L CNN
+F 1 "C" H 1965 3680 50  0000 L CNN
+F 2 "" H 1888 3575 50  0001 C CNN
+F 3 "~" H 1850 3725 50  0001 C CNN
+	1    1850 3725
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 3575
+Connection ~ 1850 3275
+$Comp
+L power:GNDD #PWR?
+U 1 1 60781A34
+P 1850 2975
+AR Path="/60781A34" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/60781A34" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 2725 50  0001 C CNN
+F 1 "GNDD" H 1854 2820 50  0000 C CNN
+F 2 "" H 1850 2975 50  0001 C CNN
+F 3 "" H 1850 2975 50  0001 C CNN
+	1    1850 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 60781A3A
+P 1850 3875
+AR Path="/60781A3A" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/60781A3A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 3625 50  0001 C CNN
+F 1 "GNDD" H 1854 3720 50  0000 C CNN
+F 2 "" H 1850 3875 50  0001 C CNN
+F 3 "" H 1850 3875 50  0001 C CNN
+	1    1850 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2300 4375 2300
+Wire Wire Line
+	4050 2200 4375 2200
+Text Label 4200 2200 0    50   ~ 0
+LEDA
+Text Label 4200 2300 0    50   ~ 0
+LEDB
+$Comp
+L power:GNDD #PWR?
+U 1 1 60846439
+P 3250 4000
+AR Path="/60846439" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/60846439" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3250 3750 50  0001 C CNN
+F 1 "GNDD" H 3254 3845 50  0000 C CNN
+F 2 "" H 3250 4000 50  0001 C CNN
+F 3 "" H 3250 4000 50  0001 C CNN
+	1    3250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 60846975
+P 3450 4000
+AR Path="/60846975" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/60846975" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3450 3750 50  0001 C CNN
+F 1 "GNDD" H 3454 3845 50  0000 C CNN
+F 2 "" H 3450 4000 50  0001 C CNN
+F 3 "" H 3450 4000 50  0001 C CNN
+	1    3450 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

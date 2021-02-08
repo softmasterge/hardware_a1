@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SS34B-HF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-03-05:28:56)
+    (mountForm default
+        (footprintRef "DIOM5336X320N")
+        (spec "System")
+    )
+)

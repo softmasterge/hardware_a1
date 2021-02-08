@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PIC32MX350F256H-V_PT
+D Microchip PIC32MX350F256H-V/PT, 32bit PIC Microcontroller, 100MHz, 256 kB Flash, 64-Pin TQFP
+K
+F http://www.mouser.com/ds/2/268/60001185C-270900.pdf
+$ENDCMP
+#
+#End Doc Library

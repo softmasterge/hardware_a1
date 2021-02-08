@@ -1,0 +1,9 @@
+Manufacturer=Comchip Technology
+PartNumber=SS34B-HF
+PartCategory=Schottky Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=1.1
+Released=2020-11-03 05:28:56
+Downloaded=2021-01-29 12:27:30
+3D=Y

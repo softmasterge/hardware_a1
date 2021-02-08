@@ -1,0 +1,335 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Isolator:ISO1540 U?
+U 1 1 60818F5E
+P 3725 2825
+AR Path="/60818F5E" Ref="U?"  Part="1" 
+AR Path="/608144C5/60818F5E" Ref="U9"  Part="1" 
+F 0 "U9" H 3725 3192 50  0000 C CNN
+F 1 "ISO1540" H 3725 3101 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3725 2475 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fiso1540-q1" H 3725 2875 50  0001 C CNN
+F 4 "ISO1540DR" H 3725 2825 50  0001 C CNN "Mpn"
+F 5 "1.6046" H 3725 2825 50  0001 C CNN "Price"
+F 6 "mouser" H 3725 2825 50  0001 C CNN "Website"
+F 7 " C179739" H 3725 2825 50  0001 C CNN "LCSC"
+	1    3725 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 60818F64
+P 3100 2625
+AR Path="/60818F64" Ref="#PWR?"  Part="1" 
+AR Path="/608144C5/60818F64" Ref="#PWR083"  Part="1" 
+F 0 "#PWR083" H 3100 2475 50  0001 C CNN
+F 1 "VDD" H 3117 2798 50  0000 C CNN
+F 2 "" H 3100 2625 50  0001 C CNN
+F 3 "" H 3100 2625 50  0001 C CNN
+	1    3100 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 2725 3100 2725
+Wire Wire Line
+	3100 2725 3100 2625
+$Comp
+L power:GNDD #PWR?
+U 1 1 60818F6C
+P 3100 3450
+AR Path="/60818F6C" Ref="#PWR?"  Part="1" 
+AR Path="/608144C5/60818F6C" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 3100 3200 50  0001 C CNN
+F 1 "GNDD" H 3104 3295 50  0000 C CNN
+F 2 "" H 3100 3450 50  0001 C CNN
+F 3 "" H 3100 3450 50  0001 C CNN
+	1    3100 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 2925 2950 2925
+Wire Wire Line
+	2825 2825 2850 2825
+Wire Wire Line
+	4125 3025 4375 3025
+Wire Wire Line
+	4375 3025 4375 3175
+$Comp
+L Device:R R?
+U 1 1 60818F76
+P 4375 3325
+AR Path="/60818F76" Ref="R?"  Part="1" 
+AR Path="/608144C5/60818F76" Ref="R15"  Part="1" 
+F 0 "R15" H 4445 3371 50  0000 L CNN
+F 1 "R" H 4445 3280 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4305 3325 50  0001 C CNN
+F 3 "" H 4375 3325 50  0001 C CNN
+	1    4375 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 60818F7C
+P 4375 3475
+AR Path="/60818F7C" Ref="#PWR?"  Part="1" 
+AR Path="/608144C5/60818F7C" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 4375 3225 50  0001 C CNN
+F 1 "GNDD" H 4379 3320 50  0000 C CNN
+F 2 "" H 4375 3475 50  0001 C CNN
+F 3 "" H 4375 3475 50  0001 C CNN
+	1    4375 3475
+	1    0    0    -1  
+$EndComp
+Text Label 4450 3025 0    50   ~ 0
+GND_ISO
+Wire Wire Line
+	4125 2725 4375 2725
+Wire Wire Line
+	4375 2725 4375 2625
+$Comp
+L Device:R R?
+U 1 1 60818F85
+P 4375 2475
+AR Path="/60818F85" Ref="R?"  Part="1" 
+AR Path="/608144C5/60818F85" Ref="R12"  Part="1" 
+F 0 "R12" H 4445 2521 50  0000 L CNN
+F 1 "R" H 4445 2430 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4305 2475 50  0001 C CNN
+F 3 "" H 4375 2475 50  0001 C CNN
+	1    4375 2475
+	1    0    0    -1  
+$EndComp
+Connection ~ 4375 3025
+Connection ~ 4375 2725
+Text Label 4450 2725 0    50   ~ 0
+VDD_ISO
+Text Label 4450 2825 0    50   ~ 0
+SDA_ISO
+Text Label 4450 2925 0    50   ~ 0
+SCL_ISO
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J?
+U 1 1 60818F91
+P 5150 2825
+AR Path="/60818F91" Ref="J?"  Part="1" 
+AR Path="/608144C5/60818F91" Ref="J5"  Part="1" 
+F 0 "J5" H 5200 3142 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 5200 3051 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5150 2825 50  0001 C CNN
+F 3 "~" H 5150 2825 50  0001 C CNN
+F 4 "Connector unknown" H 5150 2825 50  0001 C CNN "Mpn"
+	1    5150 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2725 4950 2725
+Wire Wire Line
+	4375 2725 4950 2725
+Connection ~ 4950 2725
+Wire Wire Line
+	4125 2825 4775 2825
+Wire Wire Line
+	4950 2825 5450 2825
+Connection ~ 4950 2825
+Wire Wire Line
+	4125 2925 4850 2925
+Wire Wire Line
+	4950 2925 5450 2925
+Connection ~ 4950 2925
+Wire Wire Line
+	5450 3025 4950 3025
+Wire Wire Line
+	4375 3025 4950 3025
+Connection ~ 4950 3025
+Text Notes 5050 2450 0    50   ~ 0
+i2c-iso
+$Comp
+L Device:C C?
+U 1 1 60818FA7
+P 3100 3300
+AR Path="/60818FA7" Ref="C?"  Part="1" 
+AR Path="/608144C5/60818FA7" Ref="C27"  Part="1" 
+F 0 "C27" H 2825 3350 50  0000 L CNN
+F 1 "0.1u" H 2825 3250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 3150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 3100 3300 50  0001 C CNN
+F 4 "885012207098" H 3100 3300 50  0001 C CNN "Mpn"
+F 5 "0,019 €" H 3100 3300 50  0001 C CNN "Price"
+F 6 "Mouser" H 3100 3300 50  0001 C CNN "Website"
+	1    3100 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3450 3275 3450
+$Comp
+L Device:C C?
+U 1 1 60818FB1
+P 5675 2875
+AR Path="/60818FB1" Ref="C?"  Part="1" 
+AR Path="/608144C5/60818FB1" Ref="C28"  Part="1" 
+F 0 "C28" H 5790 2921 50  0000 L CNN
+F 1 "0.1u" H 5790 2830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5713 2725 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 5675 2875 50  0001 C CNN
+F 4 "885012207098" H 5675 2875 50  0001 C CNN "Mpn"
+F 5 "0,019 €" H 5675 2875 50  0001 C CNN "Price"
+F 6 "Mouser" H 5675 2875 50  0001 C CNN "Website"
+	1    5675 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2725 5675 2725
+Connection ~ 5450 2725
+Wire Wire Line
+	5675 3025 5450 3025
+Connection ~ 5450 3025
+Wire Wire Line
+	4775 2825 4775 2375
+Connection ~ 4775 2825
+Wire Wire Line
+	4775 2825 4950 2825
+Wire Wire Line
+	4850 2925 4850 2450
+Connection ~ 4850 2925
+Wire Wire Line
+	4850 2925 4950 2925
+$Comp
+L Device:R R?
+U 1 1 60818FC4
+P 4775 2225
+AR Path="/60818FC4" Ref="R?"  Part="1" 
+AR Path="/608144C5/60818FC4" Ref="R16"  Part="1" 
+F 0 "R16" H 4600 2275 50  0000 L CNN
+F 1 "1k" H 4625 2175 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4705 2225 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 4775 2225 50  0001 C CNN
+F 4 "CRCW08051K00FKEAC" H 4775 2225 50  0001 C CNN "Mpn"
+F 5 "0.02" H 4775 2225 50  0001 C CNN "Price"
+F 6 "mouser" H 4775 2225 50  0001 C CNN "Website"
+	1    4775 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60818FCD
+P 4900 2225
+AR Path="/60818FCD" Ref="R?"  Part="1" 
+AR Path="/608144C5/60818FCD" Ref="R17"  Part="1" 
+F 0 "R17" H 4970 2271 50  0000 L CNN
+F 1 "1k" H 4975 2175 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4830 2225 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 4900 2225 50  0001 C CNN
+F 4 "CRCW08051K00FKEAC" H 4900 2225 50  0001 C CNN "Mpn"
+F 5 "0.02" H 4900 2225 50  0001 C CNN "Price"
+F 6 "mouser" H 4900 2225 50  0001 C CNN "Website"
+	1    4900 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2450 4900 2450
+Wire Wire Line
+	4900 2450 4900 2375
+Connection ~ 3100 3450
+Wire Wire Line
+	3275 3025 3275 3450
+Wire Wire Line
+	3275 3025 3325 3025
+Connection ~ 3100 2725
+Wire Wire Line
+	3100 2725 3100 3150
+Text GLabel 2825 2825 0    50   Input ~ 0
+SDA1
+Text GLabel 2825 2925 0    50   Input ~ 0
+SCL1
+Wire Wire Line
+	4375 2325 4375 2075
+Wire Wire Line
+	4375 2075 4775 2075
+Connection ~ 4775 2075
+Wire Wire Line
+	4775 2075 4900 2075
+Wire Wire Line
+	2850 2825 2850 2225
+Connection ~ 2850 2825
+Wire Wire Line
+	2850 2825 3325 2825
+Wire Wire Line
+	2950 2925 2950 2225
+Connection ~ 2950 2925
+Wire Wire Line
+	2950 2925 2825 2925
+$Comp
+L Device:R R?
+U 1 1 60818FE7
+P 2850 2075
+AR Path="/60818FE7" Ref="R?"  Part="1" 
+AR Path="/608144C5/60818FE7" Ref="R8"  Part="1" 
+F 0 "R8" H 2650 2125 50  0000 L CNN
+F 1 "2.7k" H 2625 2025 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2701T5E_C13167.pdf" H 2850 2075 50  0001 C CNN
+F 4 "C13167" H 2850 2075 50  0001 C CNN "LCSC"
+F 5 "0603WAF2701T5E" H 2850 2075 50  0001 C CNN "MPN"
+F 6 "0.0023" H 2850 2075 50  0001 C CNN "Price"
+	1    2850 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 60818FF3
+P 2850 1925
+AR Path="/60818FF3" Ref="#PWR?"  Part="1" 
+AR Path="/608144C5/60818FF3" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 2850 1775 50  0001 C CNN
+F 1 "VDD" H 2725 2050 50  0000 C CNN
+F 2 "" H 2850 1925 50  0001 C CNN
+F 3 "" H 2850 1925 50  0001 C CNN
+	1    2850 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 60818FF9
+P 2950 1925
+AR Path="/60818FF9" Ref="#PWR?"  Part="1" 
+AR Path="/608144C5/60818FF9" Ref="#PWR082"  Part="1" 
+F 0 "#PWR082" H 2950 1775 50  0001 C CNN
+F 1 "VDD" H 3050 2050 50  0000 C CNN
+F 2 "" H 2950 1925 50  0001 C CNN
+F 3 "" H 2950 1925 50  0001 C CNN
+	1    2950 1925
+	1    0    0    -1  
+$EndComp
+Text GLabel 4375 2075 0    79   Input ~ 0
+VDD5
+$Comp
+L Device:R R?
+U 1 1 60A1804D
+P 2950 2075
+AR Path="/60A1804D" Ref="R?"  Part="1" 
+AR Path="/608144C5/60A1804D" Ref="R11"  Part="1" 
+F 0 "R11" H 3000 2125 50  0000 L CNN
+F 1 "2.7k" H 3000 2025 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2880 2075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2701T5E_C13167.pdf" H 2950 2075 50  0001 C CNN
+F 4 "C13167" H 2950 2075 50  0001 C CNN "LCSC"
+F 5 "0603WAF2701T5E" H 2950 2075 50  0001 C CNN "MPN"
+F 6 "0.0023" H 2950 2075 50  0001 C CNN "Price"
+	1    2950 2075
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

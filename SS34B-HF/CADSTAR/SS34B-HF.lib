@@ -1,0 +1,18 @@
+.SS34B-HF :1 ;Schottky Diodes & Rectifiers DIODE SCHOTTKY 3A 40V SMB
+DIOM5336X320N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SS34B-HF
+~!Manufacturer_Name (Comchip Technology)
+~!Manufacturer_Part_Number (SS34B-HF)
+~!Mouser Part Number (750-SS34B-HF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF/?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf)
+~!Height (3.2mm)
+~!3D_Model (SS34B-HF)
+SS34B-HF
+1.1!U 2.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SS34B_HF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Comchip Technology", "SS34B-HF" (!) = "", "DIOM5336X320N", "Diodes Moulded", "750-SS34B-HF", "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF/?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D", "", "", "Schottky Diodes & Rectifiers DIODE SCHOTTKY 3A 40V SMB", "https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf", "3.2 mm"
+END_PART
+
+END.
