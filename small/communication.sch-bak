@@ -170,6 +170,7 @@ F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 3100 3300
 F 4 "885012207098" H 3100 3300 50  0001 C CNN "Mpn"
 F 5 "0,019 €" H 3100 3300 50  0001 C CNN "Price"
 F 6 "Mouser" H 3100 3300 50  0001 C CNN "Website"
+F 7 "C14663" H 3100 3300 50  0001 C CNN "LCSC"
 	1    3100 3300
 	1    0    0    -1  
 $EndComp
@@ -188,6 +189,7 @@ F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 5675 2875
 F 4 "885012207098" H 5675 2875 50  0001 C CNN "Mpn"
 F 5 "0,019 €" H 5675 2875 50  0001 C CNN "Price"
 F 6 "Mouser" H 5675 2875 50  0001 C CNN "Website"
+F 7 "C14663" H 5675 2875 50  0001 C CNN "LCSC"
 	1    5675 2875
 	1    0    0    -1  
 $EndComp

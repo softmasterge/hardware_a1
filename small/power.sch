@@ -775,6 +775,7 @@ F 8 "750-SS34B-HF" H 6000 3800 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF/?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D" H 6000 3700 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 6000 3600 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 6000 3500 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C8678" H 5500 4250 50  0001 C CNN "LCSC"
 	1    5500 4250
 	0    1    1    0   
 $EndComp
@@ -810,6 +811,7 @@ F 8 "750-SS34B-HF" H 6125 2025 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF/?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D" H 6125 1925 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 6125 1825 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 6125 1725 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C8678" H 5625 2475 50  0001 C CNN "LCSC"
 	1    5625 2475
 	0    1    1    0   
 $EndComp
