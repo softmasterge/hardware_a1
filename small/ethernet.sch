@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -51,10 +51,6 @@ F 3 "" H 1625 2100 50  0001 C CNN
 	1    1625 2100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1625 2700 0    50   Input ~ 0
-ENC_CS
-Wire Wire Line
-	1625 2700 2650 2700
 Text GLabel 2650 2900 0    50   Input ~ 0
 ENC_INT
 Text GLabel 2650 3000 0    50   Input ~ 0
@@ -308,9 +304,9 @@ AR Path="/60757620/607819FB" Ref="R4"  Part="1"
 F 0 "R4" V 4293 3600 50  0000 C CNN
 F 1 "2k 1%" V 4384 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 3600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2001T5E_C22975.pdf" H 4500 3600 50  0001 C CNN
-F 4 "C22975" V 4500 3600 50  0001 C CNN "LCSC"
-F 5 "0603WAF2001T5E" V 4500 3600 50  0001 C CNN "MPN"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2321T5E_C22905.pdf" H 4500 3600 50  0001 C CNN
+F 4 "C22905" V 4500 3600 50  0001 C CNN "LCSC"
+F 5 "0603WAF2321T5E" V 4500 3600 50  0001 C CNN "MPN"
 F 6 "0.0016" V 4500 3600 50  0001 C CNN "Price"
 	1    4500 3600
 	0    1    1    0   
@@ -528,8 +524,6 @@ F 3 "" H 5000 1425 50  0001 C CNN
 	1    5000 1425
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 1425 5000 1425
 Connection ~ 5825 1525
 Wire Wire Line
 	4050 3200 4675 3200
@@ -900,4 +894,181 @@ F 5 "CL10C180JB8NNNC" H 1850 3725 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Connection ~ 1850 3575
+Text GLabel 1500 2700 0    50   Input ~ 0
+ENC_SS
+Wire Wire Line
+	1500 2700 1625 2700
+Connection ~ 1625 2700
+Wire Wire Line
+	1625 2700 2650 2700
+$Comp
+L power:GNDD #PWR?
+U 1 1 602BF6C6
+P 4325 1250
+AR Path="/602BF6C6" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/602BF6C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4325 1000 50  0001 C CNN
+F 1 "GNDD" H 4329 1095 50  0000 C CNN
+F 2 "" H 4325 1250 50  0001 C CNN
+F 3 "" H 4325 1250 50  0001 C CNN
+	1    4325 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 675  4325 825 
+$Comp
+L power:VDD #PWR?
+U 1 1 602BF6CD
+P 4325 675
+AR Path="/602BF6CD" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/602BF6CD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4325 525 50  0001 C CNN
+F 1 "VDD" H 4342 848 50  0000 C CNN
+F 2 "" H 4325 675 50  0001 C CNN
+F 3 "" H 4325 675 50  0001 C CNN
+	1    4325 675 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 1250 4325 1125
+$Comp
+L Device:C C?
+U 1 1 602BF6D7
+P 4325 975
+AR Path="/602BF6D7" Ref="C?"  Part="1" 
+AR Path="/6078415F/602BF6D7" Ref="C?"  Part="1" 
+AR Path="/60757620/602BF6D7" Ref="C?"  Part="1" 
+F 0 "C?" H 4050 875 50  0000 L CNN
+F 1 "1u" H 4050 975 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4363 825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf" H 4325 975 50  0001 C CNN
+F 4 "C15849" H 4325 975 50  0001 C CNN "LCSC"
+F 5 "0.0126" H 4325 975 50  0001 C CNN "Price"
+F 6 "CL10A105KB8NNNC" H 4325 975 50  0001 C CNN "MPN"
+	1    4325 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 602C0E21
+P 4675 1250
+AR Path="/602C0E21" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/602C0E21" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4675 1000 50  0001 C CNN
+F 1 "GNDD" H 4679 1095 50  0000 C CNN
+F 2 "" H 4675 1250 50  0001 C CNN
+F 3 "" H 4675 1250 50  0001 C CNN
+	1    4675 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 675  4675 825 
+$Comp
+L power:VDD #PWR?
+U 1 1 602C0E28
+P 4675 675
+AR Path="/602C0E28" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/602C0E28" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4675 525 50  0001 C CNN
+F 1 "VDD" H 4692 848 50  0000 C CNN
+F 2 "" H 4675 675 50  0001 C CNN
+F 3 "" H 4675 675 50  0001 C CNN
+	1    4675 675 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 1250 4675 1125
+$Comp
+L Device:C C?
+U 1 1 602C0E32
+P 4675 975
+AR Path="/602C0E32" Ref="C?"  Part="1" 
+AR Path="/6078415F/602C0E32" Ref="C?"  Part="1" 
+AR Path="/60757620/602C0E32" Ref="C?"  Part="1" 
+F 0 "C?" H 4925 950 50  0000 L CNN
+F 1 "10u" H 4900 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4713 825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Murata-Electronics-GRM188R61E106KA73D_C344022.pdf" H 4675 975 50  0001 C CNN
+F 4 "C344022" H 4675 975 50  0001 C CNN "LCSC"
+F 5 "0.0354" H 4675 975 50  0001 C CNN "Price"
+F 6 "GRM188R61E106KA73D" H 4675 975 50  0001 C CNN "MPN"
+	1    4675 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 602CE763
+P 5075 2000
+AR Path="/602CE763" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/602CE763" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5075 1750 50  0001 C CNN
+F 1 "GNDD" H 5079 1845 50  0000 C CNN
+F 2 "" H 5075 2000 50  0001 C CNN
+F 3 "" H 5075 2000 50  0001 C CNN
+	1    5075 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 1425 5075 1575
+Wire Wire Line
+	5075 2000 5075 1875
+$Comp
+L Device:C C?
+U 1 1 602CE76E
+P 5075 1725
+AR Path="/602CE76E" Ref="C?"  Part="1" 
+AR Path="/6078415F/602CE76E" Ref="C?"  Part="1" 
+AR Path="/60757620/602CE76E" Ref="C?"  Part="1" 
+F 0 "C?" H 4800 1625 50  0000 L CNN
+F 1 "1u" H 4800 1725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5113 1575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf" H 5075 1725 50  0001 C CNN
+F 4 "C15849" H 5075 1725 50  0001 C CNN "LCSC"
+F 5 "0.0126" H 5075 1725 50  0001 C CNN "Price"
+F 6 "CL10A105KB8NNNC" H 5075 1725 50  0001 C CNN "MPN"
+	1    5075 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 602CE774
+P 5275 2000
+AR Path="/602CE774" Ref="#PWR?"  Part="1" 
+AR Path="/60757620/602CE774" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5275 1750 50  0001 C CNN
+F 1 "GNDD" H 5279 1845 50  0000 C CNN
+F 2 "" H 5275 2000 50  0001 C CNN
+F 3 "" H 5275 2000 50  0001 C CNN
+	1    5275 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 1425 5275 1575
+Wire Wire Line
+	5275 2000 5275 1875
+$Comp
+L Device:C C?
+U 1 1 602CE77F
+P 5275 1725
+AR Path="/602CE77F" Ref="C?"  Part="1" 
+AR Path="/6078415F/602CE77F" Ref="C?"  Part="1" 
+AR Path="/60757620/602CE77F" Ref="C?"  Part="1" 
+F 0 "C?" H 5525 1700 50  0000 L CNN
+F 1 "10u" H 5500 1800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5313 1575 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Murata-Electronics-GRM188R61E106KA73D_C344022.pdf" H 5275 1725 50  0001 C CNN
+F 4 "C344022" H 5275 1725 50  0001 C CNN "LCSC"
+F 5 "0.0354" H 5275 1725 50  0001 C CNN "Price"
+F 6 "GRM188R61E106KA73D" H 5275 1725 50  0001 C CNN "MPN"
+	1    5275 1725
+	1    0    0    -1  
+$EndComp
+Connection ~ 5075 1425
+Wire Wire Line
+	5075 1425 5000 1425
+Wire Wire Line
+	5075 1425 5275 1425
+Connection ~ 5275 1425
+Wire Wire Line
+	5275 1425 5300 1425
 $EndSCHEMATC

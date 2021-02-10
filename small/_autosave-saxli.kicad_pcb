@@ -524,7 +524,7 @@
   )
 
   (module RF_GSM:SIMCom_SIM800C (layer F.Cu) (tedit 5EA07AAC) (tstamp 60218EA8)
-    (at 165.088 44.572)
+    (at 167.259 42.799)
     (descr "Quad-Band GSM/GPRS module, 17.6x15.7x2.3mm, http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf")
     (tags "GSM Module SIM800C")
     (path /602125D9/60218008)

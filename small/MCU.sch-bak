@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -523,7 +523,7 @@ U2TX
 Text GLabel 7100 4150 2    50   Input ~ 0
 SCK1
 Text GLabel 3400 4050 0    50   Input ~ 0
-U3RX
+U3RXSIM800
 Wire Wire Line
 	4500 7475 4500 6850
 Wire Wire Line
@@ -915,7 +915,7 @@ SCK2
 Text GLabel 3400 3050 0    50   Input ~ 0
 SD_CS
 Text GLabel 3400 3350 0    50   Input ~ 0
-U3TX
+U3TXSIM800
 Text GLabel 3400 3250 0    50   Input ~ 0
 SDI1
 Text GLabel 3400 2850 0    50   Input ~ 0
@@ -1100,7 +1100,7 @@ F 6 "CC0603KRX7R9BB104" H 2775 7150 50  0001 C CNN "MPN"
 	1    2775 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 3350 2    50   Input ~ 0
+Text GLabel 7575 3450 2    50   Input ~ 0
 CS_EE_1
 $Comp
 L Device:C C?
@@ -1240,4 +1240,8 @@ Wire Wire Line
 Connection ~ 8250 1150
 Wire Wire Line
 	8250 1150 7900 1150
+Text GLabel 3400 4350 0    50   Input ~ 0
+SIM800_RST
+Text GLabel 3400 4150 0    50   Input ~ 0
+ENC_SS
 $EndSCHEMATC

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIM868
+D Module: GSM/GLONASS; GPRS; 2G; 1800MHz,900MHz; 85.6kbps; -4085C
+K
+F http://simcom.ee/documents/SIM868/SIM868_Series_Hardware_Design_V1.06.pdf
+$ENDCMP
+#
+#End Doc Library

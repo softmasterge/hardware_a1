@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -16,78 +16,78 @@ $EndDescr
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5FE64BAA
-P 3200 1525
-F 0 "H4" H 3300 1574 50  0000 L CNN
-F 1 "MountingHole_Pad" H 3300 1483 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3200 1525 50  0001 C CNN
-F 3 "~" H 3200 1525 50  0001 C CNN
-F 4 "#" H 3200 1525 50  0001 C CNN "Mpn"
-	1    3200 1525
+P 7175 1325
+F 0 "H4" H 7275 1374 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7275 1283 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7175 1325 50  0001 C CNN
+F 3 "~" H 7175 1325 50  0001 C CNN
+F 4 "#" H 7175 1325 50  0001 C CNN "Mpn"
+	1    7175 1325
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H6
 U 1 1 5FE653E8
-P 4200 1500
-F 0 "H6" H 4300 1549 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4300 1458 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 4200 1500 50  0001 C CNN
-F 3 "~" H 4200 1500 50  0001 C CNN
-F 4 "#" H 4200 1500 50  0001 C CNN "Mpn"
-	1    4200 1500
+P 8175 1300
+F 0 "H6" H 8275 1349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8275 1258 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8175 1300 50  0001 C CNN
+F 3 "~" H 8175 1300 50  0001 C CNN
+F 4 "#" H 8175 1300 50  0001 C CNN "Mpn"
+	1    8175 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5FE65E3E
-P 3175 2100
-F 0 "H3" H 3275 2149 50  0000 L CNN
-F 1 "MountingHole_Pad" H 3275 2058 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3175 2100 50  0001 C CNN
-F 3 "~" H 3175 2100 50  0001 C CNN
-F 4 "#" H 3175 2100 50  0001 C CNN "Mpn"
-	1    3175 2100
+P 7150 1900
+F 0 "H3" H 7250 1949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7250 1858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7150 1900 50  0001 C CNN
+F 3 "~" H 7150 1900 50  0001 C CNN
+F 4 "#" H 7150 1900 50  0001 C CNN "Mpn"
+	1    7150 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H7
 U 1 1 5FE667D5
-P 4200 2125
-F 0 "H7" H 4300 2174 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4300 2083 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 4200 2125 50  0001 C CNN
-F 3 "~" H 4200 2125 50  0001 C CNN
-F 4 "#" H 4200 2125 50  0001 C CNN "Mpn"
-	1    4200 2125
+P 8175 1925
+F 0 "H7" H 8275 1974 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8275 1883 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8175 1925 50  0001 C CNN
+F 3 "~" H 8175 1925 50  0001 C CNN
+F 4 "#" H 8175 1925 50  0001 C CNN "Mpn"
+	1    8175 1925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 1625 3675 1625
+	7175 1425 7650 1425
 Wire Wire Line
-	4200 1625 4200 1600
+	8175 1425 8175 1400
 Wire Wire Line
-	4200 2225 3675 2225
+	8175 2025 7650 2025
 Wire Wire Line
-	3175 2225 3175 2200
-Connection ~ 3675 1625
+	7150 2025 7150 2000
+Connection ~ 7650 1425
 Wire Wire Line
-	3675 1625 4200 1625
-Connection ~ 3675 2225
+	7650 1425 8175 1425
+Connection ~ 7650 2025
 Wire Wire Line
-	3675 2225 3175 2225
+	7650 2025 7150 2025
 $Comp
 L power:GNDD #PWR020
 U 1 1 5FEA6B3E
-P 3675 2225
-F 0 "#PWR020" H 3675 1975 50  0001 C CNN
-F 1 "GNDD" H 3679 2070 50  0000 C CNN
-F 2 "" H 3675 2225 50  0001 C CNN
-F 3 "" H 3675 2225 50  0001 C CNN
-	1    3675 2225
+P 7650 2025
+F 0 "#PWR020" H 7650 1775 50  0001 C CNN
+F 1 "GNDD" H 7654 1870 50  0000 C CNN
+F 2 "" H 7650 2025 50  0001 C CNN
+F 3 "" H 7650 2025 50  0001 C CNN
+	1    7650 2025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3675 1625 3675 2225
+	7650 1425 7650 2025
 Wire Wire Line
 	16125 9525 16125 9500
 Wire Wire Line
@@ -267,4 +267,12 @@ Text GLabel 10250 4475 0    50   Input ~ 0
 12V
 Text GLabel 10250 4575 0    50   Input ~ 0
 5V
+$Sheet
+S 2825 1075 1650 1100
+U 602125D9
+F0 "sim868" 50
+F1 "sim868.sch" 50
+$EndSheet
+Text Notes 3475 1625 0    50   ~ 0
+SIM800C\n
 $EndSCHEMATC
