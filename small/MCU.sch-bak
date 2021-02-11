@@ -538,7 +538,7 @@ Text GLabel 7100 3950 2    50   Input ~ 0
 SCL1
 Wire Wire Line
 	5300 725  5300 1450
-Text GLabel 3400 4250 0    50   Input ~ 0
+Text GLabel 7575 3150 2    50   Input ~ 0
 SDI2
 Text GLabel 3400 3850 0    50   Input ~ 0
 SDO2
@@ -903,7 +903,7 @@ Text GLabel 7575 2950 2    50   Input ~ 0
 OUT_1
 Text GLabel 7575 3050 2    50   Input ~ 0
 OUT_2
-Text GLabel 7575 3150 2    50   Input ~ 0
+Text GLabel 7650 3250 2    50   Input ~ 0
 OUT_3
 Wire Wire Line
 	8800 2950 8800 2650
@@ -1240,7 +1240,7 @@ Wire Wire Line
 Connection ~ 8250 1150
 Wire Wire Line
 	8250 1150 7900 1150
-Text GLabel 3400 4350 0    50   Input ~ 0
+Text GLabel 3400 3950 0    50   Input ~ 0
 SIM800_RST
 Text GLabel 3400 4150 0    50   Input ~ 0
 ENC_SS
