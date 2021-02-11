@@ -334,4 +334,79 @@ F 6 "0.0023" H 2950 2075 50  0001 C CNN "Price"
 	1    2950 2075
 	1    0    0    -1  
 $EndComp
+$Comp
+L Interface_UART:ST485EBDR U14
+U 1 1 606D84B9
+P 8350 2825
+F 0 "U14" H 8350 3406 50  0000 C CNN
+F 1 "ST485EBDR" H 8350 3315 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8350 1925 50  0001 C CNN
+F 3 "http://www.st.com/resource/en/datasheet/st485eb.pdf" H 8350 2875 50  0001 C CNN
+	1    8350 2825
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 3025 0    50   Input ~ 0
+U1TX485
+Text GLabel 7950 2725 0    50   Input ~ 0
+U1RX485
+Wire Wire Line
+	7950 2925 7950 2825
+Text GLabel 7950 2875 0    50   Input ~ 0
+485_DE
+Text GLabel 8750 3025 2    50   Input ~ 0
+485_A
+Text GLabel 8750 2725 2    50   Input ~ 0
+485_B
+$Comp
+L power:GNDD #PWR0124
+U 1 1 606E725A
+P 8350 3325
+F 0 "#PWR0124" H 8350 3075 50  0001 C CNN
+F 1 "GNDD" H 8354 3170 50  0000 C CNN
+F 2 "" H 8350 3325 50  0001 C CNN
+F 3 "" H 8350 3325 50  0001 C CNN
+	1    8350 3325
+	1    0    0    -1  
+$EndComp
+Text GLabel 8325 2100 0    79   Input ~ 0
+VDD5
+$Comp
+L power:GNDD #PWR0185
+U 1 1 606EB876
+P 8700 2050
+F 0 "#PWR0185" H 8700 1800 50  0001 C CNN
+F 1 "GNDD" H 8704 1895 50  0000 C CNN
+F 2 "" H 8700 2050 50  0001 C CNN
+F 3 "" H 8700 2050 50  0001 C CNN
+	1    8700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1825 8700 2050
+$Comp
+L Device:C C?
+U 1 1 606EAE77
+P 8550 1825
+AR Path="/606EAE77" Ref="C?"  Part="1" 
+AR Path="/608144C5/606EAE77" Ref="C56"  Part="1" 
+F 0 "C56" H 8665 1871 50  0000 L CNN
+F 1 "0.1u" H 8665 1780 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8588 1675 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 8550 1825 50  0001 C CNN
+F 4 "885012207098" H 8550 1825 50  0001 C CNN "Mpn"
+F 5 "0,019 €" H 8550 1825 50  0001 C CNN "Price"
+F 6 "Mouser" H 8550 1825 50  0001 C CNN "Website"
+F 7 "C14663" H 8550 1825 50  0001 C CNN "LCSC"
+	1    8550 1825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 2100 8325 2100
+Wire Wire Line
+	8350 2425 8350 2100
+Wire Wire Line
+	8350 2100 8350 1825
+Wire Wire Line
+	8350 1825 8400 1825
+Connection ~ 8350 2100
 $EndSCHEMATC

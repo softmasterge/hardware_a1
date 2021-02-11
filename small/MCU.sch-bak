@@ -538,8 +538,6 @@ Text GLabel 7100 3950 2    50   Input ~ 0
 SCL1
 Wire Wire Line
 	5300 725  5300 1450
-Text GLabel 7575 3150 2    50   Input ~ 0
-SDI2
 Text GLabel 3400 3850 0    50   Input ~ 0
 SDO2
 Text GLabel 3400 3550 0    50   Input ~ 0
@@ -903,8 +901,6 @@ Text GLabel 7575 2950 2    50   Input ~ 0
 OUT_1
 Text GLabel 7575 3050 2    50   Input ~ 0
 OUT_2
-Text GLabel 7650 3250 2    50   Input ~ 0
-OUT_3
 Wire Wire Line
 	8800 2950 8800 2650
 Wire Wire Line
@@ -1244,4 +1240,25 @@ Text GLabel 3400 3950 0    50   Input ~ 0
 SIM800_RST
 Text GLabel 3400 4150 0    50   Input ~ 0
 ENC_SS
+Text GLabel 7650 3250 2    50   Input ~ 0
+OUT_3
+Text GLabel 7575 3150 2    50   Input ~ 0
+SDI2
+$Comp
+L power:GNDD #PWR0184
+U 1 1 606D287A
+P 3150 4275
+F 0 "#PWR0184" H 3150 4025 50  0001 C CNN
+F 1 "GNDD" H 3154 4120 50  0000 C CNN
+F 2 "" H 3150 4275 50  0001 C CNN
+F 3 "" H 3150 4275 50  0001 C CNN
+	1    3150 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4250 3150 4250
+Wire Wire Line
+	3150 4250 3150 4275
+Text GLabel 5600 7400 3    50   Input ~ 0
+485_DE
 $EndSCHEMATC
