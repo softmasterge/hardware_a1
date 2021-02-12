@@ -98,21 +98,6 @@ Text Label 4450 3025 0    50   ~ 0
 GND_ISO
 Wire Wire Line
 	4125 2725 4375 2725
-Wire Wire Line
-	4375 2725 4375 2625
-$Comp
-L Device:R R?
-U 1 1 60818F85
-P 4375 2475
-AR Path="/60818F85" Ref="R?"  Part="1" 
-AR Path="/608144C5/60818F85" Ref="R12"  Part="1" 
-F 0 "R12" H 4445 2521 50  0000 L CNN
-F 1 "R" H 4445 2430 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4305 2475 50  0001 C CNN
-F 3 "" H 4375 2475 50  0001 C CNN
-	1    4375 2475
-	1    0    0    -1  
-$EndComp
 Connection ~ 4375 3025
 Connection ~ 4375 2725
 Text Label 4450 2725 0    50   ~ 0
@@ -121,40 +106,14 @@ Text Label 4450 2825 0    50   ~ 0
 SDA_ISO
 Text Label 4450 2925 0    50   ~ 0
 SCL_ISO
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J?
-U 1 1 60818F91
-P 5150 2825
-AR Path="/60818F91" Ref="J?"  Part="1" 
-AR Path="/608144C5/60818F91" Ref="J5"  Part="1" 
-F 0 "J5" H 5200 3142 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 5200 3051 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5150 2825 50  0001 C CNN
-F 3 "~" H 5150 2825 50  0001 C CNN
-F 4 "Connector unknown" H 5150 2825 50  0001 C CNN "Mpn"
-	1    5150 2825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 2725 4950 2725
 Wire Wire Line
 	4375 2725 4950 2725
-Connection ~ 4950 2725
 Wire Wire Line
 	4125 2825 4775 2825
 Wire Wire Line
-	4950 2825 5450 2825
-Connection ~ 4950 2825
-Wire Wire Line
 	4125 2925 4850 2925
 Wire Wire Line
-	4950 2925 5450 2925
-Connection ~ 4950 2925
-Wire Wire Line
-	5450 3025 4950 3025
-Wire Wire Line
 	4375 3025 4950 3025
-Connection ~ 4950 3025
 Text Notes 5050 2450 0    50   ~ 0
 i2c-iso
 $Comp
@@ -179,33 +138,27 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 60818FB1
-P 5675 2875
+P 6175 2875
 AR Path="/60818FB1" Ref="C?"  Part="1" 
 AR Path="/608144C5/60818FB1" Ref="C28"  Part="1" 
-F 0 "C28" H 5790 2921 50  0000 L CNN
-F 1 "0.1u" H 5790 2830 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5713 2725 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 5675 2875 50  0001 C CNN
-F 4 "885012207098" H 5675 2875 50  0001 C CNN "Mpn"
-F 5 "0,019 €" H 5675 2875 50  0001 C CNN "Price"
-F 6 "Mouser" H 5675 2875 50  0001 C CNN "Website"
-F 7 "C14663" H 5675 2875 50  0001 C CNN "LCSC"
-	1    5675 2875
+F 0 "C28" H 6290 2921 50  0000 L CNN
+F 1 "0.1u" H 6290 2830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6213 2725 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/445/885012207098-1727748.pdf" H 6175 2875 50  0001 C CNN
+F 4 "885012207098" H 6175 2875 50  0001 C CNN "Mpn"
+F 5 "0,019 €" H 6175 2875 50  0001 C CNN "Price"
+F 6 "Mouser" H 6175 2875 50  0001 C CNN "Website"
+F 7 "C14663" H 6175 2875 50  0001 C CNN "LCSC"
+	1    6175 2875
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 2725 5675 2725
-Connection ~ 5450 2725
-Wire Wire Line
-	5675 3025 5450 3025
-Connection ~ 5450 3025
 Wire Wire Line
 	4775 2825 4775 2375
 Connection ~ 4775 2825
 Wire Wire Line
 	4775 2825 4950 2825
 Wire Wire Line
-	4850 2925 4850 2450
+	4850 2925 4850 2575
 Connection ~ 4850 2925
 Wire Wire Line
 	4850 2925 4950 2925
@@ -241,10 +194,6 @@ F 6 "mouser" H 4900 2225 50  0001 C CNN "Website"
 	1    4900 2225
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 2450 4900 2450
-Wire Wire Line
-	4900 2450 4900 2375
 Connection ~ 3100 3450
 Wire Wire Line
 	3275 3025 3275 3450
@@ -254,11 +203,9 @@ Connection ~ 3100 2725
 Wire Wire Line
 	3100 2725 3100 3150
 Text GLabel 2825 2825 0    50   Input ~ 0
-SDA1
+SDA2
 Text GLabel 2825 2925 0    50   Input ~ 0
-SCL1
-Wire Wire Line
-	4375 2325 4375 2075
+SCL2
 Wire Wire Line
 	4375 2075 4775 2075
 Connection ~ 4775 2075
@@ -353,9 +300,9 @@ Wire Wire Line
 	7950 2925 7950 2825
 Text GLabel 7950 2875 0    50   Input ~ 0
 485_DE
-Text GLabel 8750 3025 2    50   Input ~ 0
+Text GLabel 9525 3025 2    50   Input ~ 0
 485_A
-Text GLabel 8750 2725 2    50   Input ~ 0
+Text GLabel 9525 2725 2    50   Input ~ 0
 485_B
 $Comp
 L power:GNDD #PWR0124
@@ -409,4 +356,147 @@ Wire Wire Line
 Wire Wire Line
 	8350 1825 8400 1825
 Connection ~ 8350 2100
+$Comp
+L Device:Jumper JP3
+U 1 1 602848D0
+P 4375 2425
+F 0 "JP3" V 4329 2552 50  0000 L CNN
+F 1 "Jumper" V 4420 2552 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4375 2425 50  0001 C CNN
+F 3 "~" H 4375 2425 50  0001 C CNN
+	1    4375 2425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4375 2125 4375 2075
+Wire Wire Line
+	4900 2075 5450 2075
+Wire Wire Line
+	5450 2075 5450 2725
+Connection ~ 4900 2075
+Wire Wire Line
+	5950 2825 5950 3025
+Wire Wire Line
+	5950 3025 6175 3025
+$Comp
+L power:GNDD #PWR0187
+U 1 1 6028DDBE
+P 6175 3025
+F 0 "#PWR0187" H 6175 2775 50  0001 C CNN
+F 1 "GNDD" H 6179 2870 50  0000 C CNN
+F 2 "" H 6175 3025 50  0001 C CNN
+F 3 "" H 6175 3025 50  0001 C CNN
+	1    6175 3025
+	1    0    0    -1  
+$EndComp
+Connection ~ 6175 3025
+Wire Wire Line
+	5450 2825 5950 2825
+Wire Wire Line
+	5450 2725 6175 2725
+Text GLabel 5450 3025 2    50   Input ~ 0
+U2TX
+Text GLabel 5450 2925 2    50   Input ~ 0
+U2RX
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J?
+U 1 1 60818F91
+P 5250 2825
+AR Path="/60818F91" Ref="J?"  Part="1" 
+AR Path="/608144C5/60818F91" Ref="J5"  Part="1" 
+F 0 "J5" H 5300 3142 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 5300 3051 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5250 2825 50  0001 C CNN
+F 3 "~" H 5250 2825 50  0001 C CNN
+F 4 "Connector unknown" H 5250 2825 50  0001 C CNN "Mpn"
+	1    5250 2825
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5450 2725
+$Comp
+L power:GND #PWR0188
+U 1 1 60296547
+P 3600 1800
+F 0 "#PWR0188" H 3600 1550 50  0001 C CNN
+F 1 "GND" H 3605 1627 50  0000 C CNN
+F 2 "" H 3600 1800 50  0001 C CNN
+F 3 "" H 3600 1800 50  0001 C CNN
+	1    3600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0189
+U 1 1 60296AF3
+P 3825 1800
+F 0 "#PWR0189" H 3825 1550 50  0001 C CNN
+F 1 "GNDD" H 3829 1645 50  0000 C CNN
+F 2 "" H 3825 1800 50  0001 C CNN
+F 3 "" H 3825 1800 50  0001 C CNN
+	1    3825 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 1800 3600 1800
+$Comp
+L Device:R R12
+U 1 1 6035DB1F
+P 9250 2875
+F 0 "R12" H 9320 2921 50  0000 L CNN
+F 1 "120" H 9320 2830 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9180 2875 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1200T5E_C17437.pdf" H 9250 2875 50  0001 C CNN
+	1    9250 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2725 9250 2725
+Connection ~ 9250 2725
+Wire Wire Line
+	9250 2725 9475 2725
+Wire Wire Line
+	9525 3025 9250 3025
+Connection ~ 9250 3025
+Wire Wire Line
+	9250 3025 8775 3025
+$Comp
+L Diode:SM712_SOT23 D14
+U 1 1 603613E9
+P 9125 3425
+F 0 "D14" H 9125 3641 50  0000 C CNN
+F 1 "PSM712-LF-T7" H 9125 3550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9125 3075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/ProTek-Devices-PSM712-LF-T7_C32677.pdf" H 8975 3425 50  0001 C CNN
+F 4 "C32677" H 9125 3425 50  0001 C CNN "LCSC"
+F 5 "0.3704" H 9125 3425 50  0001 C CNN "Price"
+F 6 "PSM712-LF-T7" H 9125 3425 50  0001 C CNN "MPN"
+	1    9125 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0184
+U 1 1 60362763
+P 9125 3650
+F 0 "#PWR0184" H 9125 3400 50  0001 C CNN
+F 1 "GNDD" H 9129 3495 50  0000 C CNN
+F 2 "" H 9125 3650 50  0001 C CNN
+F 3 "" H 9125 3650 50  0001 C CNN
+	1    9125 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9125 3575 9125 3650
+Wire Wire Line
+	8775 3425 8775 3025
+Connection ~ 8775 3025
+Wire Wire Line
+	8775 3025 8750 3025
+Wire Wire Line
+	9475 3425 9475 2725
+Connection ~ 9475 2725
+Wire Wire Line
+	9475 2725 9525 2725
+Wire Wire Line
+	4900 2575 4850 2575
+Wire Wire Line
+	4900 2375 4900 2575
 $EndSCHEMATC

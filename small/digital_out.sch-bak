@@ -15,8 +15,6 @@ Comment4 ""
 $EndDescr
 Wire Wire Line
 	2575 1175 2950 1175
-Text Label 2675 1175 0    50   ~ 0
-PWR
 Wire Wire Line
 	2575 1175 2575 1550
 $Comp
@@ -61,17 +59,6 @@ Wire Wire Line
 	2575 2250 3225 2250
 Wire Wire Line
 	2575 2350 3225 2350
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 6580B77A
-P 2950 1175
-F 0 "#FLG02" H 2950 1250 50  0001 C CNN
-F 1 "PWR_FLAG" H 2950 1348 50  0000 C CNN
-F 2 "" H 2950 1175 50  0001 C CNN
-F 3 "~" H 2950 1175 50  0001 C CNN
-	1    2950 1175
-	1    0    0    -1  
-$EndComp
 Text GLabel 1300 1750 0    50   Input ~ 0
 OUT_0
 Wire Wire Line
@@ -172,12 +159,11 @@ F 2 "Package_SO:SO-4_4.4x3.6mm_P2.54mm" H 1825 3975 50  0001 L CIN
 F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-EL357N-C-TA-G_C29981.pdf" H 2025 4175 50  0001 L CNN
 F 4 "$0.0520" H 2025 4175 50  0001 C CNN "CMPN"
 F 5 "EL357N(C)(TA)-G" H 2025 4175 50  0001 C CNN "MPN"
-F 6 "C29981" H 2025 4175 50  0001 C CNN "LCSC#"
+F 6 "" H 2025 4175 50  0001 C CNN "LCSC#"
+F 7 "C29981" H 2025 4175 50  0001 C CNN "LCSC"
 	1    2025 4175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2325 3150 2325 3400
 $Comp
 L Device:R R?
 U 1 1 609F3D7D
@@ -248,12 +234,11 @@ F 2 "Package_SO:SO-4_4.4x3.6mm_P2.54mm" H 5175 4225 50  0001 L CIN
 F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-EL357N-C-TA-G_C29981.pdf" H 5375 4425 50  0001 L CNN
 F 4 "$0.0520" H 5375 4425 50  0001 C CNN "CMPN"
 F 5 "EL357N(C)(TA)-G" H 5375 4425 50  0001 C CNN "MPN"
-F 6 "C29981" H 5375 4425 50  0001 C CNN "LCSC#"
+F 6 "" H 5375 4425 50  0001 C CNN "LCSC#"
+F 7 "C29981" H 5375 4425 50  0001 C CNN "LCSC"
 	1    5375 4425
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5675 3400 5675 3650
 Connection ~ 5675 4100
 Wire Wire Line
 	5675 3950 5675 4100
@@ -273,28 +258,6 @@ Text GLabel 4525 4325 0    50   Input ~ 0
 DIG_OUT_0
 Text GLabel 1175 4075 0    50   Input ~ 0
 DIG_OUT_1
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 609F8CB6
-P 2325 3150
-F 0 "#FLG0101" H 2325 3225 50  0001 C CNN
-F 1 "PWR_FLAG" H 2325 3323 50  0000 C CNN
-F 2 "" H 2325 3150 50  0001 C CNN
-F 3 "~" H 2325 3150 50  0001 C CNN
-	1    2325 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 609F9818
-P 5675 3400
-F 0 "#FLG0102" H 5675 3475 50  0001 C CNN
-F 1 "PWR_FLAG" H 5675 3573 50  0000 C CNN
-F 2 "" H 5675 3400 50  0001 C CNN
-F 3 "~" H 5675 3400 50  0001 C CNN
-	1    5675 3400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 609FB495
@@ -370,4 +333,55 @@ Text GLabel 5775 2325 2    50   Input ~ 0
 SOLID_2.1
 Text GLabel 5775 2525 2    50   Input ~ 0
 SOLID_2.2
+Wire Wire Line
+	5675 3400 5675 3650
+$Comp
+L Device:Jumper_NC_Dual JP5
+U 1 1 602FA9CA
+P 5675 3300
+F 0 "JP5" H 5675 3539 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 5675 3448 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 5675 3300 50  0001 C CNN
+F 3 "~" H 5675 3300 50  0001 C CNN
+	1    5675 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5925 3300 2    50   Input ~ 0
+12V
+Text GLabel 5425 3300 0    50   Input ~ 0
+VDD5
+Text Label 2675 1175 0    50   ~ 0
+PWR
+Text GLabel 2075 3050 0    50   Input ~ 0
+VDD5
+Text GLabel 2575 3050 2    50   Input ~ 0
+12V
+$Comp
+L Device:Jumper_NC_Dual JP4
+U 1 1 602F1C4D
+P 2325 3050
+F 0 "JP4" H 2325 3289 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 2325 3198 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 2325 3050 50  0001 C CNN
+F 3 "~" H 2325 3050 50  0001 C CNN
+	1    2325 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 3150 2325 3400
+Text GLabel 2700 1075 0    50   Input ~ 0
+VDD5
+Text GLabel 3200 1075 2    50   Input ~ 0
+12V
+$Comp
+L Device:Jumper_NC_Dual JP6
+U 1 1 60303017
+P 2950 1075
+F 0 "JP6" H 2950 1314 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 2950 1223 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 2950 1075 50  0001 C CNN
+F 3 "~" H 2950 1075 50  0001 C CNN
+	1    2950 1075
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

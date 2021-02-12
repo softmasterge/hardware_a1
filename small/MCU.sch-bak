@@ -33,18 +33,6 @@ Wire Wire Line
 Wire Wire Line
 	4775 725  4775 750 
 Wire Wire Line
-	5800 6850 5800 7400
-Wire Wire Line
-	5700 6850 5700 7400
-Wire Wire Line
-	5600 6850 5600 7400
-Wire Wire Line
-	5500 6850 5500 7400
-Wire Wire Line
-	5200 6850 5200 7400
-Wire Wire Line
-	4900 6850 4900 7400
-Wire Wire Line
 	7100 3250 7650 3250
 Text Label 1275 3450 0    50   ~ 0
 MCLR
@@ -138,10 +126,6 @@ F 3 "" H 1075 3825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 6850 5100 7400
-Wire Wire Line
-	5000 6850 5000 7400
-Wire Wire Line
 	7100 3350 7650 3350
 Wire Wire Line
 	7575 3650 7100 3650
@@ -210,27 +194,6 @@ Wire Wire Line
 	1075 3450 1075 3525
 Wire Wire Line
 	1950 3350 2125 3350
-$Comp
-L saxli-rescue:PIC32MX350F256H-V_PT-pic32 IC?
-U 1 1 607957F4
-P 3400 2850
-AR Path="/607957F4" Ref="IC?"  Part="1" 
-AR Path="/6078415F/607957F4" Ref="IC1"  Part="1" 
-F 0 "IC1" H 5800 1100 50  0000 L CNN
-F 1 "PIC32MX350F256H-V_PT" H 5775 1000 50  0000 L CNN
-F 2 "mylib:QFP50P1200X1200X120-64N" H 6950 4050 50  0001 L CNN
-F 3 "http://www.mouser.com/ds/2/268/60001185C-270900.pdf" H 6950 3950 50  0001 L CNN
-F 4 "Microchip PIC32MX350F256H-V/PT, 32bit PIC Microcontroller, 100MHz, 256 kB Flash, 64-Pin TQFP" H 6950 3850 50  0001 L CNN "Description"
-F 5 "1.2" H 6950 3750 50  0001 L CNN "Height"
-F 6 "Microchip" H 6950 3650 50  0001 L CNN "Manufacturer_Name"
-F 7 "PIC32MX350F256H-V/PT" H 6950 3550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "579-32MX350F256HVPT" H 6950 3450 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-32MX350F256HVPT" H 6950 3350 50  0001 L CNN "Mouser Price/Stock"
-F 10 "PIC32MX350F256H-V/PT" H 6950 3250 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/pic32mx350f256h-vpt/microchip-technology" H 6950 3150 50  0001 L CNN "Arrow Price/Stock"
-	1    3400 2850
-	1    0    0    -1  
-$EndComp
 Text GLabel 5900 6975 3    50   Input ~ 0
 SDA2
 Text GLabel 6000 6975 3    50   Input ~ 0
@@ -331,8 +294,6 @@ F 3 "" H 5300 7075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 6850 5300 7075
-Wire Wire Line
 	7100 3550 7500 3550
 $Comp
 L power:GNDD #PWR?
@@ -360,8 +321,6 @@ F 3 "" H 4800 7075 50  0001 C CNN
 	1    4800 7075
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 6850 4800 7075
 $Comp
 L power:GNDD #PWR?
 U 1 1 60795842
@@ -524,13 +483,9 @@ Text GLabel 7100 4150 2    50   Input ~ 0
 SCK1
 Text GLabel 3400 4050 0    50   Input ~ 0
 U3RXSIM800
-Wire Wire Line
-	4500 7475 4500 6850
-Wire Wire Line
-	4600 7475 4600 6850
-Text Label 4500 7475 1    50   ~ 0
+Text Label 3300 4975 1    50   ~ 0
 PGEC
-Text Label 4600 7475 1    50   ~ 0
+Text Label 3400 4975 1    50   ~ 0
 PGED
 Text GLabel 7100 4050 2    50   Input ~ 0
 SDA1
@@ -794,9 +749,10 @@ AR Path="/607D7962" Ref="C?"  Part="1"
 AR Path="/6078415F/607D7962" Ref="C25"  Part="1" 
 F 0 "C25" V 8798 4550 50  0000 C CNN
 F 1 "SUPERCAP" V 8889 4550 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P5.00mm" H 9088 4400 50  0001 C CNN
+F 2 "small:XH414HG-IV01E" H 9088 4400 50  0001 C CNN
 F 3 "~" H 9050 4550 50  0001 C CNN
 F 4 "KR-5R5C105-R" V 9050 4550 50  0001 C CNN "MPN"
+F 5 "C38065" H 9050 4550 50  0001 C CNN "LCSC"
 	1    9050 4550
 	0    1    1    0   
 $EndComp
@@ -1180,9 +1136,9 @@ Text GLabel 5000 7400 3    50   Input ~ 0
 DIG_OUT_0
 Text GLabel 4900 7400 3    50   Input ~ 0
 DIG_OUT_1
-Text GLabel 4500 1450 1    50   Input ~ 0
-ADC_0
 Text GLabel 4600 1450 1    50   Input ~ 0
+ADC_0
+Text GLabel 4500 1450 1    50   Input ~ 0
 ADC_1
 Text GLabel 5700 7400 3    50   Input ~ 0
 MCU_1
@@ -1244,21 +1200,163 @@ Text GLabel 7650 3250 2    50   Input ~ 0
 OUT_3
 Text GLabel 7575 3150 2    50   Input ~ 0
 SDI2
+Text GLabel 5600 7400 3    50   Input ~ 0
+485_DE
 $Comp
-L power:GNDD #PWR0184
-U 1 1 606D287A
-P 3150 4275
-F 0 "#PWR0184" H 3150 4025 50  0001 C CNN
-F 1 "GNDD" H 3154 4120 50  0000 C CNN
-F 2 "" H 3150 4275 50  0001 C CNN
-F 3 "" H 3150 4275 50  0001 C CNN
-	1    3150 4275
+L Connector:TestPoint TP2
+U 1 1 602B28D8
+P 5100 7400
+F 0 "TP2" H 5158 7518 50  0000 L CNN
+F 1 "TestPoint" H 5158 7427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5300 7400 50  0001 C CNN
+F 3 "~" H 5300 7400 50  0001 C CNN
+	1    5100 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 602BAA27
+P 5200 7400
+F 0 "TP3" H 5258 7518 50  0000 L CNN
+F 1 "TestPoint" H 5258 7427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5400 7400 50  0001 C CNN
+F 3 "~" H 5400 7400 50  0001 C CNN
+	1    5200 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 602BD7F3
+P 5500 7400
+F 0 "TP4" H 5558 7518 50  0000 L CNN
+F 1 "TestPoint" H 5558 7427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5700 7400 50  0001 C CNN
+F 3 "~" H 5700 7400 50  0001 C CNN
+	1    5500 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 602C59BE
+P 4700 1450
+F 0 "TP1" H 4758 1568 50  0000 L CNN
+F 1 "TestPoint" H 4758 1477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4900 1450 50  0001 C CNN
+F 3 "~" H 4900 1450 50  0001 C CNN
+	1    4700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 602D02F7
+P 3725 7175
+F 0 "TP5" H 3783 7293 50  0000 L CNN
+F 1 "TestPoint" H 3850 7450 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3925 7175 50  0001 C CNN
+F 3 "~" H 3925 7175 50  0001 C CNN
+	1    3725 7175
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 602D02FD
+P 3925 7175
+F 0 "TP6" H 3983 7293 50  0000 L CNN
+F 1 "TestPoint" H 3650 7475 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4125 7175 50  0001 C CNN
+F 3 "~" H 4125 7175 50  0001 C CNN
+	1    3925 7175
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0190
+U 1 1 602D5E49
+P 3925 7175
+F 0 "#PWR0190" H 3925 6925 50  0001 C CNN
+F 1 "GNDD" H 3929 7020 50  0000 C CNN
+F 2 "" H 3925 7175 50  0001 C CNN
+F 3 "" H 3925 7175 50  0001 C CNN
+	1    3925 7175
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDD #PWR0191
+U 1 1 602D68D8
+P 3725 7175
+F 0 "#PWR0191" H 3725 7025 50  0001 C CNN
+F 1 "VDD" H 3740 7348 50  0000 C CNN
+F 2 "" H 3725 7175 50  0001 C CNN
+F 3 "" H 3725 7175 50  0001 C CNN
+	1    3725 7175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 4250 3150 4250
+	5800 6850 5800 7400
 Wire Wire Line
-	3150 4250 3150 4275
-Text GLabel 5600 7400 3    50   Input ~ 0
-485_DE
+	5700 6850 5700 7400
+Wire Wire Line
+	5600 6850 5600 7400
+Wire Wire Line
+	5500 6850 5500 7400
+Wire Wire Line
+	5300 6850 5300 7075
+Wire Wire Line
+	5200 6850 5200 7400
+Wire Wire Line
+	5100 6850 5100 7400
+Wire Wire Line
+	5000 6850 5000 7400
+Wire Wire Line
+	4900 6850 4900 7400
+Wire Wire Line
+	4800 6850 4800 7075
+$Comp
+L saxli-rescue:PIC32MX350F256H-V_PT-pic32 IC?
+U 1 1 607957F4
+P 3400 2850
+AR Path="/607957F4" Ref="IC?"  Part="1" 
+AR Path="/6078415F/607957F4" Ref="IC1"  Part="1" 
+F 0 "IC1" H 5800 1100 50  0000 L CNN
+F 1 "PIC32MX350F256H-V_PT" H 5775 1000 50  0000 L CNN
+F 2 "mylib:QFP50P1200X1200X120-64N" H 6950 4050 50  0001 L CNN
+F 3 "http://www.mouser.com/ds/2/268/60001185C-270900.pdf" H 6950 3950 50  0001 L CNN
+F 4 "Microchip PIC32MX350F256H-V/PT, 32bit PIC Microcontroller, 100MHz, 256 kB Flash, 64-Pin TQFP" H 6950 3850 50  0001 L CNN "Description"
+F 5 "1.2" H 6950 3750 50  0001 L CNN "Height"
+F 6 "Microchip" H 6950 3650 50  0001 L CNN "Manufacturer_Name"
+F 7 "PIC32MX350F256H-V/PT" H 6950 3550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "579-32MX350F256HVPT" H 6950 3450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-32MX350F256HVPT" H 6950 3350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PIC32MX350F256H-V/PT" H 6950 3250 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/pic32mx350f256h-vpt/microchip-technology" H 6950 3150 50  0001 L CNN "Arrow Price/Stock"
+	1    3400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 6030EB8E
+P 4600 6850
+F 0 "TP8" H 4825 7150 50  0000 R CNN
+F 1 "TestPoint" H 4925 7075 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4800 6850 50  0001 C CNN
+F 3 "~" H 4800 6850 50  0001 C CNN
+	1    4600 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 6031A9C7
+P 4500 6850
+F 0 "TP7" H 4750 6900 50  0000 L CNN
+F 1 "TestPoint" H 4600 6825 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4700 6850 50  0001 C CNN
+F 3 "~" H 4700 6850 50  0001 C CNN
+	1    4500 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 4250 3300 4975
+Wire Wire Line
+	3300 4250 3400 4250
+Wire Wire Line
+	3400 4350 3400 4975
 $EndSCHEMATC

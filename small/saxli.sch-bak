@@ -285,4 +285,56 @@ F 3 "" H 10250 4875 50  0001 C CNN
 	1    10250 4875
 	0    1    1    0   
 $EndComp
+$Comp
+L power:GNDD #PWR0186
+U 1 1 607109EA
+P 7650 2025
+F 0 "#PWR0186" H 7650 1775 50  0001 C CNN
+F 1 "GNDD" H 7654 1870 50  0000 C CNN
+F 2 "" H 7650 2025 50  0001 C CNN
+F 3 "" H 7650 2025 50  0001 C CNN
+	1    7650 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6029E07F
+P 6125 1275
+F 0 "H1" H 6225 1321 50  0000 L CNN
+F 1 "MountingHole" H 6225 1230 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6125 1275 50  0001 C CNN
+F 3 "~" H 6125 1275 50  0001 C CNN
+	1    6125 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6029E5C7
+P 6125 1825
+F 0 "H2" H 6225 1871 50  0000 L CNN
+F 1 "MountingHole" H 6225 1780 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6125 1825 50  0001 C CNN
+F 3 "~" H 6125 1825 50  0001 C CNN
+	1    6125 1825
+	1    0    0    -1  
+$EndComp
+Text Label 11025 3825 0    50   ~ 0
+PWR
+Text GLabel 11050 3725 0    50   Input ~ 0
+VDD5
+Text GLabel 11550 3725 2    50   Input ~ 0
+12V
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 603CC966
+P 11300 3725
+AR Path="/657E4F8F/603CC966" Ref="JP?"  Part="1" 
+AR Path="/603CC966" Ref="JP7"  Part="1" 
+F 0 "JP7" H 11300 3964 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 11300 3873 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 11300 3725 50  0001 C CNN
+F 3 "~" H 11300 3725 50  0001 C CNN
+	1    11300 3725
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
