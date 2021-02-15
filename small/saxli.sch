@@ -247,6 +247,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 9730 5175 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9800 5175 50  0001 C CNN
 F 4 "C25804" H 9800 5175 50  0001 C CNN "LCSC"
 F 5 "0.02" H 9800 5175 50  0001 C CNN "Price"
+F 6 "0603WAF1002T5E" H 9800 5175 50  0001 C CNN "MPN"
+F 7 "0" H 9800 5175 50  0001 C CNN "source"
 	1    9800 5175
 	0    1    1    0   
 $EndComp

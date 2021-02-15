@@ -58,6 +58,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 2905 2000 50  0001 
 F 4 "C122856" H 3025 2000 50  0001 C CNN "LCSC"
 F 5 "BAT54S L44" H 3025 2000 50  0001 C CNN "MPN"
 F 6 "0.0178" H 3025 2000 50  0001 C CNN "Price"
+F 7 "1" H 3025 2000 50  0001 C CNN "source"
 	1    3025 2000
 	1    0    0    -1  
 $EndComp
@@ -74,6 +75,9 @@ F 1 "P6SMB30CA" V 1725 1750 50  0000 L CNN
 F 2 "Diode_SMD:D_SMB" H 1600 2150 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Littelfuse-P6SMB30A_C80390.pdf" H 1550 2350 50  0001 C CNN
 F 4 "C320521" V 1600 2350 50  0001 C CNN "LCSC"
+F 5 "P6SMB30CA" H 1600 2350 50  0001 C CNN "MPN"
+F 6 "0.0756" H 1600 2350 50  0001 C CNN "Price"
+F 7 "1" H 1600 2350 50  0001 C CNN "source"
 	1    1600 2350
 	0    1    1    0   
 $EndComp
@@ -110,6 +114,8 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 3063 2300 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B102KBCNNNC_C46653.pdf" H 3025 2450 50  0001 C CNN
 F 4 "C46653" H 3025 2450 50  0001 C CNN "LCSC"
 F 5 "0.0127" H 3025 2450 50  0001 C CNN "Price"
+F 6 "CL21B102KBCNNNC" H 3025 2450 50  0001 C CNN "MPN"
+F 7 "0" H 3025 2450 50  0001 C CNN "source"
 	1    3025 2450
 	1    0    0    -1  
 $EndComp
@@ -174,6 +180,8 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 3113 4325 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B102KBCNNNC_C46653.pdf" H 3075 4475 50  0001 C CNN
 F 4 "C46653" H 3075 4475 50  0001 C CNN "LCSC"
 F 5 "0.0127" H 3075 4475 50  0001 C CNN "Price"
+F 6 "CL21B102KBCNNNC" H 3075 4475 50  0001 C CNN "MPN"
+F 7 "0" H 3075 4475 50  0001 C CNN "source"
 	1    3075 4475
 	1    0    0    -1  
 $EndComp
@@ -221,6 +229,8 @@ F 2 "Resistor_SMD:R_0805_2012Metric" V 1805 2200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F7501T5E_C17807.pdf" H 1875 2200 50  0001 C CNN
 F 4 "0.0035" V 1875 2200 50  0001 C CNN "Price"
 F 5 "C18359" V 1875 2200 50  0001 C CNN "LCSC"
+F 6 "0805W8F3601T5E" H 1875 2200 50  0001 C CNN "MPN"
+F 7 "0" H 1875 2200 50  0001 C CNN "source"
 	1    1875 2200
 	0    -1   -1   0   
 $EndComp
@@ -236,6 +246,8 @@ F 2 "Resistor_SMD:R_0805_2012Metric" V 2180 2400 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F7501T5E_C17807.pdf" H 2250 2400 50  0001 C CNN
 F 4 "0.0044" V 2250 2400 50  0001 C CNN "Price"
 F 5 "C28636" V 2250 2400 50  0001 C CNN "LCSC"
+F 6 "0805W8F5600T5E" H 2250 2400 50  0001 C CNN "MPN"
+F 7 "0" H 2250 2400 50  0001 C CNN "source"
 	1    2250 2400
 	-1   0    0    1   
 $EndComp
@@ -253,6 +265,7 @@ F 4 "C122856" H 3075 4025 50  0001 C CNN "LCSC"
 F 5 "BAT54S L44" H 3075 4025 50  0001 C CNN "MPN"
 F 6 "BAT54S L44" H 3075 4025 50  0001 C CNN "Mpn"
 F 7 "0.0178" H 3075 4025 50  0001 C CNN "Price"
+F 8 "1" H 3075 4025 50  0001 C CNN "source"
 	1    3075 4025
 	1    0    0    -1  
 $EndComp
@@ -297,6 +310,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5325 4125 50  0001 
 F 4 "C122856" H 5445 4125 50  0001 C CNN "LCSC"
 F 5 "BAT54S L44" H 5445 4125 50  0001 C CNN "MPN"
 F 6 "0.0178" H 5445 4125 50  0001 C CNN "Price"
+F 7 "1" H 5445 4125 50  0001 C CNN "source"
 	1    5445 4125
 	1    0    0    -1  
 $EndComp
@@ -357,6 +371,9 @@ F 1 "P6SMB30CA" V 1800 3775 50  0000 L CNN
 F 2 "Diode_SMD:D_SMB" H 1675 4175 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Littelfuse-P6SMB30A_C80390.pdf" H 1625 4375 50  0001 C CNN
 F 4 "C320521" V 1675 4375 50  0001 C CNN "LCSC"
+F 5 "P6SMB30CA" H 1675 4375 50  0001 C CNN "MPN"
+F 6 "0.0756" H 1675 4375 50  0001 C CNN "Price"
+F 7 "1" H 1675 4375 50  0001 C CNN "source"
 	1    1675 4375
 	0    1    1    0   
 $EndComp
@@ -408,6 +425,8 @@ F 2 "Resistor_SMD:R_0805_2012Metric" V 1880 4225 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F7501T5E_C17807.pdf" H 1950 4225 50  0001 C CNN
 F 4 "0.0035" V 1950 4225 50  0001 C CNN "Price"
 F 5 "C18359" V 1950 4225 50  0001 C CNN "LCSC"
+F 6 "0805W8F3601T5E" H 1950 4225 50  0001 C CNN "MPN"
+F 7 "0" H 1950 4225 50  0001 C CNN "source"
 	1    1950 4225
 	0    -1   -1   0   
 $EndComp
@@ -458,6 +477,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4200 4325 50  0001 C CNN
 F 4 "C7950" H 4200 4325 50  0001 C CNN "LCSC"
 F 5 "LM358DR2G" H 4200 4325 50  0001 C CNN "MPN"
 F 6 "0.0687" H 4200 4325 50  0001 C CNN "Price"
+F 7 "0" H 4200 4325 50  0001 C CNN "source"
 	2    4200 4325
 	1    0    0    -1  
 $EndComp
@@ -487,6 +507,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Sunlord-GZ2012D601TF_C1017.pdf" H 2650 22
 F 4 "C1017" V 2650 2200 50  0001 C CNN "LCSC"
 F 5 "GZ2012D601TF" V 2650 2200 50  0001 C CNN "MPN"
 F 6 "0.0121" V 2650 2200 50  0001 C CNN "Price"
+F 7 "0" H 2650 2200 50  0001 C CNN "source"
 	1    2650 2200
 	0    1    1    0   
 $EndComp
@@ -503,6 +524,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Sunlord-GZ2012D601TF_C1017.pdf" H 2725 42
 F 4 "C1017" V 2725 4225 50  0001 C CNN "LCSC"
 F 5 "GZ2012D601TF" V 2725 4225 50  0001 C CNN "MPN"
 F 6 "0.0121" V 2725 4225 50  0001 C CNN "Price"
+F 7 "0" H 2725 4225 50  0001 C CNN "source"
 	1    2725 4225
 	0    1    1    0   
 $EndComp
@@ -522,6 +544,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 227
 F 4 "C14663" H 2275 6025 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 2275 6025 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 2275 6025 50  0001 C CNN "MPN"
+F 7 "0" H 2275 6025 50  0001 C CNN "source"
 	1    2275 6025
 	1    0    0    -1  
 $EndComp
@@ -554,6 +577,7 @@ F 4 "C122856" H 5295 2100 50  0001 C CNN "LCSC"
 F 5 "BAT54S L44" H 5295 2100 50  0001 C CNN "MPN"
 F 6 "BAT54S L44" H 5295 2100 50  0001 C CNN "Mpn"
 F 7 "0.0178" H 5295 2100 50  0001 C CNN "Price"
+F 8 "1" H 5295 2100 50  0001 C CNN "source"
 	1    5295 2100
 	1    0    0    -1  
 $EndComp
@@ -596,6 +620,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 2300 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 4900 2300 50  0001 C CNN
 F 4 " C21190" H 4900 2300 50  0001 C CNN "LCSC"
 F 5 "0.009" H 4900 2300 50  0001 C CNN "Price"
+F 6 "0603WAF1001T5E" H 4900 2300 50  0001 C CNN "MPN"
+F 7 "0" H 4900 2300 50  0001 C CNN "source"
 	1    4900 2300
 	0    1    1    0   
 $EndComp
@@ -612,6 +638,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 4855 4325 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 4925 4325 50  0001 C CNN
 F 4 " C21190" H 4925 4325 50  0001 C CNN "LCSC"
 F 5 "0.009" H 4925 4325 50  0001 C CNN "Price"
+F 6 "0603WAF1001T5E" H 4925 4325 50  0001 C CNN "MPN"
+F 7 "0" H 4925 4325 50  0001 C CNN "source"
 	1    4925 4325
 	0    1    1    0   
 $EndComp
@@ -627,6 +655,8 @@ F 2 "Resistor_SMD:R_0805_2012Metric" V 2255 4425 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F7501T5E_C17807.pdf" H 2325 4425 50  0001 C CNN
 F 4 "0.0044" V 2325 4425 50  0001 C CNN "Price"
 F 5 "C28636" V 2325 4425 50  0001 C CNN "LCSC"
+F 6 "0805W8F5600T5E" H 2325 4425 50  0001 C CNN "MPN"
+F 7 "0" H 2325 4425 50  0001 C CNN "source"
 	1    2325 4425
 	-1   0    0    1   
 $EndComp

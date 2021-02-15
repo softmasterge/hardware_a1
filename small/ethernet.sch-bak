@@ -277,6 +277,7 @@ F 1 "ENC28J60x-SS" H 3325 3200 50  0000 C CNN
 F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 4500 2050 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf" H 3350 3000 50  0001 C CNN
 F 4 " C47351" H 3350 3000 50  0001 C CNN "LCSC"
+F 5 "1" H 3350 3000 50  0001 C CNN "source"
 	1    3350 3000
 	1    0    0    -1  
 $EndComp
@@ -307,7 +308,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 3600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2321T5E_C22905.pdf" H 4500 3600 50  0001 C CNN
 F 4 "C22905" V 4500 3600 50  0001 C CNN "LCSC"
 F 5 "0603WAF2321T5E" V 4500 3600 50  0001 C CNN "MPN"
-F 6 "0.0016" V 4500 3600 50  0001 C CNN "Price"
+F 6 "0.0040" V 4500 3600 50  0001 C CNN "Price"
+F 7 "1" H 4500 3600 50  0001 C CNN "source"
 	1    4500 3600
 	0    1    1    0   
 $EndComp
@@ -362,6 +364,8 @@ F 1 "Crystal" V 1825 3700 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1850 3425 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322525MOB4SI_C9006.pdf" H 1850 3425 50  0001 C CNN
 F 4 " C9006" V 1850 3425 50  0001 C CNN "LCSC"
+F 5 "X322525MOB4SI" H 1850 3425 50  0001 C CNN "MPN"
+F 6 "0" H 1850 3425 50  0001 C CNN "source"
 	1    1850 3425
 	0    -1   -1   0   
 $EndComp
@@ -389,6 +393,8 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 2975 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C180JB8NNNC_C1647.pdf" H 1850 3125 50  0001 C CNN
 F 4 "C1647" H 1850 3125 50  0001 C CNN "LCSC"
 F 5 "CL10C180JB8NNNC" H 1850 3125 50  0001 C CNN "MPN"
+F 6 "0.0073" H 1850 3125 50  0001 C CNN "Price"
+F 7 "0" H 1850 3125 50  0001 C CNN "source"
 	1    1850 3125
 	1    0    0    -1  
 $EndComp
@@ -463,6 +469,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 2450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1005T5E_C7250.pdf" H 6650 2450 50  0001 C CNN
 F 4 " C7250" H 6650 2450 50  0001 C CNN "LCSC"
 F 5 "0.0028" H 6650 2450 50  0001 C CNN "Price"
+F 6 "0603WAF1005T5E" H 6650 2450 50  0001 C CNN "MPN"
+F 7 "0" H 6650 2450 50  0001 C CNN "source"
 	1    6650 2450
 	1    0    0    -1  
 $EndComp
@@ -501,6 +509,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Sunlord-GZ2012D601TF_C1017.pdf" H 5450 14
 F 4 "C1017" V 5450 1425 50  0001 C CNN "LCSC"
 F 5 "GZ2012D601TF" V 5450 1425 50  0001 C CNN "MPN"
 F 6 "0.0121" V 5450 1425 50  0001 C CNN "Price"
+F 7 "0" H 5450 1425 50  0001 C CNN "source"
 	1    5450 1425
 	0    1    1    0   
 $EndComp
@@ -594,6 +603,9 @@ F 1 "49.9 %1" V 6125 2075 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5955 2075 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF499JT5E_C23185.pdf" H 6025 2075 50  0001 C CNN
 F 4 "C23185" V 6025 2075 50  0001 C CNN "LCSC"
+F 5 "0603WAF499JT5E" H 6025 2075 50  0001 C CNN "MPN"
+F 6 "0" H 6025 2075 50  0001 C CNN "source"
+F 7 "0.0040" H 6025 2075 50  0001 C CNN "Price"
 	1    6025 2075
 	0    1    1    0   
 $EndComp
@@ -682,6 +694,9 @@ F 1 "49.9 %1" V 5875 1975 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5955 1975 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF499JT5E_C23185.pdf" H 6025 1975 50  0001 C CNN
 F 4 "C23185" V 6025 1975 50  0001 C CNN "LCSC"
+F 5 "0603WAF499JT5E" H 6025 1975 50  0001 C CNN "MPN"
+F 6 "0" H 6025 1975 50  0001 C CNN "source"
+F 7 "0.0040" H 6025 1975 50  0001 C CNN "Price"
 	1    6025 1975
 	0    1    1    0   
 $EndComp
@@ -694,6 +709,9 @@ F 1 "49.9 %1" V 6250 1525 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 1525 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF499JT5E_C23185.pdf" H 6150 1525 50  0001 C CNN
 F 4 "C23185" V 6150 1525 50  0001 C CNN "LCSC"
+F 5 "0603WAF499JT5E" H 6150 1525 50  0001 C CNN "MPN"
+F 6 "0" H 6150 1525 50  0001 C CNN "source"
+F 7 "0.0040" H 6150 1525 50  0001 C CNN "Price"
 	1    6150 1525
 	0    1    1    0   
 $EndComp
@@ -706,6 +724,9 @@ F 1 "49.9 %1" V 6050 1425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 1425 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF499JT5E_C23185.pdf" H 6150 1425 50  0001 C CNN
 F 4 "C23185" V 6150 1425 50  0001 C CNN "LCSC"
+F 5 "0603WAF499JT5E" H 6150 1425 50  0001 C CNN "MPN"
+F 6 "0" H 6150 1425 50  0001 C CNN "source"
+F 7 "0.0040" H 6150 1425 50  0001 C CNN "Price"
 	1    6150 1425
 	0    1    1    0   
 $EndComp
@@ -729,6 +750,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 280
 F 4 "C14663" H 2800 1000 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 2800 1000 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 2800 1000 50  0001 C CNN "MPN"
+F 7 "0" H 2800 1000 50  0001 C CNN "source"
 	1    2800 1000
 	1    0    0    -1  
 $EndComp
@@ -746,6 +768,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 317
 F 4 "C14663" H 3175 1000 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 3175 1000 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 3175 1000 50  0001 C CNN "MPN"
+F 7 "0" H 3175 1000 50  0001 C CNN "source"
 	1    3175 1000
 	1    0    0    -1  
 $EndComp
@@ -763,6 +786,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 355
 F 4 "C14663" H 3550 1000 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 3550 1000 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 3550 1000 50  0001 C CNN "MPN"
+F 7 "0" H 3550 1000 50  0001 C CNN "source"
 	1    3550 1000
 	1    0    0    -1  
 $EndComp
@@ -780,6 +804,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 392
 F 4 "C14663" H 3925 1000 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 3925 1000 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 3925 1000 50  0001 C CNN "MPN"
+F 7 "0" H 3925 1000 50  0001 C CNN "source"
 	1    3925 1000
 	1    0    0    -1  
 $EndComp
@@ -797,6 +822,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 582
 F 4 "C14663" H 5825 975 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 5825 975 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 5825 975 50  0001 C CNN "MPN"
+F 7 "0" H 5825 975 50  0001 C CNN "source"
 	1    5825 975 
 	1    0    0    -1  
 $EndComp
@@ -814,6 +840,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K
 F 4 " C57112" H 5700 2450 50  0001 C CNN "LCSC"
 F 5 "0.0053" H 5700 2450 50  0001 C CNN "Price"
 F 6 "0603B103K500NT" H 5700 2450 50  0001 C CNN "MPN"
+F 7 "0" H 5700 2450 50  0001 C CNN "source"
 	1    5700 2450
 	1    0    0    -1  
 $EndComp
@@ -830,6 +857,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 1555 2475 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 1625 2475 50  0001 C CNN
 F 4 "C25804" H 1625 2475 50  0001 C CNN "LCSC"
 F 5 "0.02" H 1625 2475 50  0001 C CNN "Price"
+F 6 "0603WAF1002T5E" H 1625 2475 50  0001 C CNN "MPN"
+F 7 "0" H 1625 2475 50  0001 C CNN "source"
 	1    1625 2475
 	1    0    0    -1  
 $EndComp
@@ -846,6 +875,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 1975 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 2450 1975 50  0001 C CNN
 F 4 "C25804" H 2450 1975 50  0001 C CNN "LCSC"
 F 5 "0.02" H 2450 1975 50  0001 C CNN "Price"
+F 6 "0603WAF1002T5E" H 2450 1975 50  0001 C CNN "MPN"
+F 7 "0" H 2450 1975 50  0001 C CNN "source"
 	1    2450 1975
 	1    0    0    -1  
 $EndComp
@@ -862,6 +893,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/AVX-TAJA106K016RNJ_C7171.pdf" H 4250 3950
 F 4 "C7171" H 4250 3950 50  0001 C CNN "LCSC"
 F 5 "TAJA106K016RNJ" H 4250 3950 50  0001 C CNN "MPN"
 F 6 "0.2135" H 4250 3950 50  0001 C CNN "Price"
+F 7 "0" H 4250 3950 50  0001 C CNN "source"
 	1    4250 3950
 	1    0    0    -1  
 $EndComp
@@ -875,6 +907,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 6805 2450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1005T5E_C7250.pdf" H 6875 2450 50  0001 C CNN
 F 4 " C7250" H 6875 2450 50  0001 C CNN "LCSC"
 F 5 "0.0028" H 6875 2450 50  0001 C CNN "Price"
+F 6 "0603WAF1005T5E" H 6875 2450 50  0001 C CNN "MPN"
+F 7 "0" H 6875 2450 50  0001 C CNN "source"
 	1    6875 2450
 	1    0    0    -1  
 $EndComp
@@ -890,6 +924,8 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 3575 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C180JB8NNNC_C1647.pdf" H 1850 3725 50  0001 C CNN
 F 4 "C1647" H 1850 3725 50  0001 C CNN "LCSC"
 F 5 "CL10C180JB8NNNC" H 1850 3725 50  0001 C CNN "MPN"
+F 6 "0.0073" H 1850 3725 50  0001 C CNN "Price"
+F 7 "0" H 1850 3725 50  0001 C CNN "source"
 	1    1850 3725
 	1    0    0    -1  
 $EndComp
@@ -945,6 +981,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC
 F 4 "C15849" H 4325 975 50  0001 C CNN "LCSC"
 F 5 "0.0126" H 4325 975 50  0001 C CNN "Price"
 F 6 "CL10A105KB8NNNC" H 4325 975 50  0001 C CNN "MPN"
+F 7 "0" H 4325 975 50  0001 C CNN "source"
 	1    4325 975 
 	1    0    0    -1  
 $EndComp
@@ -992,6 +1029,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Murata-Electronics-GRM188R61E1
 F 4 "C344022" H 4675 975 50  0001 C CNN "LCSC"
 F 5 "0.0354" H 4675 975 50  0001 C CNN "Price"
 F 6 "GRM188R61E106KA73D" H 4675 975 50  0001 C CNN "MPN"
+F 7 "1" H 4675 975 50  0001 C CNN "source"
 	1    4675 975 
 	1    0    0    -1  
 $EndComp
@@ -1026,6 +1064,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC
 F 4 "C15849" H 5075 1725 50  0001 C CNN "LCSC"
 F 5 "0.0126" H 5075 1725 50  0001 C CNN "Price"
 F 6 "CL10A105KB8NNNC" H 5075 1725 50  0001 C CNN "MPN"
+F 7 "0" H 5075 1725 50  0001 C CNN "source"
 	1    5075 1725
 	1    0    0    -1  
 $EndComp
@@ -1060,6 +1099,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Murata-Electronics-GRM188R61E1
 F 4 "C344022" H 5275 1725 50  0001 C CNN "LCSC"
 F 5 "0.0354" H 5275 1725 50  0001 C CNN "Price"
 F 6 "GRM188R61E106KA73D" H 5275 1725 50  0001 C CNN "MPN"
+F 7 "1" H 5275 1725 50  0001 C CNN "source"
 	1    5275 1725
 	1    0    0    -1  
 $EndComp

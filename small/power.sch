@@ -24,6 +24,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps5430.pdf" H 3900 2775 50  0001 C CNN
 F 4 "C9864" H 3900 2775 50  0001 C CNN "LCSC"
 F 5 "0.7338" H 3900 2775 50  0001 C CNN "Price"
 F 6 "TPS5430DDAR" H 3900 2775 50  0001 C CNN "MPN"
+F 7 "0" H 3900 2775 50  0001 C CNN "source"
 	1    3900 2775
 	1    0    0    -1  
 $EndComp
@@ -59,6 +60,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 2863 2600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 2825 2750 50  0001 C CNN
 F 4 "C13585" H 2825 2750 50  0001 C CNN "LCSC"
 F 5 "CL31A106KBHNNNE" H 2825 2750 50  0001 C CNN "MPN"
+F 6 "0" H 2825 2750 50  0001 C CNN "source"
 	1    2825 2750
 	1    0    0    -1  
 $EndComp
@@ -111,6 +113,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 7205 3300 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1101T5E_C22764.pdf" H 7275 3300 50  0001 C CNN
 F 4 "C22764" H 7275 3300 50  0001 C CNN "LCSC"
 F 5 "0.0020" H 7275 3300 50  0001 C CNN "Price"
+F 6 "0603WAF1101T5E" H 7275 3300 50  0001 C CNN "MPN"
+F 7 "0" H 7275 3300 50  0001 C CNN "source"
 	1    7275 3300
 	1    0    0    -1  
 $EndComp
@@ -209,6 +213,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/1808280138_Sunltech-Tech-SLO1040H220MTT_C
 F 4 " C182173" H 6125 4350 50  0001 C CNN "LCSC"
 F 5 "0.1927" H 6125 4350 50  0001 C CNN "Price"
 F 6 "SLO1040H220MTT" H 6125 4350 50  0001 C CNN "MPN"
+F 7 "1" H 6125 4350 50  0001 C CNN "source"
 	1    6125 4350
 	1    0    0    -1  
 $EndComp
@@ -242,6 +247,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 5075 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3241T5E_C22994.pdf" H 7250 5075 50  0001 C CNN
 F 4 "C22994" H 7250 5075 50  0001 C CNN "LCSC"
 F 5 "0603WAF3241T5E" H 7250 5075 50  0001 C CNN "MPN"
+F 6 "0.0016" H 7250 5075 50  0001 C CNN "Price"
+F 7 "0" H 7250 5075 50  0001 C CNN "source"
 	1    7250 5075
 	1    0    0    -1  
 $EndComp
@@ -290,10 +297,12 @@ F 0 "U3" H 5575 1167 50  0000 C CNN
 F 1 "LD1117S33TR_SOT223" H 5575 1076 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 5575 1125 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-LD1117S33CTR_C35879.pdf" H 5675 675 50  0001 C CNN
-F 4 "LD1117S33CTR" H 5575 925 50  0001 C CNN "Mpn"
+F 4 "" H 5575 925 50  0001 C CNN "Mpn"
 F 5 "0.1762" H 5575 925 50  0001 C CNN "Price"
-F 6 "mouser" H 5575 925 50  0001 C CNN "Website"
+F 6 "" H 5575 925 50  0001 C CNN "Website"
 F 7 "C35879" H 5575 925 50  0001 C CNN "LCSC"
+F 8 "LD1117S33CTR" H 5575 925 50  0001 C CNN "MPN"
+F 9 "1" H 5575 925 50  0001 C CNN "source"
 	1    5575 925 
 	1    0    0    -1  
 $EndComp
@@ -337,10 +346,12 @@ F 0 "U2" H 3675 1167 50  0000 C CNN
 F 1 "LM7805_TO220" H 3675 1076 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 3675 1150 50  0001 C CIN
 F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ7805-3_C21706.pdf" H 3675 875 50  0001 C CNN
-F 4 "CJ7805" H 3675 925 50  0001 C CNN "Mpn"
+F 4 "" H 3675 925 50  0001 C CNN "Mpn"
 F 5 "0.1620" H 3675 925 50  0001 C CNN "Price"
-F 6 "mouser" H 3675 925 50  0001 C CNN "Website"
+F 6 "" H 3675 925 50  0001 C CNN "Website"
 F 7 "C21706" H 3675 925 50  0001 C CNN "LCSC"
+F 8 "CJ7805" H 3675 925 50  0001 C CNN "MPN"
+F 9 "1" H 3675 925 50  0001 C CNN "source"
 	1    3675 925 
 	1    0    0    -1  
 $EndComp
@@ -355,6 +366,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B105KBFNNNE
 F 4 " C28323" H 3075 1050 50  0001 C CNN "LCSC"
 F 5 "0.0195" H 3075 1050 50  0001 C CNN "Price"
 F 6 "CL21B105KBFNNNE" H 3075 1050 50  0001 C CNN "MPN"
+F 7 "0" H 3075 1050 50  0001 C CNN "source"
 	1    3075 1050
 	1    0    0    -1  
 $EndComp
@@ -444,6 +456,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 417
 F 4 "C14663" H 4175 1075 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 4175 1075 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 4175 1075 50  0001 C CNN "MPN"
+F 7 "0" H 4175 1075 50  0001 C CNN "source"
 	1    4175 1075
 	1    0    0    -1  
 $EndComp
@@ -461,6 +474,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 492
 F 4 "C14663" H 4925 1075 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 4925 1075 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 4925 1075 50  0001 C CNN "MPN"
+F 7 "0" H 4925 1075 50  0001 C CNN "source"
 	1    4925 1075
 	1    0    0    -1  
 $EndComp
@@ -475,6 +489,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Lelon-VEH221M1VTR-0810_C311611.pdf" H 677
 F 4 " C311611" H 6775 2850 50  0001 C CNN "LCSC"
 F 5 "VEH221M1VTR" H 6775 2850 50  0001 C CNN "MPN"
 F 6 "0.1259" H 6775 2850 50  0001 C CNN "Price"
+F 7 "1" H 6775 2850 50  0001 C CNN "source"
 	1    6775 2850
 	1    0    0    -1  
 $EndComp
@@ -489,6 +504,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Lelon-VEH221M1VTR-0810_C311611.pdf" H 675
 F 4 " C311611" H 6750 4625 50  0001 C CNN "LCSC"
 F 5 "VEH221M1VTR" H 6750 4625 50  0001 C CNN "MPN"
 F 6 "0.1259" H 6750 4625 50  0001 C CNN "Price"
+F 7 "1" H 6750 4625 50  0001 C CNN "source"
 	1    6750 4625
 	1    0    0    -1  
 $EndComp
@@ -503,6 +519,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Lelon-VEH221M1VTR-0810_C311611.pdf" H 645
 F 4 " C311611" H 6450 1075 50  0001 C CNN "LCSC"
 F 5 "VEH221M1VTR" H 6450 1075 50  0001 C CNN "MPN"
 F 6 "0.1259" H 6450 1075 50  0001 C CNN "Price"
+F 7 "1" H 6450 1075 50  0001 C CNN "source"
 	1    6450 1075
 	1    0    0    -1  
 $EndComp
@@ -519,6 +536,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/AVX-TAJA106K016RNJ_C7171.pdf" H 6850 1075
 F 4 "C7171" H 6850 1075 50  0001 C CNN "LCSC"
 F 5 "TAJA106K016RNJ" H 6850 1075 50  0001 C CNN "MPN"
 F 6 "0.2135" H 6850 1075 50  0001 C CNN "Price"
+F 7 "0" H 6850 1075 50  0001 C CNN "source"
 	1    6850 1075
 	1    0    0    -1  
 $EndComp
@@ -537,6 +555,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K
 F 4 " C57112" H 4750 4350 50  0001 C CNN "LCSC"
 F 5 "0.0053" H 4750 4350 50  0001 C CNN "Price"
 F 6 "0603B103K500NT" H 4750 4350 50  0001 C CNN "MPN"
+F 7 "0" H 4750 4350 50  0001 C CNN "source"
 	1    4750 4350
 	0    -1   -1   0   
 $EndComp
@@ -550,6 +569,7 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 2838 4375 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf" H 2800 4525 50  0001 C CNN
 F 4 "C13585" H 2800 4525 50  0001 C CNN "LCSC"
 F 5 "CL31A106KBHNNNE" H 2800 4525 50  0001 C CNN "MPN"
+F 6 "0" H 2800 4525 50  0001 C CNN "source"
 	1    2800 4525
 	1    0    0    -1  
 $EndComp
@@ -564,6 +584,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/1808280138_Sunltech-Tech-SLO1040H220MTT_C
 F 4 " C182173" H 6150 2575 50  0001 C CNN "LCSC"
 F 5 "0.1927" H 6150 2575 50  0001 C CNN "Price"
 F 6 "SLO1040H220MTT" H 6150 2575 50  0001 C CNN "MPN"
+F 7 "1" H 6150 2575 50  0001 C CNN "source"
 	1    6150 2575
 	1    0    0    -1  
 $EndComp
@@ -578,6 +599,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps5430.pdf" H 3875 4550 50  0001 C CNN
 F 4 "C9864" H 3875 4550 50  0001 C CNN "LCSC"
 F 5 "0.7338" H 3875 4550 50  0001 C CNN "Price"
 F 6 "TPS5430DDAR" H 3875 4550 50  0001 C CNN "MPN"
+F 7 "0" H 3875 4550 50  0001 C CNN "source"
 	1    3875 4550
 	1    0    0    -1  
 $EndComp
@@ -616,6 +638,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/AVX-TAJA106K016RNJ_C7171.pdf" H 6500 2725
 F 4 "C7171" H 6500 2725 50  0001 C CNN "LCSC"
 F 5 "TAJA106K016RNJ" H 6500 2725 50  0001 C CNN "MPN"
 F 6 "0.2135" H 6500 2725 50  0001 C CNN "Price"
+F 7 "0" H 6500 2725 50  0001 C CNN "source"
 	1    6500 2725
 	1    0    0    -1  
 $EndComp
@@ -632,6 +655,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/AVX-TAJA106K016RNJ_C7171.pdf" H 6475 4500
 F 4 "C7171" H 6475 4500 50  0001 C CNN "LCSC"
 F 5 "TAJA106K016RNJ" H 6475 4500 50  0001 C CNN "MPN"
 F 6 "0.2135" H 6475 4500 50  0001 C CNN "Price"
+F 7 "0" H 6475 4500 50  0001 C CNN "source"
 	1    6475 4500
 	1    0    0    -1  
 $EndComp
@@ -670,6 +694,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 7205 2825 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 7275 2825 50  0001 C CNN
 F 4 "C25804" H 7275 2825 50  0001 C CNN "LCSC"
 F 5 "0.02" H 7275 2825 50  0001 C CNN "Price"
+F 6 "0603WAF1002T5E" H 7275 2825 50  0001 C CNN "MPN"
+F 7 "0" H 7275 2825 50  0001 C CNN "source"
 	1    7275 2825
 	1    0    0    -1  
 $EndComp
@@ -686,6 +712,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 4600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 7250 4600 50  0001 C CNN
 F 4 "C25804" H 7250 4600 50  0001 C CNN "LCSC"
 F 5 "0.02" H 7250 4600 50  0001 C CNN "Price"
+F 6 "0603WAF1002T5E" H 7250 4600 50  0001 C CNN "MPN"
+F 7 "0" H 7250 4600 50  0001 C CNN "source"
 	1    7250 4600
 	1    0    0    -1  
 $EndComp
@@ -702,6 +730,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 7005 1450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1000T5E_C22775.pdf" H 7075 1450 50  0001 C CNN
 F 4 "C22775" H 7075 1450 50  0001 C CNN "LCSC"
 F 5 "0.0019" H 7075 1450 50  0001 C CNN "Price"
+F 6 "0603WAF1000T5E" H 7075 1450 50  0001 C CNN "MPN"
+F 7 "0" H 7075 1450 50  0001 C CNN "source"
 	1    7075 1450
 	1    0    0    -1  
 $EndComp
@@ -733,6 +763,9 @@ F 1 "LED" V 7023 1032 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 7075 1150 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-2012HRK-620D_C84256.pdf" H 7075 1150 50  0001 C CNN
 F 4 "C84256" V 7075 1150 50  0001 C CNN "LCSC"
+F 5 "FC-2012HRK-620D" H 7075 1150 50  0001 C CNN "MPN"
+F 6 "0.0199" H 7075 1150 50  0001 C CNN "Price"
+F 7 "0" H 7075 1150 50  0001 C CNN "source"
 	1    7075 1150
 	0    -1   -1   0   
 $EndComp
@@ -752,6 +785,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K
 F 4 " C57112" H 4775 2575 50  0001 C CNN "LCSC"
 F 5 "0.0053" H 4775 2575 50  0001 C CNN "Price"
 F 6 "0603B103K500NT" H 4775 2575 50  0001 C CNN "MPN"
+F 7 "0" H 4775 2575 50  0001 C CNN "source"
 	1    4775 2575
 	0    -1   -1   0   
 $EndComp
@@ -769,13 +803,16 @@ F 2 "mylib:DIOM5336X320N" H 6000 4400 50  0001 L CNN
 F 3 "https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf" H 6000 4300 50  0001 L CNN
 F 4 "Schottky Diodes & Rectifiers DIODE SCHOTTKY 3A 40V SMB" H 6000 4200 50  0001 L CNN "Description"
 F 5 "3.2" H 6000 4100 50  0001 L CNN "Height"
-F 6 "Comchip Technology" H 6000 4000 50  0001 L CNN "Manufacturer_Name"
-F 7 "SS34B-HF" H 6000 3900 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "" H 6000 4000 50  0001 L CNN "Manufacturer_Name"
+F 7 "" H 6000 3900 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "750-SS34B-HF" H 6000 3800 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF/?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D" H 6000 3700 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 6000 3600 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 6000 3500 50  0001 L CNN "Arrow Price/Stock"
 F 12 "C8678" H 5500 4250 50  0001 C CNN "LCSC"
+F 13 "SS34B-HF" H 5500 4250 50  0001 C CNN "MPN"
+F 14 "0.0350" H 5500 4250 50  0001 C CNN "Price"
+F 15 "0" H 5500 4250 50  0001 C CNN "source"
 	1    5500 4250
 	0    1    1    0   
 $EndComp
@@ -805,13 +842,16 @@ F 2 "mylib:DIOM5336X320N" H 6125 2625 50  0001 L CNN
 F 3 "https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf" H 6125 2525 50  0001 L CNN
 F 4 "Schottky Diodes & Rectifiers DIODE SCHOTTKY 3A 40V SMB" H 6125 2425 50  0001 L CNN "Description"
 F 5 "3.2" H 6125 2325 50  0001 L CNN "Height"
-F 6 "Comchip Technology" H 6125 2225 50  0001 L CNN "Manufacturer_Name"
-F 7 "SS34B-HF" H 6125 2125 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "" H 6125 2225 50  0001 L CNN "Manufacturer_Name"
+F 7 "" H 6125 2125 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "750-SS34B-HF" H 6125 2025 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF/?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D" H 6125 1925 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 6125 1825 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 6125 1725 50  0001 L CNN "Arrow Price/Stock"
 F 12 "C8678" H 5625 2475 50  0001 C CNN "LCSC"
+F 13 "SS34B-HF" H 5625 2475 50  0001 C CNN "MPN"
+F 14 "0.0350" H 5625 2475 50  0001 C CNN "Price"
+F 15 "0" H 5625 2475 50  0001 C CNN "source"
 	1    5625 2475
 	0    1    1    0   
 $EndComp

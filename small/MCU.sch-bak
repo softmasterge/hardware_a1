@@ -76,6 +76,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 3350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 1800 3350 50  0001 C CNN
 F 4 "C25804" H 1800 3350 50  0001 C CNN "LCSC"
 F 5 "0.02" H 1800 3350 50  0001 C CNN "Price"
+F 6 "0603WAF1002T5E" H 1800 3350 50  0001 C CNN "MPN"
+F 7 "0" H 1800 3350 50  0001 C CNN "source"
 	1    1800 3350
 	0    1    1    0   
 $EndComp
@@ -92,6 +94,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 107
 F 4 "C14663" H 1075 3675 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 1075 3675 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 1075 3675 50  0001 C CNN "MPN"
+F 7 "0" H 1075 3675 50  0001 C CNN "source"
 	1    1075 3675
 	1    0    0    -1  
 $EndComp
@@ -107,6 +110,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 3450 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/427/crcwce3-1762584.pdf" H 1800 3450 50  0001 C CNN
 F 4 " C21190" H 1800 3450 50  0001 C CNN "LCSC"
 F 5 "0.009" H 1800 3450 50  0001 C CNN "Price"
+F 6 "0603WAF1001T5E" H 1800 3450 50  0001 C CNN "MPN"
+F 7 "0" H 1800 3450 50  0001 C CNN "source"
 	1    1800 3450
 	0    1    1    0   
 $EndComp
@@ -152,6 +157,9 @@ F 1 "LED" V 8073 3807 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 8125 3925 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-2012HRK-620D_C84256.pdf" H 8125 3925 50  0001 C CNN
 F 4 "C84256" V 8125 3925 50  0001 C CNN "LCSC"
+F 5 "FC-2012HRK-620D" H 8125 3925 50  0001 C CNN "MPN"
+F 6 "0.0199" H 8125 3925 50  0001 C CNN "Price"
+F 7 "0" H 8125 3925 50  0001 C CNN "source"
 	1    8125 3925
 	0    -1   -1   0   
 $EndComp
@@ -167,6 +175,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 8055 4225 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1000T5E_C22775.pdf" H 8125 4225 50  0001 C CNN
 F 4 "C22775" H 8125 4225 50  0001 C CNN "LCSC"
 F 5 "0.0019" H 8125 4225 50  0001 C CNN "Price"
+F 6 "0603WAF1000T5E" H 8125 4225 50  0001 C CNN "MPN"
+F 7 "0" H 8125 4225 50  0001 C CNN "source"
 	1    8125 4225
 	1    0    0    -1  
 $EndComp
@@ -634,6 +644,8 @@ F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9975 5450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PCF8563.pdf" H 9975 5450 50  0001 C CNN
 F 4 "C7440" H 9975 5450 50  0001 C CNN "LCSC"
 F 5 "0.3876" H 9975 5450 50  0001 C CNN "Price"
+F 6 "PCF8563T" H 9975 5450 50  0001 C CNN "MPN"
+F 7 "0" H 9975 5450 50  0001 C CNN "source"
 	1    9975 5450
 	1    0    0    -1  
 $EndComp
@@ -650,11 +662,13 @@ P 9200 5100
 AR Path="/607D7927" Ref="C?"  Part="1" 
 AR Path="/6078415F/607D7927" Ref="C26"  Part="1" 
 F 0 "C26" H 9315 5146 50  0000 L CNN
-F 1 "15pf" H 9315 5055 50  0000 L CNN
+F 1 "20pf" H 9315 5055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9238 4950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C150JB8NNNC_C1644.pdf" H 9200 5100 50  0001 C CNN
 F 4 "C1648" H 9200 5100 50  0001 C CNN "LCSC"
 F 5 "C1644" H 9200 5100 50  0001 C CNN "Price"
+F 6 "CL10C200JB8NNNC" H 9200 5100 50  0001 C CNN "MPN"
+F 7 "0" H 9200 5100 50  0001 C CNN "source"
 	1    9200 5100
 	1    0    0    -1  
 $EndComp
@@ -669,6 +683,9 @@ F 1 "Crystal" V 9245 5581 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 9200 5450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1901081604_Seiko-Epson-Q13FC1350000400_C32346.pdf" H 9200 5450 50  0001 C CNN
 F 4 "C32346" V 9200 5450 50  0001 C CNN "LCSC"
+F 5 "Q13FC1350000400" H 9200 5450 50  0001 C CNN "MPN"
+F 6 "0.4291" H 9200 5450 50  0001 C CNN "Price"
+F 7 "0" H 9200 5450 50  0001 C CNN "source"
 	1    9200 5450
 	0    1    1    0   
 $EndComp
@@ -732,6 +749,8 @@ F 2 "Diode_SMD:D_SMA" H 9975 4550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1903051003_MDD-Jiangsu-Yutai-Elec-SS14_C2480.pdf" H 9975 4550 50  0001 C CNN
 F 4 " C2480" H 9975 4550 50  0001 C CNN "LCSC"
 F 5 "0.0178" H 9975 4550 50  0001 C CNN "Price"
+F 6 "SS14" H 9975 4550 50  0001 C CNN "MPN"
+F 7 "0" H 9975 4550 50  0001 C CNN "source"
 	1    9975 4550
 	0    1    1    0   
 $EndComp
@@ -753,6 +772,7 @@ F 2 "small:XH414HG-IV01E" H 9088 4400 50  0001 C CNN
 F 3 "~" H 9050 4550 50  0001 C CNN
 F 4 "KR-5R5C105-R" V 9050 4550 50  0001 C CNN "MPN"
 F 5 "C38065" H 9050 4550 50  0001 C CNN "LCSC"
+F 6 "1" H 9050 4550 50  0001 C CNN "source"
 	1    9050 4550
 	0    1    1    0   
 $EndComp
@@ -791,6 +811,8 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B
 F 4 "-" H 1650 7150 50  0001 C CNN "LCSC"
 F 5 "AT25M02-SSHD-T" H 1650 7150 50  0001 C CNN "MPN"
 F 6 "2,60" H 1650 7150 50  0001 C CNN "Price"
+F 7 "mouser" H 1650 7150 50  0001 C CNN "Website"
+F 8 "0" H 1650 7150 50  0001 C CNN "source"
 	1    1650 7150
 	1    0    0    -1  
 $EndComp
@@ -888,6 +910,9 @@ F 1 "100" V 9609 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9655 4750 50  0001 C CNN
 F 3 "~" H 9725 4750 50  0001 C CNN
 F 4 " C7250" V 9725 4750 50  0001 C CNN "LCSC"
+F 5 "0603WAF1005T5E" H 9725 4750 50  0001 C CNN "MPN"
+F 6 "0.0028" H 9725 4750 50  0001 C CNN "Price"
+F 7 "0" H 9725 4750 50  0001 C CNN "source"
 	1    9725 4750
 	0    1    1    0   
 $EndComp
@@ -906,6 +931,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 107
 F 4 "C14663" H 1075 2150 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 1075 2150 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 1075 2150 50  0001 C CNN "MPN"
+F 7 "0" H 1075 2150 50  0001 C CNN "source"
 	1    1075 2150
 	1    0    0    -1  
 $EndComp
@@ -922,6 +948,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 145
 F 4 "C14663" H 1450 2150 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 1450 2150 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 1450 2150 50  0001 C CNN "MPN"
+F 7 "0" H 1450 2150 50  0001 C CNN "source"
 	1    1450 2150
 	1    0    0    -1  
 $EndComp
@@ -938,6 +965,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 182
 F 4 "C14663" H 1825 2150 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 1825 2150 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 1825 2150 50  0001 C CNN "MPN"
+F 7 "0" H 1825 2150 50  0001 C CNN "source"
 	1    1825 2150
 	1    0    0    -1  
 $EndComp
@@ -954,6 +982,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 222
 F 4 "C14663" H 2225 2150 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 2225 2150 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 2225 2150 50  0001 C CNN "MPN"
+F 7 "0" H 2225 2150 50  0001 C CNN "source"
 	1    2225 2150
 	1    0    0    -1  
 $EndComp
@@ -970,6 +999,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 260
 F 4 "C14663" H 2600 2150 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 2600 2150 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 2600 2150 50  0001 C CNN "MPN"
+F 7 "0" H 2600 2150 50  0001 C CNN "source"
 	1    2600 2150
 	1    0    0    -1  
 $EndComp
@@ -986,6 +1016,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 840
 F 4 "C14663" H 8400 2800 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 8400 2800 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 8400 2800 50  0001 C CNN "MPN"
+F 7 "0" H 8400 2800 50  0001 C CNN "source"
 	1    8400 2800
 	1    0    0    -1  
 $EndComp
@@ -1010,6 +1041,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/AVX-TAJA106K016RNJ_C7171.pdf" H 5050 725 
 F 4 "C7171" H 5050 725 50  0001 C CNN "LCSC"
 F 5 "TAJA106K016RNJ" H 5050 725 50  0001 C CNN "MPN"
 F 6 "0.2135" H 5050 725 50  0001 C CNN "Price"
+F 7 "0" H 5050 725 50  0001 C CNN "source"
 	1    5050 725 
 	0    1    1    0   
 $EndComp
@@ -1031,6 +1063,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 212
 F 4 "C14663" H 2125 3775 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 2125 3775 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 2125 3775 50  0001 C CNN "MPN"
+F 7 "0" H 2125 3775 50  0001 C CNN "source"
 	1    2125 3775
 	1    0    0    -1  
 $EndComp
@@ -1049,6 +1082,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 277
 F 4 "C14663" H 2775 7150 50  0001 C CNN "LCSC"
 F 5 "0.0071" H 2775 7150 50  0001 C CNN "Price"
 F 6 "CC0603KRX7R9BB104" H 2775 7150 50  0001 C CNN "MPN"
+F 7 "0" H 2775 7150 50  0001 C CNN "source"
 	1    2775 7150
 	1    0    0    -1  
 $EndComp
@@ -1061,11 +1095,13 @@ P 9200 5800
 AR Path="/609E1851" Ref="C?"  Part="1" 
 AR Path="/6078415F/609E1851" Ref="C44"  Part="1" 
 F 0 "C44" H 9315 5846 50  0000 L CNN
-F 1 "15pf" H 9315 5755 50  0000 L CNN
+F 1 "20pf" H 9315 5755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9238 5650 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C150JB8NNNC_C1644.pdf" H 9200 5800 50  0001 C CNN
 F 4 "C1648" H 9200 5800 50  0001 C CNN "LCSC"
 F 5 "C1644" H 9200 5800 50  0001 C CNN "Price"
+F 6 "CL10C200JB8NNNC" H 9200 5800 50  0001 C CNN "MPN"
+F 7 "0" H 9200 5800 50  0001 C CNN "source"
 	1    9200 5800
 	-1   0    0    1   
 $EndComp
@@ -1097,6 +1133,9 @@ F 1 "LED" V 6148 757 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6200 875 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-2012HRK-620D_C84256.pdf" H 6200 875 50  0001 C CNN
 F 4 "C84256" V 6200 875 50  0001 C CNN "LCSC"
+F 5 "FC-2012HRK-620D" H 6200 875 50  0001 C CNN "MPN"
+F 6 "0.0199" H 6200 875 50  0001 C CNN "Price"
+F 7 "0" H 6200 875 50  0001 C CNN "source"
 	1    6200 875 
 	-1   0    0    1   
 $EndComp
@@ -1112,6 +1151,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 875 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1000T5E_C22775.pdf" H 6500 875 50  0001 C CNN
 F 4 "C22775" H 6500 875 50  0001 C CNN "LCSC"
 F 5 "0.0019" H 6500 875 50  0001 C CNN "Price"
+F 6 "0603WAF1000T5E" H 6500 875 50  0001 C CNN "MPN"
+F 7 "0" H 6500 875 50  0001 C CNN "source"
 	1    6500 875 
 	0    -1   -1   0   
 $EndComp
@@ -1322,12 +1363,13 @@ F 2 "mylib:QFP50P1200X1200X120-64N" H 6950 4050 50  0001 L CNN
 F 3 "http://www.mouser.com/ds/2/268/60001185C-270900.pdf" H 6950 3950 50  0001 L CNN
 F 4 "Microchip PIC32MX350F256H-V/PT, 32bit PIC Microcontroller, 100MHz, 256 kB Flash, 64-Pin TQFP" H 6950 3850 50  0001 L CNN "Description"
 F 5 "1.2" H 6950 3750 50  0001 L CNN "Height"
-F 6 "Microchip" H 6950 3650 50  0001 L CNN "Manufacturer_Name"
-F 7 "PIC32MX350F256H-V/PT" H 6950 3550 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "" H 6950 3650 50  0001 L CNN "Manufacturer_Name"
+F 7 "" H 6950 3550 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "579-32MX350F256HVPT" H 6950 3450 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-32MX350F256HVPT" H 6950 3350 50  0001 L CNN "Mouser Price/Stock"
 F 10 "PIC32MX350F256H-V/PT" H 6950 3250 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/pic32mx350f256h-vpt/microchip-technology" H 6950 3150 50  0001 L CNN "Arrow Price/Stock"
+F 12 "PIC32MX350F256H-V/PT" H 3400 2850 50  0001 C CNN "MPN"
 	1    3400 2850
 	1    0    0    -1  
 $EndComp
