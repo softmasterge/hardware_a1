@@ -357,6 +357,7 @@ F 0 "JP5" H 5675 3539 50  0000 C CNN
 F 1 "Jumper_NC_Dual" H 5675 3448 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 5675 3300 50  0001 C CNN
 F 3 "~" H 5675 3300 50  0001 C CNN
+F 4 "N/A" H 5675 3300 50  0001 C CNN "LCSC"
 	1    5675 3300
 	1    0    0    -1  
 $EndComp
@@ -378,6 +379,7 @@ F 0 "JP4" H 2325 3289 50  0000 C CNN
 F 1 "Jumper_NC_Dual" H 2325 3198 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 2325 3050 50  0001 C CNN
 F 3 "~" H 2325 3050 50  0001 C CNN
+F 4 "N/A" H 2325 3050 50  0001 C CNN "LCSC"
 	1    2325 3050
 	1    0    0    -1  
 $EndComp
@@ -395,6 +397,7 @@ F 0 "JP6" H 2950 1314 50  0000 C CNN
 F 1 "Jumper_NC_Dual" H 2950 1223 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 2950 1075 50  0001 C CNN
 F 3 "~" H 2950 1075 50  0001 C CNN
+F 4 "N/A" H 2950 1075 50  0001 C CNN "LCSC"
 	1    2950 1075
 	1    0    0    -1  
 $EndComp

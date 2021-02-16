@@ -394,6 +394,7 @@ F 1 "Screw_Terminal_01x02" H 2750 1800 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 2325 1475 50  0001 C CNN
 F 3 "~" H 2325 1475 50  0001 C CNN
 F 4 "Connector unknown" H 2325 1475 50  0001 C CNN "Mpn"
+F 5 "N/A" H 2325 1475 50  0001 C CNN "LCSC"
 	1    2325 1475
 	-1   0    0    1   
 $EndComp

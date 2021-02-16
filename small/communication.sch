@@ -388,6 +388,7 @@ F 0 "JP3" V 4329 2552 50  0000 L CNN
 F 1 "Jumper" V 4420 2552 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4375 2425 50  0001 C CNN
 F 3 "~" H 4375 2425 50  0001 C CNN
+F 4 "N/A" H 4375 2425 50  0001 C CNN "LCSC"
 	1    4375 2425
 	0    1    1    0   
 $EndComp
@@ -433,6 +434,7 @@ F 1 "Conn_02x04_Odd_Even" H 5300 3051 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 5250 2825 50  0001 C CNN
 F 3 "~" H 5250 2825 50  0001 C CNN
 F 4 "Connector unknown" H 5250 2825 50  0001 C CNN "Mpn"
+F 5 "N/A" H 5250 2825 50  0001 C CNN "LCSC"
 	1    5250 2825
 	-1   0    0    -1  
 $EndComp

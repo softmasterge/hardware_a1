@@ -22,6 +22,7 @@ F 1 "MountingHole_Pad" H 7275 1283 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7175 1325 50  0001 C CNN
 F 3 "~" H 7175 1325 50  0001 C CNN
 F 4 "#" H 7175 1325 50  0001 C CNN "Mpn"
+F 5 "N/A" H 7175 1325 50  0001 C CNN "LCSC"
 	1    7175 1325
 	1    0    0    -1  
 $EndComp
@@ -34,6 +35,7 @@ F 1 "MountingHole_Pad" H 8275 1258 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8175 1300 50  0001 C CNN
 F 3 "~" H 8175 1300 50  0001 C CNN
 F 4 "#" H 8175 1300 50  0001 C CNN "Mpn"
+F 5 "N/A" H 8175 1300 50  0001 C CNN "LCSC"
 	1    8175 1300
 	1    0    0    -1  
 $EndComp
@@ -46,6 +48,7 @@ F 1 "MountingHole_Pad" H 7250 1858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7150 1900 50  0001 C CNN
 F 3 "~" H 7150 1900 50  0001 C CNN
 F 4 "#" H 7150 1900 50  0001 C CNN "Mpn"
+F 5 "N/A" H 7150 1900 50  0001 C CNN "LCSC"
 	1    7150 1900
 	1    0    0    -1  
 $EndComp
@@ -58,6 +61,7 @@ F 1 "MountingHole_Pad" H 8275 1883 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8175 1925 50  0001 C CNN
 F 3 "~" H 8175 1925 50  0001 C CNN
 F 4 "#" H 8175 1925 50  0001 C CNN "Mpn"
+F 5 "N/A" H 8175 1925 50  0001 C CNN "LCSC"
 	1    8175 1925
 	1    0    0    -1  
 $EndComp
@@ -147,6 +151,7 @@ F 0 "J8" H 10580 2692 50  0000 L CNN
 F 1 "Screw_Terminal_01x08" V 10750 2250 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal" H 10500 2700 50  0001 C CNN
 F 3 "~" H 10500 2700 50  0001 C CNN
+F 4 "N/A" H 10500 2700 50  0001 C CNN "LCSC"
 	1    10500 2700
 	1    0    0    -1  
 $EndComp
@@ -230,6 +235,7 @@ F 0 "J7" H 10530 3792 50  0000 L CNN
 F 1 "Screw_Terminal_01x08" V 10700 3350 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal" H 10450 3800 50  0001 C CNN
 F 3 "~" H 10450 3800 50  0001 C CNN
+F 4 "N/A" H 10450 3800 50  0001 C CNN "LCSC"
 	1    10450 3800
 	1    0    0    -1  
 $EndComp
@@ -273,6 +279,7 @@ F 0 "J9" H 10530 4767 50  0000 L CNN
 F 1 "Screw_Terminal_01x08" V 10700 4325 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal" H 10450 4775 50  0001 C CNN
 F 3 "~" H 10450 4775 50  0001 C CNN
+F 4 "N/A" H 10450 4775 50  0001 C CNN "LCSC"
 	1    10450 4775
 	1    0    0    -1  
 $EndComp
@@ -306,6 +313,7 @@ F 0 "H1" H 6225 1321 50  0000 L CNN
 F 1 "MountingHole" H 6225 1230 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6125 1275 50  0001 C CNN
 F 3 "~" H 6125 1275 50  0001 C CNN
+F 4 "N/A" H 6125 1275 50  0001 C CNN "LCSC"
 	1    6125 1275
 	1    0    0    -1  
 $EndComp
@@ -317,6 +325,7 @@ F 0 "H2" H 6225 1871 50  0000 L CNN
 F 1 "MountingHole" H 6225 1780 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6125 1825 50  0001 C CNN
 F 3 "~" H 6125 1825 50  0001 C CNN
+F 4 "N/A" H 6125 1825 50  0001 C CNN "LCSC"
 	1    6125 1825
 	1    0    0    -1  
 $EndComp
@@ -336,6 +345,7 @@ F 0 "JP7" H 11300 3964 50  0000 C CNN
 F 1 "Jumper_NC_Dual" H 11300 3873 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 11300 3725 50  0001 C CNN
 F 3 "~" H 11300 3725 50  0001 C CNN
+F 4 "N/A" H 11300 3725 50  0001 C CNN "LCSC"
 	1    11300 3725
 	1    0    0    -1  
 $EndComp
