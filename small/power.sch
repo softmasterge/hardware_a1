@@ -61,6 +61,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A106KBHNNNE
 F 4 "C13585" H 2825 2750 50  0001 C CNN "LCSC"
 F 5 "CL31A106KBHNNNE" H 2825 2750 50  0001 C CNN "MPN"
 F 6 "0" H 2825 2750 50  0001 C CNN "source"
+F 7 "0.0549" H 2825 2750 50  0001 C CNN "Price"
 	1    2825 2750
 	1    0    0    -1  
 $EndComp
@@ -570,6 +571,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A106KBHNNNE
 F 4 "C13585" H 2800 4525 50  0001 C CNN "LCSC"
 F 5 "CL31A106KBHNNNE" H 2800 4525 50  0001 C CNN "MPN"
 F 6 "0" H 2800 4525 50  0001 C CNN "source"
+F 7 "0.0549" H 2800 4525 50  0001 C CNN "Price"
 	1    2800 4525
 	1    0    0    -1  
 $EndComp

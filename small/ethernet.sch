@@ -366,6 +366,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322525MOB4SI_C9006.pdf" H 
 F 4 " C9006" V 1850 3425 50  0001 C CNN "LCSC"
 F 5 "X322525MOB4SI" H 1850 3425 50  0001 C CNN "MPN"
 F 6 "0" H 1850 3425 50  0001 C CNN "source"
+F 7 "0.0928" H 1850 3425 50  0001 C CNN "Price"
 	1    1850 3425
 	0    -1   -1   0   
 $EndComp

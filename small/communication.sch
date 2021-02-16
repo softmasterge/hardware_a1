@@ -310,6 +310,7 @@ F 3 "http://www.st.com/resource/en/datasheet/st485eb.pdf" H 8350 2875 50  0001 C
 F 4 "C81186" H 8350 2825 50  0001 C CNN "LCSC"
 F 5 "ST485EBDR" H 8350 2825 50  0001 C CNN "MPN"
 F 6 "1" H 8350 2825 50  0001 C CNN "source"
+F 7 "0.4272" H 8350 2825 50  0001 C CNN "Price"
 	1    8350 2825
 	1    0    0    -1  
 $EndComp
