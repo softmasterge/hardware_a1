@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# XH414HG-IV01E
+#
+DEF XH414HG-IV01E C 0 40 Y N 1 L N
+F0 "C" 40 25 50 H V L BNN
+F1 "XH414HG-IV01E" 40 -165 50 H V L BNN
+F2 "CAP_XH414HG-IV01E" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Seiko" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 10 -100 0 100 0 N
+P 2 0 0 6 0 -40 0 -100 N
+A -0 -199 160 2320 2700 0 0 10 N 0 -39 98 -73
+A -0 -200 160 2700 3070 0 0 10 N -97 -73 0 -40
+S -88 26 -53 31 0 0 0 F
+S -73 11 -68 46 0 0 0 F
+X ~ 1 0 200 200 D 40 40 0 0 P 
+X ~ 2 0 -300 200 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
