@@ -564,9 +564,9 @@ Text Label 4500 2600 0    50   ~ 0
 TPIN+
 Text Label 6250 1975 0    50   ~ 0
 TPIN+
-Text Label 6425 975  0    50   ~ 0
+Text Label 6450 1175 0    50   ~ 0
 TPOUT-
-Text Label 6425 1175 0    50   ~ 0
+Text Label 6450 975  0    50   ~ 0
 TPOUT+
 Wire Wire Line
 	6350 975  6875 975 

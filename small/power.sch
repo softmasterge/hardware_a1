@@ -446,24 +446,6 @@ Wire Wire Line
 	7075 925  7075 1000
 $Comp
 L Device:C C?
-U 1 1 6098FF74
-P 4175 1075
-AR Path="/6098FF74" Ref="C?"  Part="1" 
-AR Path="/6078415F/6098FF74" Ref="C?"  Part="1" 
-AR Path="/6010B004/6098FF74" Ref="C3"  Part="1" 
-F 0 "C3" H 4300 1075 50  0000 L CNN
-F 1 "0.1u" H 3900 1075 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4213 925 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 4175 1075 50  0001 C CNN
-F 4 "C14663" H 4175 1075 50  0001 C CNN "LCSC"
-F 5 "0.0071" H 4175 1075 50  0001 C CNN "Price"
-F 6 "CC0603KRX7R9BB104" H 4175 1075 50  0001 C CNN "MPN"
-F 7 "0" H 4175 1075 50  0001 C CNN "source"
-	1    4175 1075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 609914B5
 P 4925 1075
 AR Path="/609914B5" Ref="C?"  Part="1" 
@@ -873,19 +855,9 @@ Wire Wire Line
 Connection ~ 6475 4350
 Wire Wire Line
 	6475 4350 6750 4350
-Wire Wire Line
-	3975 925  4175 925 
-Connection ~ 4175 925 
-Wire Wire Line
-	3675 1225 4175 1225
-Connection ~ 4175 1225
-Wire Wire Line
-	4175 1225 4925 1225
 Connection ~ 4925 1225
 Wire Wire Line
 	4925 1225 5575 1225
-Wire Wire Line
-	4175 925  4925 925 
 Connection ~ 4925 925 
 Wire Wire Line
 	4925 925  5275 925 
@@ -904,4 +876,32 @@ Wire Wire Line
 Connection ~ 6450 1225
 Wire Wire Line
 	6450 1225 6850 1225
+Connection ~ 4175 1225
+Wire Wire Line
+	4175 1225 4925 1225
+Wire Wire Line
+	3675 1225 4175 1225
+Connection ~ 4175 925 
+Wire Wire Line
+	4175 925  4925 925 
+Wire Wire Line
+	3975 925  4175 925 
+$Comp
+L Device:C C?
+U 1 1 6098FF74
+P 4175 1075
+AR Path="/6098FF74" Ref="C?"  Part="1" 
+AR Path="/6078415F/6098FF74" Ref="C?"  Part="1" 
+AR Path="/6010B004/6098FF74" Ref="C3"  Part="1" 
+F 0 "C3" H 4300 1075 50  0000 L CNN
+F 1 "0.1u" H 3900 1075 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4213 925 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 4175 1075 50  0001 C CNN
+F 4 "C14663" H 4175 1075 50  0001 C CNN "LCSC"
+F 5 "0.0071" H 4175 1075 50  0001 C CNN "Price"
+F 6 "CC0603KRX7R9BB104" H 4175 1075 50  0001 C CNN "MPN"
+F 7 "0" H 4175 1075 50  0001 C CNN "source"
+	1    4175 1075
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
