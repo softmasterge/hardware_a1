@@ -585,12 +585,6 @@ F 4 "N/A" H 10050 2750 50  0001 C CNN "LCSC"
 $EndComp
 Text GLabel 9150 2550 0    50   Input ~ 0
 SD_CS
-Text GLabel 9150 2450 0    50   Input ~ 0
-SDO1
-Text GLabel 9150 2850 0    50   Input ~ 0
-CLK1
-Text GLabel 9150 3050 0    50   Input ~ 0
-SDI1
 Wire Wire Line
 	9150 2950 8800 2950
 Wire Wire Line
@@ -1417,4 +1411,16 @@ Wire Wire Line
 Connection ~ 9525 4600
 Wire Wire Line
 	9525 4600 9525 4750
+Text GLabel 9150 2450 0    50   Input ~ 0
+SDO2
+Text GLabel 9150 2850 0    50   Input ~ 0
+SCK2
+Text GLabel 9050 1875 0    50   Input ~ 0
+SDO1
+Text GLabel 9050 2050 0    50   Input ~ 0
+SCK1
+Text GLabel 9025 1725 0    50   Input ~ 0
+SDI1
+Text GLabel 9150 3050 0    50   Input ~ 0
+SDI2
 $EndSCHEMATC
