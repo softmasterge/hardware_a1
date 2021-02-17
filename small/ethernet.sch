@@ -933,8 +933,6 @@ F 7 "0" H 1850 3725 50  0001 C CNN "source"
 	1    0    0    -1  
 $EndComp
 Connection ~ 1850 3575
-Text GLabel 1500 2700 0    50   Input ~ 0
-ENC_SS
 Wire Wire Line
 	1500 2700 1625 2700
 Connection ~ 1625 2700
@@ -1114,4 +1112,6 @@ Wire Wire Line
 Connection ~ 5275 1425
 Wire Wire Line
 	5275 1425 5300 1425
+Text GLabel 1500 2700 0    50   Input ~ 0
+ENC_SS
 $EndSCHEMATC
