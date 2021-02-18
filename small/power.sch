@@ -291,10 +291,10 @@ Text GLabel 2800 4350 1    50   Input ~ 0
 Wire Wire Line
 	7275 2575 7725 2575
 $Comp
-L Regulator_Linear:LD1117S33TR_SOT223 у111
+L Regulator_Linear:LD1117S33TR_SOT223 у1111
 U 1 1 607A31DD
 P 5575 925
-F 0 "у111" H 5575 1167 50  0000 C CNN
+F 0 "у1111" H 5575 1167 50  0000 C CNN
 F 1 "AMS1117-3.3" H 5575 1076 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 5575 1125 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-LD1117S33CTR_C35879.pdf" H 5675 675 50  0001 C CNN
@@ -967,8 +967,8 @@ L Device:LED D?
 U 1 1 603EF19F
 P 7625 4500
 AR Path="/602125D9/603EF19F" Ref="D?"  Part="1" 
-AR Path="/6010B004/603EF19F" Ref="D?"  Part="1" 
-F 0 "D?" V 7664 4382 50  0000 R CNN
+AR Path="/6010B004/603EF19F" Ref="D18"  Part="1" 
+F 0 "D18" V 7664 4382 50  0000 R CNN
 F 1 "LED" V 7573 4382 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7625 4500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-2012HRK-620D_C84256.pdf" H 7625 4500 50  0001 C CNN
@@ -983,8 +983,8 @@ L Device:R R?
 U 1 1 603EF1A9
 P 7625 4850
 AR Path="/602125D9/603EF1A9" Ref="R?"  Part="1" 
-AR Path="/6010B004/603EF1A9" Ref="R?"  Part="1" 
-F 0 "R?" H 7695 4896 50  0000 L CNN
+AR Path="/6010B004/603EF1A9" Ref="R52"  Part="1" 
+F 0 "R52" H 7695 4896 50  0000 L CNN
 F 1 "200" H 7695 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7555 4850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2000T5E_C8218.pdf" H 7625 4850 50  0001 C CNN
@@ -1014,8 +1014,8 @@ L Device:LED D?
 U 1 1 603F539D
 P 7650 2725
 AR Path="/602125D9/603F539D" Ref="D?"  Part="1" 
-AR Path="/6010B004/603F539D" Ref="D?"  Part="1" 
-F 0 "D?" V 7689 2607 50  0000 R CNN
+AR Path="/6010B004/603F539D" Ref="D19"  Part="1" 
+F 0 "D19" V 7689 2607 50  0000 R CNN
 F 1 "LED" V 7598 2607 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7650 2725 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-2012HRK-620D_C84256.pdf" H 7650 2725 50  0001 C CNN
@@ -1033,7 +1033,8 @@ U 1 1 603FCE65
 P 7650 3075
 AR Path="/603FCE65" Ref="R?"  Part="1" 
 AR Path="/652E8962/603FCE65" Ref="R?"  Part="1" 
-F 0 "R?" V 7443 3075 50  0000 C CNN
+AR Path="/6010B004/603FCE65" Ref="R53"  Part="1" 
+F 0 "R53" V 7443 3075 50  0000 C CNN
 F 1 "1k" V 7534 3075 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7580 3075 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1001T5E_C17513.pdf" H 7650 3075 50  0001 C CNN

@@ -546,6 +546,7 @@ F 8 "495-TEA1-0505" H 4475 1750 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TEA-1-0505/?qs=GedFDFLaBXEYm9Nac0%2F18A%3D%3D" H 4475 1650 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 4475 1550 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 4475 1450 50  0001 L CNN "Arrow Price/Stock"
+F 12 "N/A" H 3325 2250 50  0001 C CNN "LCSC"
 	1    3325 2250
 	1    0    0    -1  
 $EndComp

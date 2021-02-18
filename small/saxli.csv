@@ -1,0 +1,84 @@
+Comment,Designator,Footprint,LCSC Part #
+1u Unpolarized capacitor,C1,R_0805_2012Metric, C28323
+10uF Unpolarized capacitor,"C2,C33,C52,C54",C_1206_3216Metric,C13585
+0.1u Unpolarized capacitor,"C3,C6,C7,C8,C9,C10,C15,C16,C17,C18,C19,C20,C21,C24,C27,C28,C29,C31,C34,C53,C55,C56,C57,C58",C_0603_1608Metric,C14663
+10n Unpolarized capacitor,"C4,C32",R_0603_1608Metric, C57112
+18pF Unpolarized capacitor,"C5,C39",C_0603_1608Metric,C1647
+10u Polarized capacitor,"C11,C30,C36,C37,C42",CP_EIA-3216-18_Kemet-A,C7171
+1n Unpolarized capacitor,"C12,C13,C22,C23",C_0603_1608Metric,C46653
+10n Unpolarized capacitor,C14,C_0603_1608Metric, C57112
+XH414HG-IV01E ,C25,CAP_XH414HG-IV01E,C38065
+20pf Unpolarized capacitor,"C26,C44",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C1648
+220u Polarized capacitor,"C35,C40,C41",CP_Elec_8x10, C311611
+22u Unpolarized capacitor,C38,R_0805_2012Metric, C45783
+100n Unpolarized capacitor,C43,C_0603_1608Metric,C14663
+47p Unpolarized capacitor,C45,C_0603_1608Metric, C1671
+100u Unpolarized capacitor,"C46,C51",CP_EIA-3528-21_Kemet-B, C16133
+1u Unpolarized capacitor,"C47,C49",C_0603_1608Metric,C15849
+10u Unpolarized capacitor,"C48,C50",C_0603_1608Metric,C344022
+"P6SMB30CA 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE","D1,D2,D32,D38",D_SMB,C320521
+LED Light emitting diode,"D3,D4,D10",LED_0805_2012Metric,C84256
+BAT54S schottky barrier diode,"D5,D6,D34,D35,D39,D40",SOT-23,C122856
+SS34B-HF ,"D7,D9,D17",DIOM5336X320N,C8678
+"SS14 Diode, anode on pin 1, for simulation only!",D8,D_SMA, C2480
+D_Zener Zener diode,"D11,D15",D_MiniMELF,C8062
+LED Light emitting diode,"D12,D13,D18,D19",LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C205449
+"PSM712-LF-T7 7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23","D14,D16",SOT-23,C32677
+Ferrite_Bead Ferrite bead,"FB1,FB2,FB3",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C1017
+MountingHole Mounting Hole without connection,"H1,H2",MountingHole_3.2mm_M3,N/A
+MountingHole_Pad Mounting Hole with connection,"H3,H4,H6,H7",MountingHole_3.2mm_M3_Pad,N/A
+PIC32MX350F256H-V_PT ,IC1,QFP50P1200X1200X120-64N,N/A
+SIM808 GSM GPRS CELLULAR MODULE,IC2,SIM808,N/A
+78800-0001 Molex 78800 Series Vertical Hinged Micro SIM Card Connector with SMT Termination,J1,788000001,N/A
+"Screw_Terminal_01x02 Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J2,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",N/A
+Micro_SD_Card Micro SD Card Socket,J3,microSD_HC_Hirose_DM3BT-DSF-PEJS,N/A
+"Conn_01x05_Female Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",J4,PinHeader_1x05_P2.54mm_Vertical,N/A
+"Conn_02x04_Odd_Even Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",J5,PinHeader_2x04_P2.54mm_Vertical,N/A
+"RJ45_Amphenol_RJMG1BD3B8K1ANR 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX",J6,RJ45_Amphenol_RJMG1BD3B8K1ANR,N/A
+"Screw_Terminal_01x08 Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)","J7,J8,J9","TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal",N/A
+"Conn_01x06_Female Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",J10,PinHeader_1x06_P2.54mm_Vertical,N/A
+"Conn_Coaxial coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)","J11,J12",SMA_Amphenol_901-144_Vertical,N/A
+"Jumper Jumper, normally closed","JP1,JP2,JP3",SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,N/A
+"Jumper_NC_Dual Dual jumper, normally closed","JP4,JP5,JP6,JP7",SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,N/A
+22u Inductor symbol for simulation only,"L1,L2",L_10.4x10.4_H4.8, C182173
+INDUCTOR Inductor symbol for simulation only,L3,L_0603_1608Metric,C12100
+TEA_1-0505 Isolated DC/DC Converters 1W 4.5-5.5Vin 5Vout 200mA unreg SIP-4,PS1,TEA10505,N/A
+"2N7002 0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23","Q1,Q2,Q3",SOT-23,C8545
+"AO3401A -4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23",Q4,SOT-23,C15127
+330 Resistor,"R1,R38",R_0603_1608Metric,C23138
+10k Resistor,"R2,R3,R5,R27,R28,R54",R_0603_1608Metric,C25804
+2.32k 1% Resistor,R4,R_0603_1608Metric,C22905
+1k Resistor,"R6,R25,R26,R41,R46",R_0603_1608Metric,C21190
+100 Resistor,"R7,R22,R23,R24,R31,R39",R_0603_1608Metric,C22775
+2.7k Resistor,"R8,R11",R_0603_1608Metric,C13167
+5k Resistor,"R9,R10",R_0805_2012Metric,C27834
+120 Resistor,R12,R_0805_2012Metric,C17437
+1k Resistor,"R13,R14,R16,R17,R53",R_0805_2012Metric,C17513
+R Resistor,R15,R_0805_2012Metric,C17513
+49.9 %1 Resistor,"R18,R19,R20,R21",R_0603_1608Metric,C23185
+2k Resistor,"R29,R30",R_0805_2012Metric, C17604
+3.6k Resistor,"R32,R33",R_0805_2012Metric,C18359
+na Resistor,"R34,R36",R_0603_1608Metric,N/A
+560 Resistor,"R35,R37",R_0805_2012Metric,C28636
+5.1k Resistor,"R40,R42,R47,R48,R49",R_0603_1608Metric,C23186
+22 Resistor,"R43,R44,R45",R_0603_1608Metric,C23345
+200 Resistor,"R50,R51,R52",R_0603_1608Metric,C8218
+R Resistor,R55,R_0603_1608Metric,C23193
+3.24k Resistor,R57,R_0603_1608Metric,C22994
+1.1k Resistor,R59,R_0603_1608Metric,C22764
+TestPoint test point,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8",TestPoint_Pad_1.5x1.5mm,N/A
+"LM358 Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8",U1,SOIC-8_3.9x4.9mm_P1.27mm,N/A
+"LM7805_TO220 Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",U2,TO-252-2,C21706
+"ENC28J60x-SS ENC28J60 Single Chip Ethernet Interface, SSOP-28",U4,SOIC-28W_7.5x17.9mm_P1.27mm, C47351
+"AT25M02 Microchip SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8",U5,SOIC-8_3.9x4.9mm_P1.27mm,N/A
+"EL357N(C)(TA)-G DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4","U6,U7,U11,U12",SO-4_4.4x3.6mm_P2.54mm,C29981
+"PCF8563T Realtime Clock/Calendar I2C Interface, SOIC-8",U8,SOIC-8_3.9x4.9mm_P1.27mm,C7440
+"ISO1540 I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8",U9,SOIC-8_3.9x4.9mm_P1.27mm, C179739
+"TPS5430DDAR 3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8","U10,U20",TI_SO-PowerPAD-8_ThermalVias,C9864
+"ASSR-1218 Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4","U13,U15",SMDIP-4_W7.62mm,C129282
+"ST485EBDR Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8",U14,SOIC-8_3.9x4.9mm_P1.27mm,C81186
+"SRV05-4 ESD Protection Diodes with Low Clamping Voltage, SOT-23-6",U16,SOT-23-6,C85364
+"ULN2003A High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16",U18,SOIC-16W_5.3x10.2mm_P1.27mm,C7512
+Crystal Two pin crystal,Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm, C9006
+Crystal Two pin crystal,Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346
+"AMS1117-3.3 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223",у1111,SOT-223,C6186
