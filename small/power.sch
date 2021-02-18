@@ -133,7 +133,7 @@ F 3 "" H 7275 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7275 3450 7275 3525
+	7275 3450 7275 3500
 Connection ~ 7275 2575
 Wire Wire Line
 	7275 3075 7050 3075
@@ -267,7 +267,7 @@ F 3 "" H 7250 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 5225 7250 5300
+	7250 5225 7250 5275
 Connection ~ 7250 4350
 Wire Wire Line
 	7250 4850 7025 4850
@@ -291,10 +291,10 @@ Text GLabel 2800 4350 1    50   Input ~ 0
 Wire Wire Line
 	7275 2575 7725 2575
 $Comp
-L Regulator_Linear:LD1117S33TR_SOT223 у
+L Regulator_Linear:LD1117S33TR_SOT223 у111
 U 1 1 607A31DD
 P 5575 925
-F 0 "у" H 5575 1167 50  0000 C CNN
+F 0 "у111" H 5575 1167 50  0000 C CNN
 F 1 "AMS1117-3.3" H 5575 1076 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 5575 1125 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-LD1117S33CTR_C35879.pdf" H 5675 675 50  0001 C CNN
@@ -385,33 +385,9 @@ Wire Wire Line
 Connection ~ 3675 1225
 Text GLabel 3200 800  1    50   Input ~ 0
 12V
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 607A3252
-P 2325 1475
-F 0 "J2" H 2325 1600 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 2750 1800 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 2325 1475 50  0001 C CNN
-F 3 "~" H 2325 1475 50  0001 C CNN
-F 4 "Connector unknown" H 2325 1475 50  0001 C CNN "Mpn"
-F 5 "N/A" H 2325 1475 50  0001 C CNN "LCSC"
-	1    2325 1475
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 607A3258
-P 2525 1475
-F 0 "#PWR01" H 2525 1225 50  0001 C CNN
-F 1 "GND" H 2530 1302 50  0000 C CNN
-F 2 "" H 2525 1475 50  0001 C CNN
-F 3 "" H 2525 1475 50  0001 C CNN
-	1    2525 1475
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2525 1375 2825 1375
-Text GLabel 2825 1375 2    50   Input ~ 0
+	1925 1375 2100 1375
+Text GLabel 3050 1375 2    50   Input ~ 0
 24Vin
 $Comp
 L power:PWR_FLAG #FLG01
@@ -734,8 +710,6 @@ F 3 "" H 7075 1600 50  0001 C CNN
 	1    7075 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7250 4350 7700 4350
 $Comp
 L Device:LED D?
 U 1 1 60A11C4B
@@ -904,4 +878,177 @@ F 7 "0" H 4175 1075 50  0001 C CNN "source"
 	1    4175 1075
 	1    0    0    -1  
 $EndComp
+$Comp
+L saxli-rescue:SS34B-HF-ss34 D17
+U 1 1 603B2147
+P 2925 1375
+F 0 "D17" H 3375 1050 50  0000 L CNN
+F 1 "SS34B-HF" H 3200 1175 50  0000 L CNN
+F 2 "mylib:DIOM5336X320N" H 3425 1525 50  0001 L CNN
+F 3 "https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf" H 3425 1425 50  0001 L CNN
+F 4 "Schottky Diodes & Rectifiers DIODE SCHOTTKY 3A 40V SMB" H 3425 1325 50  0001 L CNN "Description"
+F 5 "3.2" H 3425 1225 50  0001 L CNN "Height"
+F 6 "" H 3425 1125 50  0001 L CNN "Manufacturer_Name"
+F 7 "" H 3425 1025 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "750-SS34B-HF" H 3425 925 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF/?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D" H 3425 825 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3425 725 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3425 625 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C8678" H 2925 1375 50  0001 C CNN "LCSC"
+F 13 "SS34B-HF" H 2925 1375 50  0001 C CNN "MPN"
+F 14 "0.0350" H 2925 1375 50  0001 C CNN "Price"
+F 15 "0" H 2925 1375 50  0001 C CNN "source"
+	1    2925 1375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:AO3401A Q4
+U 1 1 603B5293
+P 2500 1775
+F 0 "Q4" V 2842 1775 50  0000 C CNN
+F 1 "AO3401A" V 2751 1775 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2700 1700 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3401A_C15127.pdf" H 2500 1775 50  0001 L CNN
+F 4 "C15127" V 2500 1775 50  0001 C CNN "LCSC"
+F 5 "0.1023" V 2500 1775 50  0001 C CNN "Price"
+F 6 "AO3401A" V 2500 1775 50  0001 C CNN "MPN"
+	1    2500 1775
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3050 1375 2925 1375
+Wire Wire Line
+	2925 1375 2925 1675
+Wire Wire Line
+	2925 1675 2700 1675
+Connection ~ 2925 1375
+Wire Wire Line
+	2925 1375 2825 1375
+Wire Wire Line
+	2300 1675 2100 1675
+Wire Wire Line
+	2100 1675 2100 1375
+Connection ~ 2100 1375
+Wire Wire Line
+	2100 1375 2225 1375
+$Comp
+L power:GND #PWR01
+U 1 1 607A3258
+P 2000 1975
+F 0 "#PWR01" H 2000 1725 50  0001 C CNN
+F 1 "GND" H 2005 1802 50  0000 C CNN
+F 2 "" H 2000 1975 50  0001 C CNN
+F 3 "" H 2000 1975 50  0001 C CNN
+	1    2000 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 607A3252
+P 1725 1475
+F 0 "J2" H 1725 1600 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 2150 1800 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1725 1475 50  0001 C CNN
+F 3 "~" H 1725 1475 50  0001 C CNN
+F 4 "Connector unknown" H 1725 1475 50  0001 C CNN "Mpn"
+F 5 "N/A" H 1725 1475 50  0001 C CNN "LCSC"
+	1    1725 1475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 1975 2000 1975
+Wire Wire Line
+	2000 1975 2000 1475
+Wire Wire Line
+	2000 1475 1925 1475
+Connection ~ 2000 1975
+$Comp
+L Device:LED D?
+U 1 1 603EF19F
+P 7625 4500
+AR Path="/602125D9/603EF19F" Ref="D?"  Part="1" 
+AR Path="/6010B004/603EF19F" Ref="D?"  Part="1" 
+F 0 "D?" V 7664 4382 50  0000 R CNN
+F 1 "LED" V 7573 4382 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7625 4500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-2012HRK-620D_C84256.pdf" H 7625 4500 50  0001 C CNN
+F 4 "C205449" V 7625 4500 50  0001 C CNN "LCSC"
+F 5 "ORH-YG35A" H 7625 4500 50  0001 C CNN "MPN"
+F 6 "0.0093" H 7625 4500 50  0001 C CNN "Price"
+	1    7625 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 603EF1A9
+P 7625 4850
+AR Path="/602125D9/603EF1A9" Ref="R?"  Part="1" 
+AR Path="/6010B004/603EF1A9" Ref="R?"  Part="1" 
+F 0 "R?" H 7695 4896 50  0000 L CNN
+F 1 "200" H 7695 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7555 4850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2000T5E_C8218.pdf" H 7625 4850 50  0001 C CNN
+F 4 "C8218" H 7625 4850 50  0001 C CNN "LCSC"
+F 5 "0603WAF2000T5E" H 7625 4850 50  0001 C CNN "MPN"
+F 6 "0.0022" H 7625 4850 50  0001 C CNN "Price"
+F 7 "0" H 7625 4850 50  0001 C CNN "source"
+	1    7625 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7625 4650 7625 4700
+Wire Wire Line
+	7250 5275 7625 5275
+Wire Wire Line
+	7625 5275 7625 5000
+Connection ~ 7250 5275
+Wire Wire Line
+	7250 5275 7250 5300
+Wire Wire Line
+	7250 4350 7625 4350
+Connection ~ 7625 4350
+Wire Wire Line
+	7625 4350 7700 4350
+$Comp
+L Device:LED D?
+U 1 1 603F539D
+P 7650 2725
+AR Path="/602125D9/603F539D" Ref="D?"  Part="1" 
+AR Path="/6010B004/603F539D" Ref="D?"  Part="1" 
+F 0 "D?" V 7689 2607 50  0000 R CNN
+F 1 "LED" V 7598 2607 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7650 2725 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-2012HRK-620D_C84256.pdf" H 7650 2725 50  0001 C CNN
+F 4 "C205449" V 7650 2725 50  0001 C CNN "LCSC"
+F 5 "ORH-YG35A" H 7650 2725 50  0001 C CNN "MPN"
+F 6 "0.0093" H 7650 2725 50  0001 C CNN "Price"
+	1    7650 2725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 2875 7650 2925
+$Comp
+L Device:R R?
+U 1 1 603FCE65
+P 7650 3075
+AR Path="/603FCE65" Ref="R?"  Part="1" 
+AR Path="/652E8962/603FCE65" Ref="R?"  Part="1" 
+F 0 "R?" V 7443 3075 50  0000 C CNN
+F 1 "1k" V 7534 3075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7580 3075 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1001T5E_C17513.pdf" H 7650 3075 50  0001 C CNN
+F 4 "C17513" V 7650 3075 50  0001 C CNN "LCSC"
+F 5 "0.0040" V 7650 3075 50  0001 C CNN "Price"
+F 6 "0805W8F1001T5E" H 7650 3075 50  0001 C CNN "MPN"
+F 7 "0" H 7650 3075 50  0001 C CNN "source"
+	1    7650 3075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7275 3500 7650 3500
+Wire Wire Line
+	7650 3500 7650 3225
+Connection ~ 7275 3500
+Wire Wire Line
+	7275 3500 7275 3525
 $EndSCHEMATC
