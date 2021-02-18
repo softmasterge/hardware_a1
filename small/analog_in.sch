@@ -463,7 +463,7 @@ F 0 "U1" H 4175 2667 50  0000 C CNN
 F 1 "LM358" H 4175 2576 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4175 2300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4175 2300 50  0001 C CNN
-F 4 "N/A" H 4175 2300 50  0001 C CNN "LCSC"
+F 4 "C7950" H 4175 2300 50  0001 C CNN "LCSC"
 	1    4175 2300
 	1    0    0    -1  
 $EndComp

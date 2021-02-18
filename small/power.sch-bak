@@ -791,34 +791,6 @@ F 3 "" H 5625 3175 50  0001 C CNN
 	1    5625 3175
 	1    0    0    -1  
 $EndComp
-$Comp
-L saxli-rescue:SS34B-HF-ss34 D9
-U 1 1 60A6C4B9
-P 5625 2475
-F 0 "D9" V 5979 2605 50  0000 L CNN
-F 1 "SS34B-HF" V 6070 2605 50  0000 L CNN
-F 2 "mylib:DIOM5336X320N" H 6125 2625 50  0001 L CNN
-F 3 "https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf" H 6125 2525 50  0001 L CNN
-F 4 "Schottky Diodes & Rectifiers DIODE SCHOTTKY 3A 40V SMB" H 6125 2425 50  0001 L CNN "Description"
-F 5 "3.2" H 6125 2325 50  0001 L CNN "Height"
-F 6 "" H 6125 2225 50  0001 L CNN "Manufacturer_Name"
-F 7 "" H 6125 2125 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "750-SS34B-HF" H 6125 2025 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF/?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D" H 6125 1925 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 6125 1825 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 6125 1725 50  0001 L CNN "Arrow Price/Stock"
-F 12 "C8678" H 5625 2475 50  0001 C CNN "LCSC"
-F 13 "SS34B-HF" H 5625 2475 50  0001 C CNN "MPN"
-F 14 "0.0350" H 5625 2475 50  0001 C CNN "Price"
-F 15 "0" H 5625 2475 50  0001 C CNN "source"
-	1    5625 2475
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5200 2575 5625 2575
-Connection ~ 5625 2575
-Wire Wire Line
-	5625 2575 5900 2575
 Wire Wire Line
 	6400 2575 6500 2575
 Connection ~ 6500 2575
@@ -1052,4 +1024,32 @@ Wire Wire Line
 Connection ~ 7275 3500
 Wire Wire Line
 	7275 3500 7275 3525
+Connection ~ 5625 2575
+Wire Wire Line
+	5625 2575 5900 2575
+Wire Wire Line
+	5200 2575 5625 2575
+$Comp
+L saxli-rescue:SS34B-HF-ss34 D9
+U 1 1 60A6C4B9
+P 5625 2475
+F 0 "D9" V 5979 2605 50  0000 L CNN
+F 1 "SS34B-HF" V 6070 2605 50  0000 L CNN
+F 2 "mylib:DIOM5336X320N" H 6125 2625 50  0001 L CNN
+F 3 "https://www.mouser.jp/datasheet/2/80/SP-JB017_SS34B-HF_Thru._SS320B-HF_RevB-1847021.pdf" H 6125 2525 50  0001 L CNN
+F 4 "Schottky Diodes & Rectifiers DIODE SCHOTTKY 3A 40V SMB" H 6125 2425 50  0001 L CNN "Description"
+F 5 "3.2" H 6125 2325 50  0001 L CNN "Height"
+F 6 "" H 6125 2225 50  0001 L CNN "Manufacturer_Name"
+F 7 "" H 6125 2125 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "750-SS34B-HF" H 6125 2025 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS34B-HF/?qs=vmHwEFxEFR9G1M%252BcUPG%2FxQ%3D%3D" H 6125 1925 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 6125 1825 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 6125 1725 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C8678" H 5625 2475 50  0001 C CNN "LCSC"
+F 13 "SS34B-HF" H 5625 2475 50  0001 C CNN "MPN"
+F 14 "0.0350" H 5625 2475 50  0001 C CNN "Price"
+F 15 "0" H 5625 2475 50  0001 C CNN "source"
+	1    5625 2475
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
