@@ -288,8 +288,6 @@ Text GLabel 2825 2575 1    50   Input ~ 0
 24Vin
 Text GLabel 2800 4350 1    50   Input ~ 0
 24Vin
-Wire Wire Line
-	7275 2575 7725 2575
 $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 у1111
 U 1 1 607A31DD
@@ -1052,4 +1050,9 @@ F 15 "0" H 5625 2475 50  0001 C CNN "source"
 	1    5625 2475
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	7275 2575 7650 2575
+Connection ~ 7650 2575
+Wire Wire Line
+	7650 2575 7725 2575
 $EndSCHEMATC
