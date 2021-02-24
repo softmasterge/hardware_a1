@@ -3,7 +3,7 @@ Comment,Designator,Footprint,LCSC Part #
 10uF Unpolarized capacitor,"C2,C33,C52,C54",C_1206_3216Metric,C13585
 0.1u Unpolarized capacitor,"C3,C6,C7,C8,C9,C10,C15,C16,C17,C18,C19,C20,C21,C24,C27,C28,C29,C31,C34,C53,C55,C56,C57,C58",C_0603_1608Metric,C14663
 10n Unpolarized capacitor,"C4,C32",R_0603_1608Metric, C57112
-18pF Unpolarized capacitor,"C5,C39",C_0603_1608Metric,C1647
+12pF Unpolarized capacitor,"C5,C39",C_0603_1608Metric,C38523
 10u Polarized capacitor,"C11,C30,C36,C37,C42",CP_EIA-3216-18_Kemet-A,C7171
 1n Unpolarized capacitor,"C12,C13,C22,C23",C_0603_1608Metric,C46653
 10n Unpolarized capacitor,C14,C_0603_1608Metric, C57112
