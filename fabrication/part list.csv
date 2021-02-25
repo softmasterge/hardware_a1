@@ -56,7 +56,7 @@ TEA_1-0505 Isolated DC/DC Converters 1W 4.5-5.5Vin 5Vout 200mA unreg SIP-4,PS1,T
 1k Resistor,"R13,R14,R16,R17,R53",R_0805_2012Metric,C17513
 R Resistor,R15,R_0805_2012Metric,C17513
 49.9 %1 Resistor,"R18,R19,R20,R21",R_0603_1608Metric,C23185
-2k Resistor,"R29,R30",R_0805_2012Metric, C17604
+1k Resistor,"R29,R30",R_0805_2012Metric, C17513
 3.6k Resistor,"R32,R33",R_0805_2012Metric,C18359
 na Resistor,"R34,R36",R_0603_1608Metric,N/A
 560 Resistor,"R35,R37",R_0805_2012Metric,C28636
@@ -69,6 +69,7 @@ R Resistor,R55,R_0603_1608Metric,C23193
 Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8",U1,SOIC-8_3.9x4.9mm_P1.27mm,N/A,C7950
 TestPoint test point,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8",TestPoint_Pad_1.5x1.5mm,N/A
 "LM7805_TO220 Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",U2,TO-252-2,C21706
+"AMS1117-3.3 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223",U3,SOT-223,C6186
 "ENC28J60x-SS ENC28J60 Single Chip Ethernet Interface, SSOP-28",U4,SOIC-28W_7.5x17.9mm_P1.27mm, C47351
 "AT25M02 Microchip SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8",U5,SOIC-8_3.9x4.9mm_P1.27mm,N/A
 "EL357N(C)(TA)-G DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4","U6,U7,U11,U12",SO-4_4.4x3.6mm_P2.54mm,C29981
@@ -81,4 +82,3 @@ TestPoint test point,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8",TestPoint_Pad_1.5x1.5mm,N
 "ULN2003A High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16",U18,SOIC-16W_5.3x10.2mm_P1.27mm,C7512
 Crystal Two pin crystal,Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm, C9006
 Crystal Two pin crystal,Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346
-"AMS1117-3.3 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223",у1111,SOT-223,C6186

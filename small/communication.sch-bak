@@ -101,19 +101,14 @@ F 3 "" H 3975 5875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4050 5425 0    50   ~ 0
-GND_IS
-Wire Wire Line
-	3725 5125 3975 5125
+GND_IS_OUT
 Connection ~ 3975 5425
-Connection ~ 3975 5125
 Text Label 4050 5125 0    50   ~ 0
-5V_IS
+5V_IS_OUT
 Text Label 4050 5225 0    50   ~ 0
 SDA_ISO
 Text Label 4050 5325 0    50   ~ 0
 SCL_ISO
-Wire Wire Line
-	3975 5125 4550 5125
 Wire Wire Line
 	3725 5225 4375 5225
 Wire Wire Line
@@ -223,11 +218,6 @@ SDA2
 Text GLabel 2425 5325 0    50   Input ~ 0
 SCL2
 Wire Wire Line
-	3975 4475 4375 4475
-Connection ~ 4375 4475
-Wire Wire Line
-	4375 4475 4500 4475
-Wire Wire Line
 	2450 5225 2450 4625
 Connection ~ 2450 5225
 Wire Wire Line
@@ -280,8 +270,6 @@ F 3 "" H 2550 4325 50  0001 C CNN
 	1    2550 4325
 	1    0    0    -1  
 $EndComp
-Text GLabel 3975 4475 0    79   Input ~ 0
-VDD5
 $Comp
 L Device:R R?
 U 1 1 60A1804D
@@ -380,25 +368,6 @@ Wire Wire Line
 Wire Wire Line
 	8350 1825 8400 1825
 Connection ~ 8350 2100
-$Comp
-L Device:Jumper JP3
-U 1 1 602848D0
-P 3975 4825
-F 0 "JP3" V 3929 4952 50  0000 L CNN
-F 1 "Jumper" V 4020 4952 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3975 4825 50  0001 C CNN
-F 3 "~" H 3975 4825 50  0001 C CNN
-F 4 "N/A" H 3975 4825 50  0001 C CNN "LCSC"
-	1    3975 4825
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3975 4525 3975 4475
-Wire Wire Line
-	4500 4475 5050 4475
-Wire Wire Line
-	5050 4475 5050 5125
-Connection ~ 4500 4475
 Wire Wire Line
 	5550 5225 5550 5425
 Wire Wire Line
@@ -438,7 +407,6 @@ F 5 "N/A" H 4850 5225 50  0001 C CNN "LCSC"
 	1    4850 5225
 	-1   0    0    -1  
 $EndComp
-Connection ~ 5050 5125
 $Comp
 L power:GND #PWR0188
 U 1 1 60296547
@@ -683,4 +651,76 @@ Wire Wire Line
 Connection ~ 3250 2750
 Wire Wire Line
 	3250 2750 3050 2750
+Text GLabel 4225 3625 0    50   Input ~ 0
+VDD5
+Text GLabel 4725 3625 2    50   Input ~ 0
+5V_IS
+Text GLabel 5750 3600 0    50   Input ~ 0
+GND_IS
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 6037E7B6
+P 6000 3600
+AR Path="/657E4F8F/6037E7B6" Ref="JP?"  Part="1" 
+AR Path="/6037E7B6" Ref="JP?"  Part="1" 
+AR Path="/608144C5/6037E7B6" Ref="JP8"  Part="1" 
+F 0 "JP8" H 6000 3839 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 6000 3748 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 6000 3600 50  0001 C CNN
+F 3 "~" H 6000 3600 50  0001 C CNN
+F 4 "N/A" H 6000 3600 50  0001 C CNN "LCSC"
+	1    6000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0194
+U 1 1 60380EB6
+P 6250 3600
+F 0 "#PWR0194" H 6250 3350 50  0001 C CNN
+F 1 "GNDD" H 6254 3445 50  0000 C CNN
+F 2 "" H 6250 3600 50  0001 C CNN
+F 3 "" H 6250 3600 50  0001 C CNN
+	1    6250 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 5125 3900 5125
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 6037D13B
+P 4475 3625
+AR Path="/657E4F8F/6037D13B" Ref="JP?"  Part="1" 
+AR Path="/6037D13B" Ref="JP?"  Part="1" 
+AR Path="/608144C5/6037D13B" Ref="JP3"  Part="1" 
+F 0 "JP3" H 4475 3864 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 4475 3773 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 4475 3625 50  0001 C CNN
+F 3 "~" H 4475 3625 50  0001 C CNN
+F 4 "N/A" H 4475 3625 50  0001 C CNN "LCSC"
+	1    4475 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 3725 4475 4475
+Connection ~ 4475 4475
+Wire Wire Line
+	4475 4475 4500 4475
+Wire Wire Line
+	6000 3700 6000 4125
+Wire Wire Line
+	6000 4125 6575 4125
+Text Label 6075 4125 0    50   ~ 0
+GND_IS_OUT
+Connection ~ 3900 5125
+Wire Wire Line
+	3900 5125 4550 5125
+Text GLabel 5775 5125 1    50   Input ~ 0
+VDD5
+Wire Wire Line
+	3900 4475 4375 4475
+Connection ~ 4375 4475
+Wire Wire Line
+	4375 4475 4475 4475
+Wire Wire Line
+	3900 4475 3900 5125
 $EndSCHEMATC
