@@ -66,7 +66,7 @@ na Resistor,"R34,R36",R_0603_1608Metric,N/A
 R Resistor,R55,R_0603_1608Metric,C23193
 3.24k Resistor,R57,R_0603_1608Metric,C22994
 1.1k Resistor,R59,R_0603_1608Metric,C22764
-Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8",U1,SOIC-8_3.9x4.9mm_P1.27mm,N/A,C7950
+Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8",U1,SOIC-8_3.9x4.9mm_P1.27mm,C7950
 TestPoint test point,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8",TestPoint_Pad_1.5x1.5mm,N/A
 "LM7805_TO220 Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",U2,TO-252-2,C21706
 "AMS1117-3.3 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223",U3,SOT-223,C6186
