@@ -1,4 +1,4 @@
-Comment,Designator,Footprint,LCSC Part # 
+Comment,Designator,Footprint,LCSC Part #
 1u Unpolarized capacitor,C1,R_0805_2012Metric, C28323
 10uF Unpolarized capacitor,"C2,C33,C52,C54",C_1206_3216Metric,C13585
 0.1u Unpolarized capacitor,"C3,C6,C7,C8,C9,C10,C15,C16,C17,C18,C19,C20,C21,C24,C27,C28,C29,C31,C34,C53,C55,C56,C57,C58",C_0603_1608Metric,C14663
@@ -38,8 +38,8 @@ Micro_SD_Card Micro SD Card Socket,J3,microSD_HC_Hirose_DM3BT-DSF-PEJS,N/A
 "Screw_Terminal_01x08 Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)","J7,J8,J9","TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal",N/A
 "Conn_01x06_Female Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",J10,PinHeader_1x06_P2.54mm_Vertical,N/A
 "Conn_Coaxial coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)","J11,J12",SMA_Amphenol_901-144_Vertical,N/A
-"Jumper Jumper, normally closed","JP1,JP2,JP3",SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,N/A
-"Jumper_NC_Dual Dual jumper, normally closed","JP4,JP5,JP6,JP7",SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,N/A
+"Jumper Jumper, normally closed","JP1,JP2",SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,N/A
+"Jumper_NC_Dual Dual jumper, normally closed","JP3,JP4,JP5,JP6,JP7,JP8",SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,N/A
 22u Inductor symbol for simulation only,"L1,L2",L_10.4x10.4_H4.8, C182173
 INDUCTOR Inductor symbol for simulation only,L3,L_0603_1608Metric,C12100
 TEA_1-0505 Isolated DC/DC Converters 1W 4.5-5.5Vin 5Vout 200mA unreg SIP-4,PS1,TEA10505,N/A
@@ -51,12 +51,11 @@ TEA_1-0505 Isolated DC/DC Converters 1W 4.5-5.5Vin 5Vout 200mA unreg SIP-4,PS1,T
 1k Resistor,"R6,R25,R26,R41,R46",R_0603_1608Metric,C21190
 100 Resistor,"R7,R22,R23,R24,R31,R39",R_0603_1608Metric,C22775
 2.7k Resistor,"R8,R11",R_0603_1608Metric,C13167
-5k Resistor,"R9,R10",R_0805_2012Metric,C27834
+2.2k Resistor,"R9,R10",R_0805_2012Metric,C17520
 120 Resistor,R12,R_0805_2012Metric,C17437
-1k Resistor,"R13,R14,R16,R17,R53",R_0805_2012Metric,C17513
+1k Resistor,"R13,R14,R16,R17,R29,R30,R53",R_0805_2012Metric,C17513
 R Resistor,R15,R_0805_2012Metric,C17513
 49.9 %1 Resistor,"R18,R19,R20,R21",R_0603_1608Metric,C23185
-1k Resistor,"R29,R30",R_0805_2012Metric, C17513
 3.6k Resistor,"R32,R33",R_0805_2012Metric,C18359
 na Resistor,"R34,R36",R_0603_1608Metric,N/A
 560 Resistor,"R35,R37",R_0805_2012Metric,C28636
@@ -66,8 +65,8 @@ na Resistor,"R34,R36",R_0603_1608Metric,N/A
 R Resistor,R55,R_0603_1608Metric,C23193
 3.24k Resistor,R57,R_0603_1608Metric,C22994
 1.1k Resistor,R59,R_0603_1608Metric,C22764
-Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8",U1,SOIC-8_3.9x4.9mm_P1.27mm,C7950
 TestPoint test point,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8",TestPoint_Pad_1.5x1.5mm,N/A
+"LM358 Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8",U1,SOIC-8_3.9x4.9mm_P1.27mm,C7950
 "LM7805_TO220 Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220",U2,TO-252-2,C21706
 "AMS1117-3.3 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223",U3,SOT-223,C6186
 "ENC28J60x-SS ENC28J60 Single Chip Ethernet Interface, SSOP-28",U4,SOIC-28W_7.5x17.9mm_P1.27mm, C47351
@@ -80,5 +79,11 @@ TestPoint test point,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8",TestPoint_Pad_1.5x1.5mm,N
 "ST485EBDR Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8",U14,SOIC-8_3.9x4.9mm_P1.27mm,C81186
 "SRV05-4 ESD Protection Diodes with Low Clamping Voltage, SOT-23-6",U16,SOT-23-6,C85364
 "ULN2003A High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16",U18,SOIC-16W_5.3x10.2mm_P1.27mm,C7512
-Crystal Two pin crystal,Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm, C9006
+YSX321SL Crystal,Y1,YSX321SL,C9006
 Crystal Two pin crystal,Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346
+10n Unpolarized capacitor,zC1,C_0603_1608Metric,C57112
+0.1u Unpolarized capacitor,"zC2,zC3",C_0603_1608Metric,C14663
+C Unpolarized capacitor,zC4,C_0805_2012Metric,C49217
+"Jumper_NC_Dual Dual jumper, normally closed",zJP1,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,N/A
+5.1k Resistor,"zR1,zR2",R_0603_1608Metric,C23186
+"ICM-20600 IMUs - Inertial Measurement Units Low-Power, High-Performance Integrated 6-Axis MEMS MotionTracking  Device in 2.5mm x 3mm Package",zU1,ICM20600,C124140

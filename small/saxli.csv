@@ -79,5 +79,11 @@ TestPoint test point,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8",TestPoint_Pad_1.5x1.5mm,N
 "ST485EBDR Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8",U14,SOIC-8_3.9x4.9mm_P1.27mm,C81186
 "SRV05-4 ESD Protection Diodes with Low Clamping Voltage, SOT-23-6",U16,SOT-23-6,C85364
 "ULN2003A High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16",U18,SOIC-16W_5.3x10.2mm_P1.27mm,C7512
-YSX321SL Crystal,Y1,YSX321SL,
+YSX321SL Crystal,Y1,YSX321SL,C9006
 Crystal Two pin crystal,Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346
+10n Unpolarized capacitor,zC1,C_0603_1608Metric,C57112
+0.1u Unpolarized capacitor,"zC2,zC3",C_0603_1608Metric,C14663
+C Unpolarized capacitor,zC4,C_0805_2012Metric,C49217
+"Jumper_NC_Dual Dual jumper, normally closed",zJP1,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,N/A
+5.1k Resistor,"zR1,zR2",R_0603_1608Metric,C23186
+"ICM-20600 IMUs - Inertial Measurement Units Low-Power, High-Performance Integrated 6-Axis MEMS MotionTracking  Device in 2.5mm x 3mm Package",zU1,ICM20600,C124140

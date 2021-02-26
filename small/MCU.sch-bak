@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -1219,7 +1219,7 @@ L Connector:TestPoint TP2
 U 1 1 602B28D8
 P 5100 7400
 F 0 "TP2" H 5158 7518 50  0000 L CNN
-F 1 "TestPoint" H 5158 7427 50  0000 L CNN
+F 1 "TestPoint" H 4775 7775 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5300 7400 50  0001 C CNN
 F 3 "~" H 5300 7400 50  0001 C CNN
 F 4 "N/A" H 5100 7400 50  0001 C CNN "LCSC"
@@ -1231,7 +1231,7 @@ L Connector:TestPoint TP3
 U 1 1 602BAA27
 P 5200 7400
 F 0 "TP3" H 5258 7518 50  0000 L CNN
-F 1 "TestPoint" H 5258 7427 50  0000 L CNN
+F 1 "TestPoint" H 4975 7675 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5400 7400 50  0001 C CNN
 F 3 "~" H 5400 7400 50  0001 C CNN
 F 4 "N/A" H 5200 7400 50  0001 C CNN "LCSC"
@@ -1243,7 +1243,7 @@ L Connector:TestPoint TP4
 U 1 1 602BD7F3
 P 5500 7400
 F 0 "TP4" H 5558 7518 50  0000 L CNN
-F 1 "TestPoint" H 5558 7427 50  0000 L CNN
+F 1 "TestPoint" H 5325 7975 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5700 7400 50  0001 C CNN
 F 3 "~" H 5700 7400 50  0001 C CNN
 F 4 "N/A" H 5500 7400 50  0001 C CNN "LCSC"
@@ -1482,4 +1482,10 @@ F 3 "" H 11050 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11050 5500 11050 5550
+$Sheet
+S 750  4900 1475 1025
+U 603C60F5
+F0 "temperature_sensor.sch" 50
+F1 "temperature_sensor.sch" 50
+$EndSheet
 $EndSCHEMATC

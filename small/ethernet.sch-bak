@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -1099,6 +1099,7 @@ F 8 "" H 2200 2325 50  0001 L CNN "Mouser Part Number"
 F 9 "" H 2200 2225 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 2200 2125 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 2200 2025 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C9006" V 750 2825 50  0001 C CNN "LCSC"
 	1    750  2825
 	0    1    1    0   
 $EndComp
