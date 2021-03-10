@@ -1,4 +1,4 @@
-### Module positions - created on 02/26/21 14:37:01 ###
+### Module positions - created on 03/10/21 15:07:44 ###
 ### Printed by Pcbnew version kicad (5.1.9)-1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -154,7 +154,7 @@ R52       200                   R_0603_1608Metric                               
 R53       1k                    R_0805_2012Metric                                59.5395   -65.0240    0.0000  top
 R54       10k                   R_0603_1608Metric                               163.1550  -114.8080    0.0000  top
 R55       R                     R_0603_1608Metric                               179.4510   -63.3730    0.0000  top
-R57       3.24k                 R_0603_1608Metric                                67.1830   -48.5140  180.0000  top
+R57       4.3k                  R_0603_1608Metric                                67.1830   -48.5140  180.0000  top
 R59       1.1k                  R_0603_1608Metric                                67.1830   -77.7240  180.0000  top
 U1        LM358                 SOIC-8_3.9x4.9mm_P1.27mm                        135.6360   -86.2330   90.0000  top
 U2        LM7805_TO220          TO-252-2                                         73.4060  -100.7110  270.0000  top
@@ -172,7 +172,7 @@ U13       ASSR-1218             SMDIP-4_W7.62mm                                 
 U14       ST485EBDR             SOIC-8_3.9x4.9mm_P1.27mm                        166.8780   -92.3290  270.0000  top
 U15       ASSR-1218             SMDIP-4_W7.62mm                                 123.6980  -102.2350  270.0000  top
 U16       SRV05-4               SOT-23-6                                        164.0840   -66.5480   90.0000  top
-U18       ULN2003A              SOIC-16W_5.3x10.2mm_P1.27mm                      94.9960   -99.6950    0.0000  top
+U18       ULN2003A              SOIC-16_3.9x9.9mm_P1.27mm                        94.9960   -99.6950    0.0000  top
 U20       TPS5430DDAR           TI_SO-PowerPAD-8_ThermalVias                     64.7700   -82.5500  180.0000  top
 Y1        YSX321SL              YSX321SL                                        193.8020   -77.4700   90.0000  top
 Y2        Crystal               Crystal_SMD_3215-2Pin_3.2x1.5mm                 136.0170   -73.2790  270.0000  top

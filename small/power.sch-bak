@@ -243,11 +243,11 @@ L Device:R R57
 U 1 1 60158864
 P 7250 5075
 F 0 "R57" H 7320 5121 50  0000 L CNN
-F 1 "3.24k" H 7320 5030 50  0000 L CNN
+F 1 "4.3k" H 7320 5030 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 5075 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3241T5E_C22994.pdf" H 7250 5075 50  0001 C CNN
-F 4 "C22994" H 7250 5075 50  0001 C CNN "LCSC"
-F 5 "0603WAF3241T5E" H 7250 5075 50  0001 C CNN "MPN"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4301T5E_C23159.pdf" H 7250 5075 50  0001 C CNN
+F 4 "C23159" H 7250 5075 50  0001 C CNN "LCSC"
+F 5 "0603WAF4301T5E" H 7250 5075 50  0001 C CNN "MPN"
 F 6 "0.0016" H 7250 5075 50  0001 C CNN "Price"
 F 7 "0" H 7250 5075 50  0001 C CNN "source"
 	1    7250 5075
@@ -280,9 +280,9 @@ Wire Wire Line
 Connection ~ 7250 4850
 Wire Wire Line
 	7250 4850 7250 4925
-Text GLabel 7700 4350 1    50   Input ~ 0
+Text GLabel 8525 4350 1    50   Input ~ 0
 POWER_SIM
-Text GLabel 7725 2575 1    50   Input ~ 0
+Text GLabel 8550 2575 1    50   Input ~ 0
 12V
 Text GLabel 2825 2575 1    50   Input ~ 0
 24Vin
@@ -1055,4 +1055,30 @@ Wire Wire Line
 Connection ~ 7650 2575
 Wire Wire Line
 	7650 2575 7725 2575
+$Comp
+L Device:Jumper JP10
+U 1 1 603CB025
+P 8025 2575
+F 0 "JP10" H 8025 2839 50  0000 C CNN
+F 1 "Jumper" H 8025 2748 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8025 2575 50  0001 C CNN
+F 3 "~" H 8025 2575 50  0001 C CNN
+	1    8025 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8325 2575 8550 2575
+$Comp
+L Device:Jumper JP9
+U 1 1 603D3CFE
+P 8000 4350
+F 0 "JP9" H 8000 4614 50  0000 C CNN
+F 1 "Jumper" H 8000 4523 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 8000 4350 50  0001 C CNN
+F 3 "~" H 8000 4350 50  0001 C CNN
+	1    8000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4350 8525 4350
 $EndSCHEMATC

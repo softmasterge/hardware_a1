@@ -25,7 +25,7 @@ AR Path="/6580B759" Ref="U?"  Part="1"
 AR Path="/657E4F8F/6580B759" Ref="U18"  Part="1" 
 F 0 "U18" H 2175 2617 50  0000 C CNN
 F 1 "ULN2003A" H 2175 2526 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 2225 1400 50  0001 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2225 1400 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 2275 1750 50  0001 C CNN
 F 4 "" H 2175 1950 50  0001 C CNN "Mpn"
 F 5 "0.1676" H 2175 1950 50  0001 C CNN "Price"
